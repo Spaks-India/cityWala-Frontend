@@ -7,7 +7,8 @@ export default defineConfig({
   plugins: [
     react(),
       removeConsole({
-      includes: ["log", "warn", "error"]
+      includes: ["log", "warn", "error"],
+      external: ["src/utils/logger.js"]
     })
   ],
 
