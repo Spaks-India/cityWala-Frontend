@@ -1,0 +1,382 @@
+{
+  "all_plans": "Alle Pläne",
+  "search": "Suchen",
+  "delete": "Löschen",
+  "add_plan": "Plan hinzufügen",
+  "header": {
+    "categories": "📂 Kategorien",
+    "search_placeholder": "Dienste suchen...",
+    "dashboard": "Dashboard",
+    "login": "Anmelden",
+    "list_business": "Unternehmen eintragen",
+    "logout": "Abmelden",
+    "customer_login": "Anmelden",
+    "partner_login": "Partner-Anmeldung"
+  },
+  "home": {
+    "trusted_label": "Vertrauenswürdiges lokales Unternehmensverzeichnis",
+    "hero_title": "Experten finden,",
+    "hero_title2": "Dienste und mehr",
+    "hero_subtitle": "Jederzeit, überall — CityWala verbindet Sie sofort mit vertrauenswürdigen Fachleuten und lokalen Unternehmen.",
+    "businesses": "Eingetragene Unternehmen",
+    "cities": "Abgedeckte Städte",
+    "support": "Verfügbarer Support",
+    "select_country": "🌍 Land auswählen",
+    "search_state": "Bundesland suchen",
+    "search_city": "Stadt suchen",
+    "category": "Kategorie",
+    "explore": "Erkunden",
+    "popular_categories": "Beliebte Kategorien",
+    "popular_subtitle": "Finden Sie globale Experten und Dienste jederzeit und überall.",
+    "explore_now": "Jetzt erkunden",
+    "find_experts": "Experten schnell finden",
+    "browse_cats": "Top-Kategorien sofort durchsuchen",
+    "top_picks": "Top-Auswahl",
+    "repairs": "🔧 Reparaturen & Dienste",
+    "essentials": "Grundbedarf",
+    "daily_needs": "🛒 Tägliche Bedürfnisse",
+    "view_all": "Alle anzeigen",
+    "testimonials": "Was unsere Kunden sagen",
+    "cta_title": "Sind Sie Unternehmer?",
+    "cta_subtitle": "Werden Sie Partner bei CityWala und erreichen Sie tausende Kunden.",
+    "register_partner": "Als Partner registrieren",
+    "contact_us": "Kontaktieren Sie uns",
+    "popular_cats": {
+      "matrimonial": "Heiratsvermittlung",
+      "daily_necessity": "Täglicher Bedarf",
+      "education": "Bildung",
+      "health": "Gesundheit",
+      "real_estate": "Immobilien",
+      "transporters": "Transportunternehmen",
+      "industries": "Industrien",
+      "pandit_astrologer": "Priester & Astrologe",
+      "insurance": "Versicherung",
+      "import_export": "Import & Export",
+      "job_placement": "Stellenvermittlung",
+      "wedding_events": "Hochzeit & Events",
+      "agriculture": "Landwirtschaft",
+      "jewellery": "Schmuck",
+      "it_software": "IT-Software",
+      "food": "Lebensmittel",
+      "tour_travels": "Tourismus & Reisen",
+      "electrical": "Elektro",
+      "house_construction": "Hausbau",
+      "legal_document": "Rechtsdokumente",
+      "packers_movers": "Umzugsunternehmen",
+      "financial_accounting": "Finanzen & Buchhaltung",
+      "fitness_yoga": "Fitness & Yoga",
+      "furniture_services": "Möbeldienstleistungen"
+    },
+    "svc_ac": "Klimaanlagen-Service",
+    "svc_car": "Autowerkstatt",
+    "svc_bike": "Fahrradservice",
+    "svc_labour": "Arbeitskraft",
+    "svc_grocery": "Lebensmittel",
+    "svc_electricians": "Elektriker"
+  },
+  "testimonials": [
+    {
+      "name": "Dev",
+      "text": "Erstaunliche Plattform! Ich habe genau gefunden, was ich gesucht habe.",
+      "img": "https://citywala.com/assets/images/testimonial-1.jpg"
+    },
+    {
+      "name": "Esther Hills",
+      "text": "Der Heiratsvermittlungsservice ist hervorragend.",
+      "img": "https://citywala.com/assets/images/testimonial-2.jpg"
+    },
+    {
+      "name": "Hannah Schmitt",
+      "text": "Tolle Erfahrung! Das lokale Unternehmensverzeichnis hat mir schnell geholfen.",
+      "img": "https://citywala.com/assets/images/testimonial-3.jpg"
+    },
+    {
+      "name": "Esther Hills",
+      "text": "Der Heiratsvermittlungsservice ist hervorragend.",
+      "img": "https://citywala.com/assets/images/testimonial-2.jpg"
+    }
+  ],
+  "all_categories": {
+    "title": "Alle Kategorien",
+    "subtitle": "Durchsuchen Sie alle Kategorien und finden Sie die besten Dienste für Ihre Bedürfnisse.",
+    "search_placeholder": "Kategorien suchen...",
+    "view_all": "Alle anzeigen",
+    "browse_collection": "Sammlung durchsuchen",
+    "registered_partners_in_this_category": "Registrierte Partner in dieser Kategorie",
+    "no_categories_are_available_right_now": "Derzeit sind keine Kategorien verfügbar",
+    "view_subcategories": "Unterkategorien anzeigen",
+    "view_details": "Details anzeigen",
+    "registered_businesses": "Registrierte Unternehmen",
+    "no_businesses_found": "Keine Unternehmen gefunden",
+    "no_registered_partners_found_in_this_category": "Keine registrierten Partner in dieser Kategorie gefunden",
+    "subcategories": "Unterkategorien"
+  },
+  "login": {
+    "title": "Anmelden",
+    "email": "E-Mail",
+    "phone": "Telefon",
+    "email_label": "E-Mail",
+    "password": "Passwort",
+    "forgot_password": "Passwort vergessen?",
+    "login_btn": "Jetzt anmelden",
+    "logging_in": "Anmeldung läuft...",
+    "new_here": "Neu hier?",
+    "create_account": "Konto erstellen"
+  },
+  "register": {
+    "title": "Konto erstellen",
+    "full_name": "Vollständiger Name",
+    "email": "E-Mail",
+    "mobile": "Handynummer",
+    "password": "Passwort",
+    "confirm_password": "Passwort bestätigen",
+    "register_btn": "Jetzt registrieren",
+    "registering": "Registrierung läuft...",
+    "have_account": "Bereits ein Konto?",
+    "login": "Anmelden"
+  },
+  "partner_register": {
+    "title": "Partner-Registrierung",
+    "full_name": "Vollständiger Name",
+    "email": "E-Mail",
+    "mobile": "Handynummer",
+    "country": "Land",
+    "state": "Bundesland",
+    "city": "Stadt",
+    "password": "Passwort",
+    "confirm_password": "Passwort bestätigen",
+    "register_btn": "Jetzt registrieren",
+    "registering": "Registrierung läuft...",
+    "have_account": "Bereits ein Konto?",
+    "login": "Anmelden",
+    "step": "Schritt",
+    "of": "von",
+    "step_1": "Schritt 1",
+    "step_2": "Schritt 2",
+    "step_3": "Schritt 3",
+    "adhar_card": "Personalausweis",
+    "postal_code": "Postleitzahl",
+    "full_address": "Vollständige Adresse",
+    "business_name": "Unternehmensname",
+    "company_url": "Unternehmens-URL",
+    "company_logo": "Unternehmenslogo",
+    "company_short_description": "Kurzbeschreibung des Unternehmens",
+    "category": "Kategorie",
+    "subcategory": "Unterkategorie",
+    "subsubcategory": "Unter-Unterkategorie",
+    "gst_no": "USt-IdNr.",
+    "select_category": "Kategorie auswählen *",
+    "select_subcategory": "Unterkategorie auswählen",
+    "select_subsubcategory": "Unter-Unterkategorie auswählen",
+    "business_name_placeholder": "Unternehmensname *",
+    "company_url_placeholder": "Unternehmens-URL",
+    "gst_placeholder": "USt-IdNr.",
+    "description_placeholder": "Kurzbeschreibung des Unternehmens *",
+    "back": "Zurück",
+    "next": "Weiter",
+    "register_as_partner": "Als Partner registrieren"
+  },
+  "forgot": {
+    "title": "Passwort vergessen?",
+    "subtitle": "E-Mail oder Handynummer eingeben",
+    "reset_sent": "Zurücksetzungsdetails gesendet",
+    "enter_otp": "OTP manuell eingeben",
+    "mobile_mode": "Handy-Modus",
+    "use_email": "E-Mail verwenden",
+    "placeholder": "E-Mail oder Handy eingeben",
+    "continue": "Weiter",
+    "sending": "Wird gesendet...",
+    "back_login": "← Zurück zur Anmeldung"
+  },
+  "footer": {
+    "tagline": "Finden Sie globale Experten und Dienste jederzeit und überall.",
+    "follow_us": "Folgen Sie uns",
+    "quick_links": "Schnelllinks",
+    "home": "Startseite",
+    "about": "Über uns",
+    "contact": "Kontakt",
+    "help": "Hilfe",
+    "useful_links": "Nützliche Links",
+    "cookie": "Cookie-Richtlinie",
+    "privacy": "Datenschutzrichtlinie",
+    "terms": "Allgemeine Geschäftsbedingungen",
+    "business_plan": "Geschäftsplan",
+    "popular_cities": "Beliebte Städte",
+    "communication": "Kommunikation",
+    "call_us": "Rufen Sie uns an",
+    "send_message": "Nachricht senden",
+    "copyright": "© Copyright 2025 City Wala. Alle Rechte vorbehalten."
+  },
+  "common": {
+    "loading": "Wird geladen...",
+    "error": "Fehler",
+    "save": "Speichern",
+    "edit": "Bearbeiten",
+    "delete": "Löschen",
+    "cancel": "Abbrechen",
+    "next": "Weiter",
+    "back": "Zurück"
+  },
+  "auth": {
+    "login": "Anmelden",
+    "logout": "Abmelden",
+    "email": "E-Mail",
+    "password": "Passwort",
+    "forgot_password": "Passwort vergessen?",
+    "reset_password": "Passwort zurücksetzen",
+    "reset_using_email": "Per E-Mail-Link zurücksetzen",
+    "reset_using_phone": "Per OTP zurücksetzen",
+    "new_password": "Neues Passwort",
+    "confirm_password": "Passwort bestätigen",
+    "update_password": "Passwort aktualisieren",
+    "updating": "Wird aktualisiert..."
+  },
+  "plans": {
+    "most_popular": "Beliebteste",
+    "per_month": "pro Monat",
+    "year": "Jahr",
+    "month": "Monat",
+    "view_plans": "Pläne anzeigen",
+    "features_title": "Funktionen",
+    "pay_with_razorpay": "Mit Razorpay bezahlen",
+    "pay_with_paypal": "Mit PayPal bezahlen",
+    "get_started": "Loslegen"
+  },
+  "dashboard": {
+    "dashboard": "Dashboard",
+    "partner_dashboard": "Partner-Dashboard",
+    "welcome": "Willkommen"
+  },
+  "profile": {
+    "partner_profile": "Partnerprofil",
+    "company_info": "Unternehmensinformationen",
+    "basic_info": "Grundinformationen",
+    "location": "Standort",
+    "documents": "Dokumente"
+  },
+  "partner": {
+    "dashboard": "Dashboard",
+    "add_profile": "Profil hinzufügen",
+    "plans": "Pläne",
+    "all_plans": "Alle Pläne",
+    "my_plan": "Mein Plan",
+    "logout": "Abmelden",
+    "menu": "Menü",
+    "partner": "Partner",
+    "verify_otp": "OTP bestätigen",
+    "otp_sent_to": "OTP gesendet an",
+    "enter_otp": "OTP eingeben",
+    "verifying": "Wird bestätigt..."
+  },
+  "partner_layout": {
+    "mobile_title": "Partner",
+    "menu": "Menü",
+    "loading": "Dashboard wird geladen..."
+  },
+  "partner_dashboard": {
+    "title": "Partner-Dashboard",
+    "sidebar": {
+      "panel_title": "Partner-Panel",
+      "dashboard": "Dashboard",
+      "add_profile": "Profil hinzufügen",
+      "plans": {
+        "title": "Pläne",
+        "all_plans": "Alle Pläne",
+        "my_plan": "Mein Plan"
+      },
+      "logout": "Abmelden"
+    },
+    "stats": {
+      "total_profiles": "Profile gesamt",
+      "active": "Aktiv",
+      "inactive": "Inaktiv",
+      "plan": "Plan"
+    },
+    "plan_default": "Kostenlos"
+  },
+  "partner_profile": {
+    "title": "Partnerprofil",
+    "company_info": {
+      "title": "Unternehmensinformationen",
+      "name": "Name",
+      "description": "Beschreibung",
+      "url": "URL"
+    },
+    "basic_info": {
+      "title": "Grundinformationen",
+      "name": "Name",
+      "email": "E-Mail",
+      "mobile": "Handy"
+    },
+    "location": {
+      "title": "Standort",
+      "address": "Adresse",
+      "city": "Stadt",
+      "state": "Bundesland",
+      "postal_code": "Postleitzahl"
+    },
+    "category_info": {
+      "title": "Kategorieinformationen",
+      "category": "Kategorie",
+      "sub_category": "Unterkategorie",
+      "sub_sub_category": "Unter-Unterkategorie",
+      "select_category": "Kategorie auswählen",
+      "select_subcategory": "Unterkategorie auswählen",
+      "select_subsubcategory": "Unter-Unterkategorie auswählen"
+    },
+    "documents": {
+      "title": "Dokumente",
+      "aadhar": "Personalausweis",
+      "gst": "USt-IdNr.",
+      "status": "Status",
+      "plan": "Plan"
+    },
+    "actions": {
+      "edit": "Bearbeiten",
+      "save": "Speichern",
+      "cancel": "Abbrechen"
+    },
+    "loading": "Profil wird geladen..."
+  },
+  "my_plan": {
+    "title": "Mein Plan",
+    "subtitle": "Verwalten Sie Ihr Abonnement und verfolgen Sie Vorteile",
+    "status": {
+      "expired": "Abgelaufen",
+      "upgrading": "Demnächst Upgrade",
+      "active": "Aktiv",
+      "days_left": "Tage verbleibend"
+    },
+    "labels": {
+      "start_date": "Startdatum",
+      "expiry_date": "Ablaufdatum",
+      "auto_renew": "Automatische Verlängerung",
+      "payment_provider": "Zahlungsanbieter",
+      "currency": "Währung"
+    },
+    "features": {
+      "title": "Was ist enthalten",
+      "no_features": "Keine Funktionen"
+    },
+    "actions": {
+      "renew": "Plan verlängern",
+      "upgrade": "Plan upgraden",
+      "cancel": "Abbrechen"
+    },
+    "pending": {
+      "text": "Ausstehender Plan: Dieser Plan wird nach Ablauf des aktuellen Plans aktiviert."
+    },
+    "history": {
+      "title": "Planverlauf",
+      "subtitle": "Zuvor verwendete Abonnementpläne",
+      "records": "Einträge",
+      "show_all": "Alle anzeigen",
+      "show_less": "Weniger anzeigen",
+      "no_history": "Kein Verlauf gefunden",
+      "empty_text": "Ihre abgelaufenen oder gekündigten Pläne erscheinen hier",
+      "started": "Gestartet",
+      "expired": "Abgelaufen",
+      "ended_at": "Beendet am"
+    }
+  }
+}

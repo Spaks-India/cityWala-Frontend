@@ -1,0 +1,382 @@
+{
+  "all_plans": "모든 요금제",
+  "search": "검색",
+  "delete": "삭제",
+  "add_plan": "요금제 추가",
+  "header": {
+    "categories": "📂 카테고리",
+    "search_placeholder": "서비스 검색...",
+    "dashboard": "대시보드",
+    "login": "로그인",
+    "list_business": "비즈니스 등록",
+    "logout": "로그아웃",
+    "customer_login": "로그인",
+    "partner_login": "파트너 로그인"
+  },
+  "home": {
+    "trusted_label": "신뢰할 수 있는 지역 비즈니스 디렉토리",
+    "hero_title": "전문가 찾기,",
+    "hero_title2": "서비스 및 기타",
+    "hero_subtitle": "언제 어디서나 CityWala가 신뢰할 수 있는 전문가와 지역 비즈니스를 연결해 드립니다.",
+    "businesses": "등록된 비즈니스",
+    "cities": "커버된 도시",
+    "support": "지원 가능",
+    "select_country": "🌍 국가 선택",
+    "search_state": "주 검색",
+    "search_city": "도시 검색",
+    "category": "카테고리",
+    "explore": "탐색",
+    "popular_categories": "인기 카테고리",
+    "popular_subtitle": "언제 어디서나 글로벌 전문가와 서비스를 찾으세요.",
+    "explore_now": "지금 탐색",
+    "find_experts": "빠르게 전문가 찾기",
+    "browse_cats": "인기 카테고리 바로 보기",
+    "top_picks": "추천",
+    "repairs": "🔧 수리 및 서비스",
+    "essentials": "필수품",
+    "daily_needs": "🛒 일상 필수품",
+    "view_all": "전체 보기",
+    "testimonials": "고객 후기",
+    "cta_title": "비즈니스 소유자이신가요?",
+    "cta_subtitle": "CityWala 파트너로 가입하고 수천 명의 고객에게 도달하세요.",
+    "register_partner": "파트너 등록",
+    "contact_us": "문의하기",
+    "popular_cats": {
+      "matrimonial": "결혼 정보",
+      "daily_necessity": "일상 필수",
+      "education": "교육",
+      "health": "건강",
+      "real_estate": "부동산",
+      "transporters": "운송",
+      "industries": "산업",
+      "pandit_astrologer": "판딧 & 점성술",
+      "insurance": "보험",
+      "import_export": "수출입",
+      "job_placement": "취업 알선",
+      "wedding_events": "결혼 & 행사",
+      "agriculture": "농업",
+      "jewellery": "보석",
+      "it_software": "IT 소프트웨어",
+      "food": "음식",
+      "tour_travels": "여행",
+      "electrical": "전기",
+      "house_construction": "주택 건설",
+      "legal_document": "법률 문서",
+      "packers_movers": "이사 서비스",
+      "financial_accounting": "재무 & 회계",
+      "fitness_yoga": "피트니스 & 요가",
+      "furniture_services": "가구 서비스"
+    },
+    "svc_ac": "에어컨 서비스",
+    "svc_car": "자동차 서비스",
+    "svc_bike": "오토바이 서비스",
+    "svc_labour": "인력 작업자",
+    "svc_grocery": "식료품",
+    "svc_electricians": "전기공"
+  },
+  "testimonials": [
+    {
+      "name": "Dev",
+      "text": "훌륭한 플랫폼! 원하는 것을 정확히 찾았어요.",
+      "img": "https://citywala.com/assets/images/testimonial-1.jpg"
+    },
+    {
+      "name": "Esther Hills",
+      "text": "결혼 정보 서비스가 정말 뛰어납니다.",
+      "img": "https://citywala.com/assets/images/testimonial-2.jpg"
+    },
+    {
+      "name": "Hannah Schmitt",
+      "text": "좋은 경험이었어요! 지역 비즈니스 찾기가 매우 쉬웠습니다.",
+      "img": "https://citywala.com/assets/images/testimonial-3.jpg"
+    },
+    {
+      "name": "Esther Hills",
+      "text": "결혼 정보 서비스가 정말 뛰어납니다.",
+      "img": "https://citywala.com/assets/images/testimonial-2.jpg"
+    }
+  ],
+  "all_categories": {
+    "title": "모든 카테고리",
+    "subtitle": "모든 카테고리를 탐색하고 필요한 최고의 서비스를 찾으세요.",
+    "search_placeholder": "카테고리 검색...",
+    "view_all": "전체 보기",
+    "browse_collection": "컬렉션 탐색",
+    "registered_partners_in_this_category": "이 카테고리의 등록된 파트너",
+    "no_categories_are_available_right_now": "현재 사용 가능한 카테고리가 없습니다",
+    "view_subcategories": "하위 카테고리 보기",
+    "view_details": "상세 보기",
+    "registered_businesses": "등록된 비즈니스",
+    "no_businesses_found": "비즈니스 없음",
+    "no_registered_partners_found_in_this_category": "이 카테고리에 등록된 파트너가 없습니다",
+    "subcategories": "하위 카테고리"
+  },
+  "login": {
+    "title": "로그인",
+    "email": "이메일",
+    "phone": "전화번호",
+    "email_label": "이메일",
+    "password": "비밀번호",
+    "forgot_password": "비밀번호를 잊으셨나요?",
+    "login_btn": "로그인",
+    "logging_in": "로그인 중...",
+    "new_here": "처음이신가요?",
+    "create_account": "계정 만들기"
+  },
+  "register": {
+    "title": "회원가입",
+    "full_name": "이름",
+    "email": "이메일",
+    "mobile": "휴대폰 번호",
+    "password": "비밀번호",
+    "confirm_password": "비밀번호 확인",
+    "register_btn": "회원가입",
+    "registering": "등록 중...",
+    "have_account": "이미 계정이 있나요?",
+    "login": "로그인"
+  },
+  "partner_register": {
+    "title": "파트너 등록",
+    "full_name": "이름",
+    "email": "이메일",
+    "mobile": "휴대폰 번호",
+    "country": "국가",
+    "state": "주",
+    "city": "도시",
+    "password": "비밀번호",
+    "confirm_password": "비밀번호 확인",
+    "register_btn": "회원가입",
+    "registering": "등록 중...",
+    "have_account": "이미 계정이 있나요?",
+    "login": "로그인",
+    "step": "단계",
+    "of": "중",
+    "step_1": "1단계",
+    "step_2": "2단계",
+    "step_3": "3단계",
+    "adhar_card": "아다르 카드",
+    "postal_code": "우편번호",
+    "full_address": "전체 주소",
+    "business_name": "비즈니스 이름",
+    "company_url": "회사 URL",
+    "company_logo": "회사 로고",
+    "company_short_description": "회사 간단 설명",
+    "category": "카테고리",
+    "subcategory": "하위 카테고리",
+    "subsubcategory": "세부 하위 카테고리",
+    "gst_no": "GST 번호",
+    "select_category": "카테고리 선택 *",
+    "select_subcategory": "하위 카테고리 선택",
+    "select_subsubcategory": "세부 하위 카테고리 선택",
+    "business_name_placeholder": "비즈니스 이름 *",
+    "company_url_placeholder": "회사 URL",
+    "gst_placeholder": "GST 번호",
+    "description_placeholder": "비즈니스 간단 설명 *",
+    "back": "뒤로",
+    "next": "다음",
+    "register_as_partner": "파트너로 등록"
+  },
+  "forgot": {
+    "title": "비밀번호 찾기",
+    "subtitle": "이메일 또는 휴대폰 번호 입력",
+    "reset_sent": "재설정 정보 전송됨",
+    "enter_otp": "OTP 직접 입력",
+    "mobile_mode": "모바일 모드",
+    "use_email": "이메일 사용",
+    "placeholder": "이메일 또는 휴대폰 입력",
+    "continue": "계속",
+    "sending": "전송 중...",
+    "back_login": "← 로그인으로 돌아가기"
+  },
+  "footer": {
+    "tagline": "언제 어디서나 글로벌 전문가와 서비스를 찾으세요.",
+    "follow_us": "팔로우",
+    "quick_links": "빠른 링크",
+    "home": "홈",
+    "about": "소개",
+    "contact": "문의",
+    "help": "도움말",
+    "useful_links": "유용한 링크",
+    "cookie": "쿠키 정책",
+    "privacy": "개인정보 정책",
+    "terms": "이용 약관",
+    "business_plan": "비즈니스 요금제",
+    "popular_cities": "인기 도시",
+    "communication": "연락",
+    "call_us": "전화하기",
+    "send_message": "메시지 보내기",
+    "copyright": "© 2025 City Wala. 모든 권리 보유."
+  },
+  "common": {
+    "loading": "로딩 중...",
+    "error": "오류",
+    "save": "저장",
+    "edit": "수정",
+    "delete": "삭제",
+    "cancel": "취소",
+    "next": "다음",
+    "back": "뒤로"
+  },
+  "auth": {
+    "login": "로그인",
+    "logout": "로그아웃",
+    "email": "이메일",
+    "password": "비밀번호",
+    "forgot_password": "비밀번호 찾기?",
+    "reset_password": "비밀번호 재설정",
+    "reset_using_email": "이메일 링크로 재설정",
+    "reset_using_phone": "OTP로 재설정",
+    "new_password": "새 비밀번호",
+    "confirm_password": "비밀번호 확인",
+    "update_password": "비밀번호 업데이트",
+    "updating": "업데이트 중..."
+  },
+  "plans": {
+    "most_popular": "가장 인기",
+    "per_month": "월 기준",
+    "year": "연",
+    "month": "월",
+    "view_plans": "요금제 보기",
+    "features_title": "기능",
+    "pay_with_razorpay": "Razorpay로 결제",
+    "pay_with_paypal": "PayPal로 결제",
+    "get_started": "시작하기"
+  },
+  "dashboard": {
+    "dashboard": "대시보드",
+    "partner_dashboard": "파트너 대시보드",
+    "welcome": "환영합니다"
+  },
+  "profile": {
+    "partner_profile": "파트너 프로필",
+    "company_info": "회사 정보",
+    "basic_info": "기본 정보",
+    "location": "위치",
+    "documents": "문서"
+  },
+  "partner": {
+    "dashboard": "대시보드",
+    "add_profile": "프로필 추가",
+    "plans": "요금제",
+    "all_plans": "모든 요금제",
+    "my_plan": "내 요금제",
+    "logout": "로그아웃",
+    "menu": "메뉴",
+    "partner": "파트너",
+    "verify_otp": "OTP 인증",
+    "otp_sent_to": "OTP 전송됨",
+    "enter_otp": "OTP 입력",
+    "verifying": "인증 중..."
+  },
+  "partner_layout": {
+    "mobile_title": "파트너",
+    "menu": "메뉴",
+    "loading": "대시보드 로딩 중..."
+  },
+  "partner_dashboard": {
+    "title": "파트너 대시보드",
+    "sidebar": {
+      "panel_title": "파트너 패널",
+      "dashboard": "대시보드",
+      "add_profile": "프로필 추가",
+      "plans": {
+        "title": "요금제",
+        "all_plans": "모든 요금제",
+        "my_plan": "내 요금제"
+      },
+      "logout": "로그아웃"
+    },
+    "stats": {
+      "total_profiles": "전체 프로필",
+      "active": "활성",
+      "inactive": "비활성",
+      "plan": "요금제"
+    },
+    "plan_default": "무료"
+  },
+  "partner_profile": {
+    "title": "파트너 프로필",
+    "company_info": {
+      "title": "회사 정보",
+      "name": "이름",
+      "description": "설명",
+      "url": "URL"
+    },
+    "basic_info": {
+      "title": "기본 정보",
+      "name": "이름",
+      "email": "이메일",
+      "mobile": "휴대폰"
+    },
+    "location": {
+      "title": "위치",
+      "address": "주소",
+      "city": "도시",
+      "state": "주",
+      "postal_code": "우편번호"
+    },
+    "category_info": {
+      "title": "카테고리 정보",
+      "category": "카테고리",
+      "sub_category": "하위 카테고리",
+      "sub_sub_category": "세부 카테고리",
+      "select_category": "카테고리 선택",
+      "select_subcategory": "하위 카테고리 선택",
+      "select_subsubcategory": "세부 하위 카테고리 선택"
+    },
+    "documents": {
+      "title": "문서",
+      "aadhar": "아다르 카드",
+      "gst": "GST 번호",
+      "status": "상태",
+      "plan": "요금제"
+    },
+    "actions": {
+      "edit": "수정",
+      "save": "저장",
+      "cancel": "취소"
+    },
+    "loading": "프로필 로딩 중..."
+  },
+  "my_plan": {
+    "title": "내 요금제",
+    "subtitle": "구독 관리 및 혜택 확인",
+    "status": {
+      "expired": "만료됨",
+      "upgrading": "업그레이드 예정",
+      "active": "활성",
+      "days_left": "일 남음"
+    },
+    "labels": {
+      "start_date": "시작일",
+      "expiry_date": "만료일",
+      "auto_renew": "자동 갱신",
+      "payment_provider": "결제 제공자",
+      "currency": "통화"
+    },
+    "features": {
+      "title": "포함 기능",
+      "no_features": "기능 없음"
+    },
+    "actions": {
+      "renew": "요금제 갱신",
+      "upgrade": "업그레이드",
+      "cancel": "취소"
+    },
+    "pending": {
+      "text": "대기 중인 요금제: 현재 요금제 만료 후 활성화됩니다."
+    },
+    "history": {
+      "title": "요금제 기록",
+      "subtitle": "이전 구독 내역",
+      "records": "기록",
+      "show_all": "전체 보기",
+      "show_less": "간단히 보기",
+      "no_history": "기록 없음",
+      "empty_text": "만료되거나 취소된 요금제가 여기에 표시됩니다",
+      "started": "시작됨",
+      "expired": "만료됨",
+      "ended_at": "종료일"
+    }
+  }
+}

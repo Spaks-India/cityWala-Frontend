@@ -1,0 +1,408 @@
+{
+  "all_plans": "All Plans",
+  "search": "Search",
+  "delete": "Delete",
+  "add_plan": "Add Plan",
+  "header": {
+    "categories": "📂 Categories",
+    "search_placeholder": "Search services...",
+    "dashboard": "Dashboard",
+    "login": "Login",
+    "customer_login": "Customer Login",
+    "partner_login": "Partner Login",
+    "list_business": "List Business",
+    "logout": "Logout"
+  },
+  "home": {
+    "trusted_label": "Trusted Local Business Directory",
+    "hero_title": "Find Experts,",
+    "hero_title2": "Services & More",
+    "hero_subtitle": "Anyone, anywhere, anytime — CityWala instantly connects you with trusted professionals and local businesses.",
+    "businesses": "Businesses Listed",
+    "cities": "Cities Covered",
+    "support": "Support Available",
+    "select_country": "🌍 Select Country",
+    "search_state": "Search State",
+    "search_city": "Search City",
+    "category": "Category",
+    "explore": "Explore",
+    "popular_categories": "Popular Categories",
+    "popular_subtitle": "Find global experts and services anytime, anywhere.",
+    "explore_now": "Explore Now",
+    "find_experts": "Find Experts Quickly",
+    "browse_cats": "Browse Top Categories Instantly",
+    "top_picks": "Top Picks",
+    "repairs": "🔧 Repairs & Services",
+    "essentials": "Essentials",
+    "daily_needs": "🛒 Daily Needs",
+    "view_all": "View All",
+    "testimonials": "What Our Customers Say",
+    "cta_title": "Are You a Business Owner?",
+    "cta_subtitle": "Join CityWala as a partner and reach thousands of customers.",
+    "register_partner": "Register as Partner",
+    "contact_us": "Contact Us",
+    "popular_cats": {
+      "matrimonial": "Matrimonial",
+      "daily_necessity": "Daily Necessity",
+      "education": "Education",
+      "health": "Health",
+      "real_estate": "Real Estate",
+      "transporters": "Transporters",
+      "industries": "Industries",
+      "pandit_astrologer": "Pandit & Astrologer",
+      "insurance": "Insurance",
+      "import_export": "Import & Export",
+      "job_placement": "Job Placement",
+      "wedding_events": "Wedding & Events",
+      "agriculture": "Agriculture",
+      "jewellery": "Jewellery",
+      "it_software": "IT Software",
+      "food": "Food",
+      "tour_travels": "Tour and Travels",
+      "electrical": "Electrical",
+      "house_construction": "House Construction",
+      "legal_document": "Legal Document",
+      "packers_movers": "Packers & Movers",
+      "financial_accounting": "Financial & Accounting",
+      "fitness_yoga": "Fitness and Yoga",
+      "furniture_services": "Furniture Services"
+    },
+    "svc_ac": "AC Service",
+    "svc_car": "Car Service",
+    "svc_bike": "Bike Service",
+    "svc_labour": "Labour Worker",
+    "svc_grocery": "Grocery",
+    "svc_electricians": "Electricians"
+  },
+  "testimonials": [
+    {
+      "name": "Dev",
+      "text": "Amazing platform! Found exactly what I was looking for.",
+      "img": "https://citywala.com/assets/images/testimonial-1.jpg"
+    },
+    {
+      "name": "Esther Hills",
+      "text": "The matrimonial service is outstanding.",
+      "img": "https://citywala.com/assets/images/testimonial-2.jpg"
+    },
+    {
+      "name": "Hannah Schmitt",
+      "text": "Great experience! The local business directory helped me quickly.",
+      "img": "https://citywala.com/assets/images/testimonial-3.jpg"
+    },
+    {
+      "name": "Esther Hills",
+      "text": "The matrimonial service is outstanding.",
+      "img": "https://citywala.com/assets/images/testimonial-2.jpg"
+    }
+  ],
+  "all_categories": {
+    "title": "All Categories",
+    "subtitle": "Browse all categories and find the best services for your needs.",
+    "search_placeholder": "Search categories...",
+    "view_all": "View All",
+    "browse_collection": "Browse Collection",
+    "registered_partners_in_this_category": "Registered partners in this category",
+    "no_categories_are_available_right_now": "No categories are available right now",
+    "view_subcategories": "View Subcategories",
+    "view_details": "View Details",
+    "registered_businesses": "Registered Businesses",
+    "no_businesses_found": "No businesses found",
+    "no_registered_partners_found_in_this_category": "No registered partners found in this category",
+    "subcategories": "Subcategories"
+  },
+  "login": {
+    "title": "Login",
+    "email": "Email",
+    "phone": "Phone",
+    "email_label": "Email",
+    "password": "Password",
+    "forgot_password": "Forgot Password?",
+    "login_btn": "Login Now",
+    "logging_in": "Logging in...",
+    "new_here": "New Here?",
+    "create_account": "Create Account"
+  },
+  "register": {
+    "title": "Create Account",
+    "full_name": "Full Name",
+    "email": "Email",
+    "mobile": "Mobile Number",
+    "password": "Password",
+    "confirm_password": "Confirm Password",
+    "register_btn": "Register Now",
+    "registering": "Registering...",
+    "have_account": "Already have an account?",
+    "login": "Login"
+  },
+  "partner_register": {
+    "title": "Partner Registration",
+    "full_name": "Full Name",
+    "email": "Email",
+    "mobile": "Mobile Number",
+    "country": "Country",
+    "state": "State",
+    "city": "City",
+    "password": "Password",
+    "confirm_password": "Confirm Password",
+    "register_btn": "Register Now",
+    "registering": "Registering...",
+    "have_account": "Already have an account?",
+    "login": "Login",
+    "step": "Step",
+    "of": "of",
+    "step_1": "Step 1",
+    "step_2": "Step 2",
+    "step_3": "Step 3",
+    "adhar_card": "Adhar card",
+    "postal_code": "Postal Code",
+    "full_address": "Full Address",
+    "business_name": "Business Name",
+    "company_url": "Company URL",
+    "company_logo": "Company Logo",
+    "company_short_description": "Company Short Description",
+    "category": "Category",
+    "subcategory": "Subcategory",
+    "subsubcategory": "Sub Subcategory",
+    "gst_no": "GST Number",
+    "select_category": "Select Category *",
+    "select_subcategory": "Select Subcategory",
+    "select_subsubcategory": "Select Sub-Subcategory",
+    "business_name_placeholder": "Business Name *",
+    "company_url_placeholder": "Company URL",
+    "gst_placeholder": "GST Number",
+    "description_placeholder": "Business Short Description *",
+    "back": "Back",
+    "next": "Next",
+    "register_as_partner": "Register as Partner"
+  },
+  "forgot": {
+    "title": "Forgot Password?",
+    "subtitle": "Enter email or mobile number",
+    "reset_sent": "Reset details sent",
+    "enter_otp": "Enter OTP Manually",
+    "mobile_mode": "Mobile Mode",
+    "use_email": "Use Email",
+    "placeholder": "Enter email or mobile",
+    "continue": "Continue",
+    "sending": "Sending...",
+    "back_login": "← Back to Login"
+  },
+  "footer": {
+    "tagline": "Find global experts and services anytime, anywhere.",
+    "follow_us": "Follow Us",
+    "quick_links": "Quick Links",
+    "home": "Home",
+    "about": "About",
+    "contact": "Contact",
+    "help": "Help",
+    "useful_links": "Useful Links",
+    "cookie": "Cookie Policy",
+    "privacy": "Privacy Policy",
+    "terms": "Terms & Conditions",
+    "business_plan": "Business Plan",
+    "popular_cities": "Popular Cities",
+    "communication": "Communication",
+    "call_us": "Call Us",
+    "send_message": "Send Message",
+    "copyright": "© Copyright 2025 City Wala. All Rights Reserved."
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Error",
+    "save": "Save",
+    "edit": "Edit",
+    "delete": "Delete",
+    "cancel": "Cancel",
+    "next": "Next",
+    "back": "Back"
+  },
+  "auth": {
+    "login": "Login",
+    "logout": "Logout",
+    "email": "Email",
+    "password": "Password",
+    "forgot_password": "Forgot Password?",
+    "reset_password": "Reset Password",
+    "reset_using_email": "Reset using email link",
+    "reset_using_phone": "Reset using OTP",
+    "new_password": "New Password",
+    "confirm_password": "Confirm Password",
+    "update_password": "Update Password",
+    "updating": "Updating..."
+  },
+
+
+  "plans": {
+    "most_popular": "Most Popular",
+    "per_month": "per month",
+    "year": "Year",
+    "month": "Month",
+    "view_plans": "View Plans",
+    "features_title": "Features",
+    "pay_with_razorpay": "Pay with Razorpay",
+    "pay_with_paypal": "Pay with PayPal",
+    "get_started": "Get Started"
+  },
+  "dashboard": {
+    "dashboard": "Dashboard",
+    "partner_dashboard": "Partner Dashboard",
+    "welcome": "Welcome"
+  },
+  "profile": {
+    "partner_profile": "Partner Profile",
+    "company_info": "Company Info",
+    "basic_info": "Basic Info",
+    "location": "Location",
+    "documents": "Documents"
+  },
+  "partner": {
+    "dashboard": "Dashboard",
+    "add_profile": "Add Profile",
+    "plans": "Plans",
+    "all_plans": "All Plans",
+    "my_plan": "My Plan",
+    "logout": "Logout",
+    "menu": "Menu",
+    "partner": "Partner",
+    "verify_otp": "Verify OTP",
+    "otp_sent_to": "OTP sent to",
+    "enter_otp": "Enter OTP",
+    "verifying": "Verifying..."
+  },
+
+  "partner_layout": {
+    "mobile_title": "Partner",
+    "menu": "Menu",
+    "loading": "Loading dashboard..."
+  },
+
+  "partner_dashboard": {
+    "title": "Partner Dashboard",
+
+    "sidebar": {
+      "panel_title": "Partner Panel",
+      "dashboard": "Dashboard",
+      "add_profile": "Add Profile",
+
+      "plans": {
+        "title": "Plans",
+        "all_plans": "All Plans",
+        "my_plan": "My Plan"
+      },
+
+      "logout": "Logout"
+    },
+
+    "stats": {
+      "total_profiles": "Total Profiles",
+      "active": "Active",
+      "inactive": "Inactive",
+      "plan": "Plan"
+    },
+
+    "plan_default": "Free"
+  },
+
+  "partner_profile": {
+    "title": "Partner Profile",
+
+    "company_info": {
+      "title": "Company Info",
+      "name": "Name",
+      "description": "Description",
+      "url": "URL"
+    },
+
+    "basic_info": {
+      "title": "Basic Info",
+      "name": "Name",
+      "email": "Email",
+      "mobile": "Mobile"
+    },
+
+    "location": {
+      "title": "Location",
+      "address": "Address",
+      "city": "City",
+      "state": "State",
+      "postal_code": "Postal Code"
+    },
+
+    "category_info": {
+      "title": "Category Info",
+      "category": "Category",
+      "sub_category": "Sub Category",
+      "sub_sub_category": "Sub Sub Category",
+
+      "select_category": "Select Category",
+      "select_subcategory": "Select Subcategory",
+      "select_subsubcategory": "Select Sub Subcategory"
+    },
+
+    "documents": {
+      "title": "Documents",
+      "aadhar": "Aadhar Card",
+      "gst": "GST Number",
+      "status": "Status",
+      "plan": "Plan"
+    },
+
+    "actions": {
+      "edit": "Edit",
+      "save": "Save",
+      "cancel": "Cancel"
+    },
+
+    "loading": "Loading profile..."
+  },
+
+  "my_plan": {
+    "title": "My Plan",
+    "subtitle": "Manage your subscription and track benefits",
+
+    "status": {
+      "expired": "Expired",
+      "upgrading": "Upgrading Soon",
+      "active": "Active",
+      "days_left": "days left"
+    },
+
+    "labels": {
+      "start_date": "Start Date",
+      "expiry_date": "Expiry Date",
+      "auto_renew": "Auto Renew",
+      "payment_provider": "Payment Provider",
+      "currency": "Currency"
+    },
+
+    "features": {
+      "title": "What's Included",
+      "no_features": "No features"
+    },
+
+    "actions": {
+      "renew": "Renew Plan",
+      "upgrade": "Upgrade Plan",
+      "cancel": "Cancel"
+    },
+
+    "pending": {
+      "text": "Pending Plan: This plan will activate after current plan expires."
+    },
+
+    "history": {
+      "title": "Plan History",
+      "subtitle": "Previously used subscription plans",
+      "records": "Records",
+      "show_all": "Show All",
+      "show_less": "Show Less",
+      "no_history": "No History Found",
+      "empty_text": "Your expired or cancelled plans will appear here",
+
+      "started": "Started",
+      "expired": "Expired",
+      "ended_at": "Ended At"
+    }
+  }
+}

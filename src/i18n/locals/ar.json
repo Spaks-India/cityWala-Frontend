@@ -1,0 +1,382 @@
+{
+  "all_plans": "جميع الخطط",
+  "search": "بحث",
+  "delete": "حذف",
+  "add_plan": "إضافة خطة",
+  "header": {
+    "categories": "📂 الفئات",
+    "search_placeholder": "ابحث عن الخدمات...",
+    "dashboard": "لوحة التحكم",
+    "login": "تسجيل الدخول",
+    "customer_login": "دخول العميل",
+    "partner_login": "دخول الشريك",
+    "list_business": "إضافة نشاط تجاري",
+    "logout": "تسجيل الخروج"
+  },
+  "home": {
+    "trusted_label": "دليل الأعمال المحلي الموثوق",
+    "hero_title": "ابحث عن خبراء،",
+    "hero_title2": "خدمات وأكثر",
+    "hero_subtitle": "في أي مكان وفي أي وقت — يربطك CityWala فوراً بالمهنيين والأعمال المحلية الموثوقة.",
+    "businesses": "الأعمال المسجلة",
+    "cities": "المدن المغطاة",
+    "support": "الدعم متاح",
+    "select_country": "🌍 اختر الدولة",
+    "search_state": "ابحث عن الولاية",
+    "search_city": "ابحث عن المدينة",
+    "category": "الفئة",
+    "explore": "استكشف",
+    "popular_categories": "الفئات الشائعة",
+    "popular_subtitle": "اعثر على الخبراء والخدمات في أي وقت وأي مكان.",
+    "explore_now": "استكشف الآن",
+    "find_experts": "اعثر على الخبراء بسرعة",
+    "browse_cats": "تصفح أفضل الفئات فوراً",
+    "top_picks": "أفضل الاختيارات",
+    "repairs": "🔧 إصلاحات وخدمات",
+    "essentials": "الأساسيات",
+    "daily_needs": "🛒 الاحتياجات اليومية",
+    "view_all": "عرض الكل",
+    "testimonials": "آراء العملاء",
+    "cta_title": "هل أنت صاحب عمل؟",
+    "cta_subtitle": "انضم إلى CityWala كشريك واصل إلى آلاف العملاء.",
+    "register_partner": "التسجيل كشريك",
+    "contact_us": "اتصل بنا",
+    "popular_cats": {
+      "matrimonial": "الزواج",
+      "daily_necessity": "الاحتياجات اليومية",
+      "education": "التعليم",
+      "health": "الصحة",
+      "real_estate": "العقارات",
+      "transporters": "النقل",
+      "industries": "الصناعات",
+      "pandit_astrologer": "عالم فلك وراهب",
+      "insurance": "التأمين",
+      "import_export": "الاستيراد والتصدير",
+      "job_placement": "التوظيف",
+      "wedding_events": "الأعراس والمناسبات",
+      "agriculture": "الزراعة",
+      "jewellery": "المجوهرات",
+      "it_software": "برمجيات",
+      "food": "الطعام",
+      "tour_travels": "السفر والسياحة",
+      "electrical": "الكهرباء",
+      "house_construction": "بناء المنازل",
+      "legal_document": "المستندات القانونية",
+      "packers_movers": "النقل والتعبئة",
+      "financial_accounting": "المالية والمحاسبة",
+      "fitness_yoga": "اللياقة واليوغا",
+      "furniture_services": "خدمات الأثاث"
+    },
+    "svc_ac": "خدمة المكيف",
+    "svc_car": "خدمة السيارة",
+    "svc_bike": "خدمة الدراجة",
+    "svc_labour": "عامل",
+    "svc_grocery": "البقالة",
+    "svc_electricians": "كهربائيون"
+  },
+  "testimonials": [
+    {
+      "name": "Dev",
+      "text": "منصة رائعة! وجدت ما أبحث عنه تماماً.",
+      "img": "https://citywala.com/assets/images/testimonial-1.jpg"
+    },
+    {
+      "name": "Esther Hills",
+      "text": "خدمة الزواج ممتازة.",
+      "img": "https://citywala.com/assets/images/testimonial-2.jpg"
+    },
+    {
+      "name": "Hannah Schmitt",
+      "text": "تجربة رائعة! الدليل المحلي ساعدني بسرعة.",
+      "img": "https://citywala.com/assets/images/testimonial-3.jpg"
+    },
+    {
+      "name": "Esther Hills",
+      "text": "خدمة الزواج ممتازة.",
+      "img": "https://citywala.com/assets/images/testimonial-2.jpg"
+    }
+  ],
+  "all_categories": {
+    "title": "جميع الفئات",
+    "subtitle": "تصفح جميع الفئات واعثر على أفضل الخدمات.",
+    "search_placeholder": "ابحث عن الفئات...",
+    "view_all": "عرض الكل",
+    "browse_collection": "تصفح المجموعة",
+    "registered_partners_in_this_category": "الشركاء المسجلون في هذه الفئة",
+    "no_categories_are_available_right_now": "لا توجد فئات متاحة حالياً",
+    "view_subcategories": "عرض الفئات الفرعية",
+    "view_details": "عرض التفاصيل",
+    "registered_businesses": "الأعمال المسجلة",
+    "no_businesses_found": "لم يتم العثور على أعمال",
+    "no_registered_partners_found_in_this_category": "لا يوجد شركاء مسجلون في هذه الفئة",
+    "subcategories": "الفئات الفرعية"
+  },
+  "login": {
+    "title": "تسجيل الدخول",
+    "email": "البريد الإلكتروني",
+    "phone": "الهاتف",
+    "email_label": "البريد الإلكتروني",
+    "password": "كلمة المرور",
+    "forgot_password": "هل نسيت كلمة المرور؟",
+    "login_btn": "تسجيل الدخول",
+    "logging_in": "جارٍ تسجيل الدخول...",
+    "new_here": "جديد هنا؟",
+    "create_account": "إنشاء حساب"
+  },
+  "register": {
+    "title": "إنشاء حساب",
+    "full_name": "الاسم الكامل",
+    "email": "البريد الإلكتروني",
+    "mobile": "رقم الجوال",
+    "password": "كلمة المرور",
+    "confirm_password": "تأكيد كلمة المرور",
+    "register_btn": "تسجيل",
+    "registering": "جارٍ التسجيل...",
+    "have_account": "لديك حساب بالفعل؟",
+    "login": "تسجيل الدخول"
+  },
+  "partner_register": {
+    "title": "تسجيل الشريك",
+    "full_name": "الاسم الكامل",
+    "email": "البريد الإلكتروني",
+    "mobile": "رقم الجوال",
+    "country": "الدولة",
+    "state": "الولاية",
+    "city": "المدينة",
+    "password": "كلمة المرور",
+    "confirm_password": "تأكيد كلمة المرور",
+    "register_btn": "تسجيل",
+    "registering": "جارٍ التسجيل...",
+    "have_account": "لديك حساب بالفعل؟",
+    "login": "تسجيل الدخول",
+    "step": "خطوة",
+    "of": "من",
+    "step_1": "الخطوة 1",
+    "step_2": "الخطوة 2",
+    "step_3": "الخطوة 3",
+    "adhar_card": "بطاقة أدهار",
+    "postal_code": "الرمز البريدي",
+    "full_address": "العنوان الكامل",
+    "business_name": "اسم النشاط التجاري",
+    "company_url": "رابط الشركة",
+    "company_logo": "شعار الشركة",
+    "company_short_description": "وصف مختصر للشركة",
+    "category": "الفئة",
+    "subcategory": "الفئة الفرعية",
+    "subsubcategory": "الفئة الفرعية الفرعية",
+    "gst_no": "رقم GST",
+    "select_category": "اختر الفئة *",
+    "select_subcategory": "اختر الفئة الفرعية",
+    "select_subsubcategory": "اختر الفئة الفرعية الفرعية",
+    "business_name_placeholder": "اسم النشاط التجاري *",
+    "company_url_placeholder": "رابط الشركة",
+    "gst_placeholder": "رقم GST",
+    "description_placeholder": "وصف مختصر للنشاط *",
+    "back": "رجوع",
+    "next": "التالي",
+    "register_as_partner": "التسجيل كشريك"
+  },
+  "forgot": {
+    "title": "نسيت كلمة المرور؟",
+    "subtitle": "أدخل البريد الإلكتروني أو رقم الجوال",
+    "reset_sent": "تم إرسال تفاصيل إعادة التعيين",
+    "enter_otp": "إدخال OTP يدويًا",
+    "mobile_mode": "وضع الجوال",
+    "use_email": "استخدام البريد الإلكتروني",
+    "placeholder": "أدخل البريد أو الجوال",
+    "continue": "متابعة",
+    "sending": "جارٍ الإرسال...",
+    "back_login": "← العودة لتسجيل الدخول"
+  },
+  "footer": {
+    "tagline": "اعثر على خبراء وخدمات في أي وقت وأي مكان.",
+    "follow_us": "تابعنا",
+    "quick_links": "روابط سريعة",
+    "home": "الرئيسية",
+    "about": "حول",
+    "contact": "اتصل",
+    "help": "مساعدة",
+    "useful_links": "روابط مفيدة",
+    "cookie": "سياسة ملفات تعريف الارتباط",
+    "privacy": "سياسة الخصوصية",
+    "terms": "الشروط والأحكام",
+    "business_plan": "خطة الأعمال",
+    "popular_cities": "مدن شائعة",
+    "communication": "التواصل",
+    "call_us": "اتصل بنا",
+    "send_message": "إرسال رسالة",
+    "copyright": "© 2025 City Wala. جميع الحقوق محفوظة."
+  },
+  "common": {
+    "loading": "جارٍ التحميل...",
+    "error": "خطأ",
+    "save": "حفظ",
+    "edit": "تعديل",
+    "delete": "حذف",
+    "cancel": "إلغاء",
+    "next": "التالي",
+    "back": "رجوع"
+  },
+  "auth": {
+    "login": "تسجيل الدخول",
+    "logout": "تسجيل الخروج",
+    "email": "البريد الإلكتروني",
+    "password": "كلمة المرور",
+    "forgot_password": "نسيت كلمة المرور؟",
+    "reset_password": "إعادة تعيين كلمة المرور",
+    "reset_using_email": "إعادة عبر البريد الإلكتروني",
+    "reset_using_phone": "إعادة عبر OTP",
+    "new_password": "كلمة مرور جديدة",
+    "confirm_password": "تأكيد كلمة المرور",
+    "update_password": "تحديث كلمة المرور",
+    "updating": "جارٍ التحديث..."
+  },
+  "plans": {
+    "most_popular": "الأكثر شعبية",
+    "per_month": "شهريًا",
+    "year": "سنة",
+    "month": "شهر",
+    "view_plans": "عرض الخطط",
+    "features_title": "المميزات",
+    "pay_with_razorpay": "الدفع عبر Razorpay",
+    "pay_with_paypal": "الدفع عبر PayPal",
+    "get_started": "ابدأ الآن"
+  },
+  "dashboard": {
+    "dashboard": "لوحة التحكم",
+    "partner_dashboard": "لوحة تحكم الشريك",
+    "welcome": "مرحبًا"
+  },
+  "profile": {
+    "partner_profile": "ملف الشريك",
+    "company_info": "معلومات الشركة",
+    "basic_info": "المعلومات الأساسية",
+    "location": "الموقع",
+    "documents": "المستندات"
+  },
+  "partner": {
+    "dashboard": "لوحة التحكم",
+    "add_profile": "إضافة ملف",
+    "plans": "الخطط",
+    "all_plans": "جميع الخطط",
+    "my_plan": "خطتي",
+    "logout": "تسجيل الخروج",
+    "menu": "القائمة",
+    "partner": "شريك",
+    "verify_otp": "التحقق من OTP",
+    "otp_sent_to": "تم إرسال OTP إلى",
+    "enter_otp": "أدخل OTP",
+    "verifying": "جارٍ التحقق..."
+  },
+  "partner_layout": {
+    "mobile_title": "الشريك",
+    "menu": "القائمة",
+    "loading": "جارٍ تحميل لوحة التحكم..."
+  },
+  "partner_dashboard": {
+    "title": "لوحة تحكم الشريك",
+    "sidebar": {
+      "panel_title": "لوحة الشريك",
+      "dashboard": "لوحة التحكم",
+      "add_profile": "إضافة ملف",
+      "plans": {
+        "title": "الخطط",
+        "all_plans": "جميع الخطط",
+        "my_plan": "خطتي"
+      },
+      "logout": "تسجيل الخروج"
+    },
+    "stats": {
+      "total_profiles": "إجمالي الملفات",
+      "active": "نشط",
+      "inactive": "غير نشط",
+      "plan": "الخطة"
+    },
+    "plan_default": "مجاني"
+  },
+  "partner_profile": {
+    "title": "ملف الشريك",
+    "company_info": {
+      "title": "معلومات الشركة",
+      "name": "الاسم",
+      "description": "الوصف",
+      "url": "الرابط"
+    },
+    "basic_info": {
+      "title": "المعلومات الأساسية",
+      "name": "الاسم",
+      "email": "البريد الإلكتروني",
+      "mobile": "الجوال"
+    },
+    "location": {
+      "title": "الموقع",
+      "address": "العنوان",
+      "city": "المدينة",
+      "state": "الولاية",
+      "postal_code": "الرمز البريدي"
+    },
+    "category_info": {
+      "title": "معلومات الفئة",
+      "category": "الفئة",
+      "sub_category": "الفئة الفرعية",
+      "sub_sub_category": "الفئة الفرعية الفرعية",
+      "select_category": "اختر الفئة",
+      "select_subcategory": "اختر الفئة الفرعية",
+      "select_subsubcategory": "اختر الفئة الفرعية الفرعية"
+    },
+    "documents": {
+      "title": "المستندات",
+      "aadhar": "بطاقة أدهار",
+      "gst": "رقم GST",
+      "status": "الحالة",
+      "plan": "الخطة"
+    },
+    "actions": {
+      "edit": "تعديل",
+      "save": "حفظ",
+      "cancel": "إلغاء"
+    },
+    "loading": "جارٍ تحميل الملف..."
+  },
+  "my_plan": {
+    "title": "خطتي",
+    "subtitle": "إدارة الاشتراك والمزايا",
+    "status": {
+      "expired": "منتهي",
+      "upgrading": "جارٍ الترقية",
+      "active": "نشط",
+      "days_left": "أيام متبقية"
+    },
+    "labels": {
+      "start_date": "تاريخ البداية",
+      "expiry_date": "تاريخ الانتهاء",
+      "auto_renew": "تجديد تلقائي",
+      "payment_provider": "مزود الدفع",
+      "currency": "العملة"
+    },
+    "features": {
+      "title": "ما يتضمنه",
+      "no_features": "لا توجد ميزات"
+    },
+    "actions": {
+      "renew": "تجديد الخطة",
+      "upgrade": "ترقية الخطة",
+      "cancel": "إلغاء"
+    },
+    "pending": {
+      "text": "خطة معلقة: سيتم تفعيلها بعد انتهاء الخطة الحالية."
+    },
+    "history": {
+      "title": "سجل الخطط",
+      "subtitle": "الخطط السابقة",
+      "records": "السجلات",
+      "show_all": "عرض الكل",
+      "show_less": "عرض أقل",
+      "no_history": "لا يوجد سجل",
+      "empty_text": "ستظهر الخطط المنتهية أو الملغاة هنا",
+      "started": "بدأت",
+      "expired": "انتهت",
+      "ended_at": "انتهى في"
+    }
+  }
+}

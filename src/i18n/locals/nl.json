@@ -1,0 +1,382 @@
+{
+  "all_plans": "Alle Plannen",
+  "search": "Zoeken",
+  "delete": "Verwijderen",
+  "add_plan": "Plan Toevoegen",
+  "header": {
+    "categories": "📂 Categorieën",
+    "search_placeholder": "Diensten zoeken...",
+    "dashboard": "Dashboard",
+    "login": "Inloggen",
+    "list_business": "Bedrijf Toevoegen",
+    "logout": "Uitloggen",
+    "customer_login": "Inloggen",
+    "partner_login": "Partner Inloggen"
+  },
+  "home": {
+    "trusted_label": "Betrouwbare Lokale Bedrijvengids",
+    "hero_title": "Vind Experts,",
+    "hero_title2": "Diensten en Meer",
+    "hero_subtitle": "Iedereen, overal, altijd — CityWala verbindt u direct met betrouwbare professionals en lokale bedrijven.",
+    "businesses": "Geregistreerde Bedrijven",
+    "cities": "Gedekte Steden",
+    "support": "Beschikbare Ondersteuning",
+    "select_country": "🌍 Selecteer Land",
+    "search_state": "Provincie Zoeken",
+    "search_city": "Stad Zoeken",
+    "category": "Categorie",
+    "explore": "Verkennen",
+    "popular_categories": "Populaire Categorieën",
+    "popular_subtitle": "Vind op elk moment en overal wereldwijde experts en diensten.",
+    "explore_now": "Nu Verkennen",
+    "find_experts": "Vind Snel Experts",
+    "browse_cats": "Blader Direct Door Topcategorieën",
+    "top_picks": "Topkeuzes",
+    "repairs": "🔧 Reparaties & Diensten",
+    "essentials": "Essentials",
+    "daily_needs": "🛒 Dagelijkse Behoeften",
+    "view_all": "Alles Bekijken",
+    "testimonials": "Wat Onze Klanten Zeggen",
+    "cta_title": "Bent U Een Ondernemer?",
+    "cta_subtitle": "Word partner bij CityWala en bereik duizenden klanten.",
+    "register_partner": "Registreren als Partner",
+    "contact_us": "Neem Contact Op",
+    "popular_cats": {
+      "matrimonial": "Huwelijksbemiddeling",
+      "daily_necessity": "Dagelijkse Benodigdheden",
+      "education": "Onderwijs",
+      "health": "Gezondheid",
+      "real_estate": "Vastgoed",
+      "transporters": "Transport",
+      "industries": "Industrieën",
+      "pandit_astrologer": "Priester & Astroloog",
+      "insurance": "Verzekering",
+      "import_export": "Import & Export",
+      "job_placement": "Arbeidsbemiddeling",
+      "wedding_events": "Bruiloften & Events",
+      "agriculture": "Landbouw",
+      "jewellery": "Sieraden",
+      "it_software": "IT-Software",
+      "food": "Voeding",
+      "tour_travels": "Toerisme & Reizen",
+      "electrical": "Elektriciteit",
+      "house_construction": "Woningbouw",
+      "legal_document": "Juridische Documenten",
+      "packers_movers": "Verhuisdiensten",
+      "financial_accounting": "Financiën & Boekhouding",
+      "fitness_yoga": "Fitness & Yoga",
+      "furniture_services": "Meubeldiensten"
+    },
+    "svc_ac": "Airco Service",
+    "svc_car": "Auto Service",
+    "svc_bike": "Fiets Service",
+    "svc_labour": "Arbeidskracht",
+    "svc_grocery": "Boodschappen",
+    "svc_electricians": "Elektriciens"
+  },
+  "testimonials": [
+    {
+      "name": "Dev",
+      "text": "Geweldig platform! Ik vond precies wat ik zocht.",
+      "img": "https://citywala.com/assets/images/testimonial-1.jpg"
+    },
+    {
+      "name": "Esther Hills",
+      "text": "De huwelijksbemiddelingsdienst is uitstekend.",
+      "img": "https://citywala.com/assets/images/testimonial-2.jpg"
+    },
+    {
+      "name": "Hannah Schmitt",
+      "text": "Geweldige ervaring! De lokale bedrijvengids hielp me snel.",
+      "img": "https://citywala.com/assets/images/testimonial-3.jpg"
+    },
+    {
+      "name": "Esther Hills",
+      "text": "De huwelijksbemiddelingsdienst is uitstekend.",
+      "img": "https://citywala.com/assets/images/testimonial-2.jpg"
+    }
+  ],
+  "all_categories": {
+    "title": "Alle Categorieën",
+    "subtitle": "Blader door alle categorieën en vind de beste diensten voor uw behoeften.",
+    "search_placeholder": "Categorieën zoeken...",
+    "view_all": "Alles Bekijken",
+    "browse_collection": "Collectie Bekijken",
+    "registered_partners_in_this_category": "Geregistreerde partners in deze categorie",
+    "no_categories_are_available_right_now": "Er zijn momenteel geen categorieën beschikbaar",
+    "view_subcategories": "Subcategorieën Bekijken",
+    "view_details": "Details Bekijken",
+    "registered_businesses": "Geregistreerde Bedrijven",
+    "no_businesses_found": "Geen bedrijven gevonden",
+    "no_registered_partners_found_in_this_category": "Geen geregistreerde partners gevonden in deze categorie",
+    "subcategories": "Subcategorieën"
+  },
+  "login": {
+    "title": "Inloggen",
+    "email": "E-mail",
+    "phone": "Telefoon",
+    "email_label": "E-mail",
+    "password": "Wachtwoord",
+    "forgot_password": "Wachtwoord vergeten?",
+    "login_btn": "Nu Inloggen",
+    "logging_in": "Inloggen...",
+    "new_here": "Nieuw hier?",
+    "create_account": "Account Aanmaken"
+  },
+  "register": {
+    "title": "Account Aanmaken",
+    "full_name": "Volledige Naam",
+    "email": "E-mail",
+    "mobile": "Mobiel Nummer",
+    "password": "Wachtwoord",
+    "confirm_password": "Wachtwoord Bevestigen",
+    "register_btn": "Nu Registreren",
+    "registering": "Registreren...",
+    "have_account": "Heeft u al een account?",
+    "login": "Inloggen"
+  },
+  "partner_register": {
+    "title": "Partner Registratie",
+    "full_name": "Volledige Naam",
+    "email": "E-mail",
+    "mobile": "Mobiel Nummer",
+    "country": "Land",
+    "state": "Provincie",
+    "city": "Stad",
+    "password": "Wachtwoord",
+    "confirm_password": "Wachtwoord Bevestigen",
+    "register_btn": "Nu Registreren",
+    "registering": "Registreren...",
+    "have_account": "Heeft u al een account?",
+    "login": "Inloggen",
+    "step": "Stap",
+    "of": "van",
+    "step_1": "Stap 1",
+    "step_2": "Stap 2",
+    "step_3": "Stap 3",
+    "adhar_card": "Identiteitsbewijs",
+    "postal_code": "Postcode",
+    "full_address": "Volledig Adres",
+    "business_name": "Bedrijfsnaam",
+    "company_url": "Bedrijfs-URL",
+    "company_logo": "Bedrijfslogo",
+    "company_short_description": "Korte Bedrijfsbeschrijving",
+    "category": "Categorie",
+    "subcategory": "Subcategorie",
+    "subsubcategory": "Sub-Subcategorie",
+    "gst_no": "BTW-nummer",
+    "select_category": "Selecteer Categorie *",
+    "select_subcategory": "Selecteer Subcategorie",
+    "select_subsubcategory": "Selecteer Sub-Subcategorie",
+    "business_name_placeholder": "Bedrijfsnaam *",
+    "company_url_placeholder": "Bedrijfs-URL",
+    "gst_placeholder": "BTW-nummer",
+    "description_placeholder": "Korte Bedrijfsbeschrijving *",
+    "back": "Terug",
+    "next": "Volgende",
+    "register_as_partner": "Registreren als Partner"
+  },
+  "forgot": {
+    "title": "Wachtwoord Vergeten?",
+    "subtitle": "Voer e-mail of mobiel nummer in",
+    "reset_sent": "Resetgegevens verzonden",
+    "enter_otp": "OTP Handmatig Invoeren",
+    "mobile_mode": "Mobiele Modus",
+    "use_email": "Gebruik E-mail",
+    "placeholder": "Voer e-mail of telefoon in",
+    "continue": "Doorgaan",
+    "sending": "Verzenden...",
+    "back_login": "← Terug naar Inloggen"
+  },
+  "footer": {
+    "tagline": "Vind op elk moment en overal wereldwijde experts en diensten.",
+    "follow_us": "Volg Ons",
+    "quick_links": "Snelle Links",
+    "home": "Home",
+    "about": "Over Ons",
+    "contact": "Contact",
+    "help": "Help",
+    "useful_links": "Nuttige Links",
+    "cookie": "Cookiebeleid",
+    "privacy": "Privacybeleid",
+    "terms": "Algemene Voorwaarden",
+    "business_plan": "Bedrijfsplan",
+    "popular_cities": "Populaire Steden",
+    "communication": "Communicatie",
+    "call_us": "Bel Ons",
+    "send_message": "Stuur Bericht",
+    "copyright": "© Copyright 2025 City Wala. Alle rechten voorbehouden."
+  },
+  "common": {
+    "loading": "Laden...",
+    "error": "Fout",
+    "save": "Opslaan",
+    "edit": "Bewerken",
+    "delete": "Verwijderen",
+    "cancel": "Annuleren",
+    "next": "Volgende",
+    "back": "Terug"
+  },
+  "auth": {
+    "login": "Inloggen",
+    "logout": "Uitloggen",
+    "email": "E-mail",
+    "password": "Wachtwoord",
+    "forgot_password": "Wachtwoord vergeten?",
+    "reset_password": "Wachtwoord Opnieuw Instellen",
+    "reset_using_email": "Opnieuw instellen via e-maillink",
+    "reset_using_phone": "Opnieuw instellen via OTP",
+    "new_password": "Nieuw Wachtwoord",
+    "confirm_password": "Wachtwoord Bevestigen",
+    "update_password": "Wachtwoord Bijwerken",
+    "updating": "Bijwerken..."
+  },
+  "plans": {
+    "most_popular": "Meest Populair",
+    "per_month": "per maand",
+    "year": "Jaar",
+    "month": "Maand",
+    "view_plans": "Plannen Bekijken",
+    "features_title": "Functies",
+    "pay_with_razorpay": "Betalen met Razorpay",
+    "pay_with_paypal": "Betalen met PayPal",
+    "get_started": "Aan de Slag"
+  },
+  "dashboard": {
+    "dashboard": "Dashboard",
+    "partner_dashboard": "Partner Dashboard",
+    "welcome": "Welkom"
+  },
+  "profile": {
+    "partner_profile": "Partnerprofiel",
+    "company_info": "Bedrijfsinformatie",
+    "basic_info": "Basisinformatie",
+    "location": "Locatie",
+    "documents": "Documenten"
+  },
+  "partner": {
+    "dashboard": "Dashboard",
+    "add_profile": "Profiel Toevoegen",
+    "plans": "Plannen",
+    "all_plans": "Alle Plannen",
+    "my_plan": "Mijn Plan",
+    "logout": "Uitloggen",
+    "menu": "Menu",
+    "partner": "Partner",
+    "verify_otp": "OTP Verifiëren",
+    "otp_sent_to": "OTP verzonden naar",
+    "enter_otp": "OTP Invoeren",
+    "verifying": "Verifiëren..."
+  },
+  "partner_layout": {
+    "mobile_title": "Partner",
+    "menu": "Menu",
+    "loading": "Dashboard laden..."
+  },
+  "partner_dashboard": {
+    "title": "Partner Dashboard",
+    "sidebar": {
+      "panel_title": "Partner Paneel",
+      "dashboard": "Dashboard",
+      "add_profile": "Profiel Toevoegen",
+      "plans": {
+        "title": "Plannen",
+        "all_plans": "Alle Plannen",
+        "my_plan": "Mijn Plan"
+      },
+      "logout": "Uitloggen"
+    },
+    "stats": {
+      "total_profiles": "Totaal Profielen",
+      "active": "Actief",
+      "inactive": "Inactief",
+      "plan": "Plan"
+    },
+    "plan_default": "Gratis"
+  },
+  "partner_profile": {
+    "title": "Partnerprofiel",
+    "company_info": {
+      "title": "Bedrijfsinformatie",
+      "name": "Naam",
+      "description": "Beschrijving",
+      "url": "URL"
+    },
+    "basic_info": {
+      "title": "Basisinformatie",
+      "name": "Naam",
+      "email": "E-mail",
+      "mobile": "Mobiel"
+    },
+    "location": {
+      "title": "Locatie",
+      "address": "Adres",
+      "city": "Stad",
+      "state": "Provincie",
+      "postal_code": "Postcode"
+    },
+    "category_info": {
+      "title": "Categorie-informatie",
+      "category": "Categorie",
+      "sub_category": "Subcategorie",
+      "sub_sub_category": "Sub-Subcategorie",
+      "select_category": "Selecteer Categorie",
+      "select_subcategory": "Selecteer Subcategorie",
+      "select_subsubcategory": "Selecteer Sub-Subcategorie"
+    },
+    "documents": {
+      "title": "Documenten",
+      "aadhar": "Identiteitsbewijs",
+      "gst": "BTW-nummer",
+      "status": "Status",
+      "plan": "Plan"
+    },
+    "actions": {
+      "edit": "Bewerken",
+      "save": "Opslaan",
+      "cancel": "Annuleren"
+    },
+    "loading": "Profiel laden..."
+  },
+  "my_plan": {
+    "title": "Mijn Plan",
+    "subtitle": "Beheer uw abonnement en volg voordelen",
+    "status": {
+      "expired": "Verlopen",
+      "upgrading": "Binnenkort Upgrade",
+      "active": "Actief",
+      "days_left": "dagen over"
+    },
+    "labels": {
+      "start_date": "Startdatum",
+      "expiry_date": "Vervaldatum",
+      "auto_renew": "Automatisch Verlengen",
+      "payment_provider": "Betalingsprovider",
+      "currency": "Valuta"
+    },
+    "features": {
+      "title": "Wat Is Inbegrepen",
+      "no_features": "Geen functies"
+    },
+    "actions": {
+      "renew": "Plan Verlengen",
+      "upgrade": "Plan Upgraden",
+      "cancel": "Annuleren"
+    },
+    "pending": {
+      "text": "Wachtend Plan: Dit plan wordt geactiveerd nadat het huidige plan verloopt."
+    },
+    "history": {
+      "title": "Plangeschiedenis",
+      "subtitle": "Eerder gebruikte abonnementsplannen",
+      "records": "Records",
+      "show_all": "Alles Weergeven",
+      "show_less": "Minder Weergeven",
+      "no_history": "Geen Geschiedenis Gevonden",
+      "empty_text": "Uw verlopen of geannuleerde plannen verschijnen hier",
+      "started": "Gestart",
+      "expired": "Verlopen",
+      "ended_at": "Geëindigd op"
+    }
+  }
+}

@@ -1,0 +1,382 @@
+{
+  "all_plans": "Все планы",
+  "search": "Поиск",
+  "delete": "Удалить",
+  "add_plan": "Добавить план",
+  "header": {
+    "categories": "📂 Категории",
+    "search_placeholder": "Поиск услуг...",
+    "dashboard": "Панель управления",
+    "login": "Войти",
+    "list_business": "Добавить бизнес",
+    "logout": "Выйти",
+    "customer_login": "Войти",
+    "partner_login": "Вход партнера"
+  },
+  "home": {
+    "trusted_label": "Надёжный каталог местных предприятий",
+    "hero_title": "Найдите специалистов,",
+    "hero_title2": "Услуги и многое другое",
+    "hero_subtitle": "Кто угодно, где угодно, в любое время — CityWala мгновенно соединяет вас с надёжными профессионалами и местными компаниями.",
+    "businesses": "Компаний в каталоге",
+    "cities": "Охваченных городов",
+    "support": "Доступная поддержка",
+    "select_country": "🌍 Выберите страну",
+    "search_state": "Поиск региона",
+    "search_city": "Поиск города",
+    "category": "Категория",
+    "explore": "Исследовать",
+    "popular_categories": "Популярные категории",
+    "popular_subtitle": "Находите мировых специалистов и услуги в любое время и в любом месте.",
+    "explore_now": "Исследовать сейчас",
+    "find_experts": "Найдите специалистов быстро",
+    "browse_cats": "Просматривайте топ-категории мгновенно",
+    "top_picks": "Лучший выбор",
+    "repairs": "🔧 Ремонт и услуги",
+    "essentials": "Предметы первой необходимости",
+    "daily_needs": "🛒 Ежедневные нужды",
+    "view_all": "Посмотреть все",
+    "testimonials": "Что говорят наши клиенты",
+    "cta_title": "Вы владелец бизнеса?",
+    "cta_subtitle": "Присоединяйтесь к CityWala как партнёр и охватите тысячи клиентов.",
+    "register_partner": "Зарегистрироваться как партнёр",
+    "contact_us": "Связаться с нами",
+    "popular_cats": {
+      "matrimonial": "Знакомства и брак",
+      "daily_necessity": "Товары первой необходимости",
+      "education": "Образование",
+      "health": "Здоровье",
+      "real_estate": "Недвижимость",
+      "transporters": "Транспортные услуги",
+      "industries": "Промышленность",
+      "pandit_astrologer": "Священник и астролог",
+      "insurance": "Страхование",
+      "import_export": "Импорт и экспорт",
+      "job_placement": "Трудоустройство",
+      "wedding_events": "Свадьбы и мероприятия",
+      "agriculture": "Сельское хозяйство",
+      "jewellery": "Ювелирные изделия",
+      "it_software": "ИТ и программное обеспечение",
+      "food": "Продукты питания",
+      "tour_travels": "Туризм и путешествия",
+      "electrical": "Электрика",
+      "house_construction": "Строительство домов",
+      "legal_document": "Юридические документы",
+      "packers_movers": "Переезды и грузоперевозки",
+      "financial_accounting": "Финансы и бухгалтерия",
+      "fitness_yoga": "Фитнес и йога",
+      "furniture_services": "Мебельные услуги"
+    },
+    "svc_ac": "Обслуживание кондиционеров",
+    "svc_car": "Автосервис",
+    "svc_bike": "Велосипедный сервис",
+    "svc_labour": "Рабочая сила",
+    "svc_grocery": "Продукты",
+    "svc_electricians": "Электрики"
+  },
+  "testimonials": [
+    {
+      "name": "Dev",
+      "text": "Удивительная платформа! Нашёл именно то, что искал.",
+      "img": "https://citywala.com/assets/images/testimonial-1.jpg"
+    },
+    {
+      "name": "Esther Hills",
+      "text": "Брачный сервис превосходен.",
+      "img": "https://citywala.com/assets/images/testimonial-2.jpg"
+    },
+    {
+      "name": "Hannah Schmitt",
+      "text": "Отличный опыт! Местный каталог предприятий помог мне быстро.",
+      "img": "https://citywala.com/assets/images/testimonial-3.jpg"
+    },
+    {
+      "name": "Esther Hills",
+      "text": "Брачный сервис превосходен.",
+      "img": "https://citywala.com/assets/images/testimonial-2.jpg"
+    }
+  ],
+  "all_categories": {
+    "title": "Все категории",
+    "subtitle": "Просмотрите все категории и найдите лучшие услуги для ваших нужд.",
+    "search_placeholder": "Поиск категорий...",
+    "view_all": "Посмотреть все",
+    "browse_collection": "Просмотреть коллекцию",
+    "registered_partners_in_this_category": "Зарегистрированные партнёры в этой категории",
+    "no_categories_are_available_right_now": "Категории пока недоступны",
+    "view_subcategories": "Просмотреть подкатегории",
+    "view_details": "Подробнее",
+    "registered_businesses": "Зарегистрированные компании",
+    "no_businesses_found": "Компании не найдены",
+    "no_registered_partners_found_in_this_category": "Зарегистрированные партнёры в этой категории не найдены",
+    "subcategories": "Подкатегории"
+  },
+  "login": {
+    "title": "Войти",
+    "email": "Эл. почта",
+    "phone": "Телефон",
+    "email_label": "Эл. почта",
+    "password": "Пароль",
+    "forgot_password": "Забыли пароль?",
+    "login_btn": "Войти сейчас",
+    "logging_in": "Выполняется вход...",
+    "new_here": "Новый пользователь?",
+    "create_account": "Создать аккаунт"
+  },
+  "register": {
+    "title": "Создать аккаунт",
+    "full_name": "Полное имя",
+    "email": "Эл. почта",
+    "mobile": "Номер телефона",
+    "password": "Пароль",
+    "confirm_password": "Подтвердите пароль",
+    "register_btn": "Зарегистрироваться",
+    "registering": "Регистрация...",
+    "have_account": "Уже есть аккаунт?",
+    "login": "Войти"
+  },
+  "partner_register": {
+    "title": "Регистрация партнёра",
+    "full_name": "Полное имя",
+    "email": "Эл. почта",
+    "mobile": "Номер телефона",
+    "country": "Страна",
+    "state": "Регион",
+    "city": "Город",
+    "password": "Пароль",
+    "confirm_password": "Подтвердите пароль",
+    "register_btn": "Зарегистрироваться",
+    "registering": "Регистрация...",
+    "have_account": "Уже есть аккаунт?",
+    "login": "Войти",
+    "step": "Шаг",
+    "of": "из",
+    "step_1": "Шаг 1",
+    "step_2": "Шаг 2",
+    "step_3": "Шаг 3",
+    "adhar_card": "Удостоверение личности",
+    "postal_code": "Почтовый индекс",
+    "full_address": "Полный адрес",
+    "business_name": "Название компании",
+    "company_url": "URL компании",
+    "company_logo": "Логотип компании",
+    "company_short_description": "Краткое описание компании",
+    "category": "Категория",
+    "subcategory": "Подкатегория",
+    "subsubcategory": "Под-подкатегория",
+    "gst_no": "ИНН / Рег. номер",
+    "select_category": "Выберите категорию *",
+    "select_subcategory": "Выберите подкатегорию",
+    "select_subsubcategory": "Выберите под-подкатегорию",
+    "business_name_placeholder": "Название компании *",
+    "company_url_placeholder": "URL компании",
+    "gst_placeholder": "ИНН / Рег. номер",
+    "description_placeholder": "Краткое описание компании *",
+    "back": "Назад",
+    "next": "Далее",
+    "register_as_partner": "Зарегистрироваться как партнёр"
+  },
+  "forgot": {
+    "title": "Забыли пароль?",
+    "subtitle": "Введите адрес эл. почты или номер телефона",
+    "reset_sent": "Данные для сброса отправлены",
+    "enter_otp": "Ввести OTP вручную",
+    "mobile_mode": "Мобильный режим",
+    "use_email": "Использовать эл. почту",
+    "placeholder": "Введите эл. почту или телефон",
+    "continue": "Продолжить",
+    "sending": "Отправка...",
+    "back_login": "← Вернуться к входу"
+  },
+  "footer": {
+    "tagline": "Находите мировых специалистов и услуги в любое время и в любом месте.",
+    "follow_us": "Подписывайтесь на нас",
+    "quick_links": "Быстрые ссылки",
+    "home": "Главная",
+    "about": "О нас",
+    "contact": "Контакты",
+    "help": "Помощь",
+    "useful_links": "Полезные ссылки",
+    "cookie": "Политика cookie",
+    "privacy": "Политика конфиденциальности",
+    "terms": "Условия использования",
+    "business_plan": "Бизнес-план",
+    "popular_cities": "Популярные города",
+    "communication": "Связь",
+    "call_us": "Позвоните нам",
+    "send_message": "Отправить сообщение",
+    "copyright": "© Copyright 2025 City Wala. Все права защищены."
+  },
+  "common": {
+    "loading": "Загрузка...",
+    "error": "Ошибка",
+    "save": "Сохранить",
+    "edit": "Изменить",
+    "delete": "Удалить",
+    "cancel": "Отмена",
+    "next": "Далее",
+    "back": "Назад"
+  },
+  "auth": {
+    "login": "Войти",
+    "logout": "Выйти",
+    "email": "Эл. почта",
+    "password": "Пароль",
+    "forgot_password": "Забыли пароль?",
+    "reset_password": "Сбросить пароль",
+    "reset_using_email": "Сбросить через ссылку на почте",
+    "reset_using_phone": "Сбросить через OTP",
+    "new_password": "Новый пароль",
+    "confirm_password": "Подтвердите пароль",
+    "update_password": "Обновить пароль",
+    "updating": "Обновление..."
+  },
+  "plans": {
+    "most_popular": "Самый популярный",
+    "per_month": "в месяц",
+    "year": "Год",
+    "month": "Месяц",
+    "view_plans": "Посмотреть планы",
+    "features_title": "Возможности",
+    "pay_with_razorpay": "Оплатить через Razorpay",
+    "pay_with_paypal": "Оплатить через PayPal",
+    "get_started": "Начать"
+  },
+  "dashboard": {
+    "dashboard": "Панель управления",
+    "partner_dashboard": "Панель партнёра",
+    "welcome": "Добро пожаловать"
+  },
+  "profile": {
+    "partner_profile": "Профиль партнёра",
+    "company_info": "Информация о компании",
+    "basic_info": "Основная информация",
+    "location": "Местоположение",
+    "documents": "Документы"
+  },
+  "partner": {
+    "dashboard": "Панель управления",
+    "add_profile": "Добавить профиль",
+    "plans": "Планы",
+    "all_plans": "Все планы",
+    "my_plan": "Мой план",
+    "logout": "Выйти",
+    "menu": "Меню",
+    "partner": "Партнёр",
+    "verify_otp": "Подтвердить OTP",
+    "otp_sent_to": "OTP отправлен на",
+    "enter_otp": "Введите OTP",
+    "verifying": "Подтверждение..."
+  },
+  "partner_layout": {
+    "mobile_title": "Партнёр",
+    "menu": "Меню",
+    "loading": "Загрузка панели управления..."
+  },
+  "partner_dashboard": {
+    "title": "Панель партнёра",
+    "sidebar": {
+      "panel_title": "Панель партнёра",
+      "dashboard": "Панель управления",
+      "add_profile": "Добавить профиль",
+      "plans": {
+        "title": "Планы",
+        "all_plans": "Все планы",
+        "my_plan": "Мой план"
+      },
+      "logout": "Выйти"
+    },
+    "stats": {
+      "total_profiles": "Всего профилей",
+      "active": "Активные",
+      "inactive": "Неактивные",
+      "plan": "План"
+    },
+    "plan_default": "Бесплатный"
+  },
+  "partner_profile": {
+    "title": "Профиль партнёра",
+    "company_info": {
+      "title": "Информация о компании",
+      "name": "Название",
+      "description": "Описание",
+      "url": "URL"
+    },
+    "basic_info": {
+      "title": "Основная информация",
+      "name": "Имя",
+      "email": "Эл. почта",
+      "mobile": "Телефон"
+    },
+    "location": {
+      "title": "Местоположение",
+      "address": "Адрес",
+      "city": "Город",
+      "state": "Регион",
+      "postal_code": "Почтовый индекс"
+    },
+    "category_info": {
+      "title": "Информация о категории",
+      "category": "Категория",
+      "sub_category": "Подкатегория",
+      "sub_sub_category": "Под-подкатегория",
+      "select_category": "Выберите категорию",
+      "select_subcategory": "Выберите подкатегорию",
+      "select_subsubcategory": "Выберите под-подкатегорию"
+    },
+    "documents": {
+      "title": "Документы",
+      "aadhar": "Удостоверение личности",
+      "gst": "ИНН / Рег. номер",
+      "status": "Статус",
+      "plan": "План"
+    },
+    "actions": {
+      "edit": "Изменить",
+      "save": "Сохранить",
+      "cancel": "Отмена"
+    },
+    "loading": "Загрузка профиля..."
+  },
+  "my_plan": {
+    "title": "Мой план",
+    "subtitle": "Управляйте подпиской и отслеживайте преимущества",
+    "status": {
+      "expired": "Истёк",
+      "upgrading": "Скоро обновление",
+      "active": "Активный",
+      "days_left": "дней осталось"
+    },
+    "labels": {
+      "start_date": "Дата начала",
+      "expiry_date": "Дата окончания",
+      "auto_renew": "Автопродление",
+      "payment_provider": "Платёжный провайдер",
+      "currency": "Валюта"
+    },
+    "features": {
+      "title": "Что включено",
+      "no_features": "Нет возможностей"
+    },
+    "actions": {
+      "renew": "Продлить план",
+      "upgrade": "Улучшить план",
+      "cancel": "Отмена"
+    },
+    "pending": {
+      "text": "Ожидающий план: этот план активируется после окончания текущего плана."
+    },
+    "history": {
+      "title": "История планов",
+      "subtitle": "Ранее использованные планы подписки",
+      "records": "Записи",
+      "show_all": "Показать все",
+      "show_less": "Показать меньше",
+      "no_history": "История не найдена",
+      "empty_text": "Ваши истёкшие или отменённые планы отобразятся здесь",
+      "started": "Начат",
+      "expired": "Истёк",
+      "ended_at": "Завершён"
+    }
+  }
+}

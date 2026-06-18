@@ -1,0 +1,382 @@
+{
+  "all_plans": "所有计划",
+  "search": "搜索",
+  "delete": "删除",
+  "add_plan": "添加计划",
+  "header": {
+    "categories": "📂 分类",
+    "search_placeholder": "搜索服务...",
+    "dashboard": "控制台",
+    "login": "登录",
+    "list_business": "注册企业",
+    "logout": "退出登录",
+    "customer_login": "登录",
+    "partner_login": "合作伙伴登录"
+  },
+  "home": {
+    "trusted_label": "值得信赖的本地商业目录",
+    "hero_title": "找到专家，",
+    "hero_title2": "服务及更多",
+    "hero_subtitle": "随时随地——CityWala即时连接您与可信赖的专业人士和本地企业。",
+    "businesses": "已注册企业",
+    "cities": "覆盖城市",
+    "support": "可用支持",
+    "select_country": "🌍 选择国家",
+    "search_state": "搜索省份",
+    "search_city": "搜索城市",
+    "category": "分类",
+    "explore": "探索",
+    "popular_categories": "热门分类",
+    "popular_subtitle": "随时随地找到全球专家和服务。",
+    "explore_now": "立即探索",
+    "find_experts": "快速找到专家",
+    "browse_cats": "即时浏览顶级分类",
+    "top_picks": "精选推荐",
+    "repairs": "🔧 维修与服务",
+    "essentials": "必需品",
+    "daily_needs": "🛒 日常需求",
+    "view_all": "查看全部",
+    "testimonials": "客户评价",
+    "cta_title": "您是企业主吗？",
+    "cta_subtitle": "加入CityWala成为合作伙伴，触达数千名客户。",
+    "register_partner": "注册为合作伙伴",
+    "contact_us": "联系我们",
+    "popular_cats": {
+      "matrimonial": "婚介",
+      "daily_necessity": "日常必需",
+      "education": "教育",
+      "health": "健康",
+      "real_estate": "房地产",
+      "transporters": "运输商",
+      "industries": "工业",
+      "pandit_astrologer": "祭司与占星师",
+      "insurance": "保险",
+      "import_export": "进出口",
+      "job_placement": "招聘就业",
+      "wedding_events": "婚礼与活动",
+      "agriculture": "农业",
+      "jewellery": "珠宝",
+      "it_software": "IT软件",
+      "food": "食品",
+      "tour_travels": "旅游与出行",
+      "electrical": "电气",
+      "house_construction": "房屋建设",
+      "legal_document": "法律文件",
+      "packers_movers": "搬家服务",
+      "financial_accounting": "财务与会计",
+      "fitness_yoga": "健身与瑜伽",
+      "furniture_services": "家具服务"
+    },
+    "svc_ac": "空调服务",
+    "svc_car": "汽车服务",
+    "svc_bike": "自行车服务",
+    "svc_labour": "劳工",
+    "svc_grocery": "杂货",
+    "svc_electricians": "电工"
+  },
+  "testimonials": [
+    {
+      "name": "Dev",
+      "text": "非常棒的平台！找到了我所需要的一切。",
+      "img": "https://citywala.com/assets/images/testimonial-1.jpg"
+    },
+    {
+      "name": "Esther Hills",
+      "text": "婚介服务非常出色。",
+      "img": "https://citywala.com/assets/images/testimonial-2.jpg"
+    },
+    {
+      "name": "Hannah Schmitt",
+      "text": "体验极佳！本地商业目录帮我快速找到了所需服务。",
+      "img": "https://citywala.com/assets/images/testimonial-3.jpg"
+    },
+    {
+      "name": "Esther Hills",
+      "text": "婚介服务非常出色。",
+      "img": "https://citywala.com/assets/images/testimonial-2.jpg"
+    }
+  ],
+  "all_categories": {
+    "title": "所有分类",
+    "subtitle": "浏览所有分类，找到最适合您需求的服务。",
+    "search_placeholder": "搜索分类...",
+    "view_all": "查看全部",
+    "browse_collection": "浏览合集",
+    "registered_partners_in_this_category": "该分类中的注册合作伙伴",
+    "no_categories_are_available_right_now": "目前没有可用的分类",
+    "view_subcategories": "查看子分类",
+    "view_details": "查看详情",
+    "registered_businesses": "已注册企业",
+    "no_businesses_found": "未找到企业",
+    "no_registered_partners_found_in_this_category": "该分类中未找到注册合作伙伴",
+    "subcategories": "子分类"
+  },
+  "login": {
+    "title": "登录",
+    "email": "邮箱",
+    "phone": "手机",
+    "email_label": "邮箱",
+    "password": "密码",
+    "forgot_password": "忘记密码？",
+    "login_btn": "立即登录",
+    "logging_in": "登录中...",
+    "new_here": "新用户？",
+    "create_account": "创建账户"
+  },
+  "register": {
+    "title": "创建账户",
+    "full_name": "全名",
+    "email": "邮箱",
+    "mobile": "手机号码",
+    "password": "密码",
+    "confirm_password": "确认密码",
+    "register_btn": "立即注册",
+    "registering": "注册中...",
+    "have_account": "已有账户？",
+    "login": "登录"
+  },
+  "partner_register": {
+    "title": "合作伙伴注册",
+    "full_name": "全名",
+    "email": "邮箱",
+    "mobile": "手机号码",
+    "country": "国家",
+    "state": "省份/州",
+    "city": "城市",
+    "password": "密码",
+    "confirm_password": "确认密码",
+    "register_btn": "立即注册",
+    "registering": "注册中...",
+    "have_account": "已有账户？",
+    "login": "登录",
+    "step": "步骤",
+    "of": "/",
+    "step_1": "第一步",
+    "step_2": "第二步",
+    "step_3": "第三步",
+    "adhar_card": "身份证",
+    "postal_code": "邮政编码",
+    "full_address": "详细地址",
+    "business_name": "企业名称",
+    "company_url": "公司网址",
+    "company_logo": "公司标志",
+    "company_short_description": "公司简介",
+    "category": "分类",
+    "subcategory": "子分类",
+    "subsubcategory": "二级子分类",
+    "gst_no": "GST号码",
+    "select_category": "选择分类 *",
+    "select_subcategory": "选择子分类",
+    "select_subsubcategory": "选择二级子分类",
+    "business_name_placeholder": "企业名称 *",
+    "company_url_placeholder": "公司网址",
+    "gst_placeholder": "GST号码",
+    "description_placeholder": "企业简介 *",
+    "back": "返回",
+    "next": "下一步",
+    "register_as_partner": "注册为合作伙伴"
+  },
+  "forgot": {
+    "title": "忘记密码？",
+    "subtitle": "输入邮箱或手机号码",
+    "reset_sent": "重置详情已发送",
+    "enter_otp": "手动输入OTP",
+    "mobile_mode": "手机模式",
+    "use_email": "使用邮箱",
+    "placeholder": "输入邮箱或手机号",
+    "continue": "继续",
+    "sending": "发送中...",
+    "back_login": "← 返回登录"
+  },
+  "footer": {
+    "tagline": "随时随地找到全球专家和服务。",
+    "follow_us": "关注我们",
+    "quick_links": "快速链接",
+    "home": "首页",
+    "about": "关于我们",
+    "contact": "联系我们",
+    "help": "帮助",
+    "useful_links": "实用链接",
+    "cookie": "Cookie政策",
+    "privacy": "隐私政策",
+    "terms": "条款与条件",
+    "business_plan": "商业计划",
+    "popular_cities": "热门城市",
+    "communication": "联系方式",
+    "call_us": "致电我们",
+    "send_message": "发送消息",
+    "copyright": "© 版权所有 2025 City Wala。保留所有权利。"
+  },
+  "common": {
+    "loading": "加载中...",
+    "error": "错误",
+    "save": "保存",
+    "edit": "编辑",
+    "delete": "删除",
+    "cancel": "取消",
+    "next": "下一步",
+    "back": "返回"
+  },
+  "auth": {
+    "login": "登录",
+    "logout": "退出登录",
+    "email": "邮箱",
+    "password": "密码",
+    "forgot_password": "忘记密码？",
+    "reset_password": "重置密码",
+    "reset_using_email": "通过邮件链接重置",
+    "reset_using_phone": "通过OTP重置",
+    "new_password": "新密码",
+    "confirm_password": "确认密码",
+    "update_password": "更新密码",
+    "updating": "更新中..."
+  },
+  "plans": {
+    "most_popular": "最受欢迎",
+    "per_month": "每月",
+    "year": "年",
+    "month": "月",
+    "view_plans": "查看计划",
+    "features_title": "功能特点",
+    "pay_with_razorpay": "通过Razorpay支付",
+    "pay_with_paypal": "通过PayPal支付",
+    "get_started": "立即开始"
+  },
+  "dashboard": {
+    "dashboard": "控制台",
+    "partner_dashboard": "合作伙伴控制台",
+    "welcome": "欢迎"
+  },
+  "profile": {
+    "partner_profile": "合作伙伴资料",
+    "company_info": "公司信息",
+    "basic_info": "基本信息",
+    "location": "位置",
+    "documents": "文件"
+  },
+  "partner": {
+    "dashboard": "控制台",
+    "add_profile": "添加资料",
+    "plans": "计划",
+    "all_plans": "所有计划",
+    "my_plan": "我的计划",
+    "logout": "退出登录",
+    "menu": "菜单",
+    "partner": "合作伙伴",
+    "verify_otp": "验证OTP",
+    "otp_sent_to": "OTP已发送至",
+    "enter_otp": "输入OTP",
+    "verifying": "验证中..."
+  },
+  "partner_layout": {
+    "mobile_title": "合作伙伴",
+    "menu": "菜单",
+    "loading": "加载控制台..."
+  },
+  "partner_dashboard": {
+    "title": "合作伙伴控制台",
+    "sidebar": {
+      "panel_title": "合作伙伴面板",
+      "dashboard": "控制台",
+      "add_profile": "添加资料",
+      "plans": {
+        "title": "计划",
+        "all_plans": "所有计划",
+        "my_plan": "我的计划"
+      },
+      "logout": "退出登录"
+    },
+    "stats": {
+      "total_profiles": "总资料数",
+      "active": "活跃",
+      "inactive": "未活跃",
+      "plan": "计划"
+    },
+    "plan_default": "免费"
+  },
+  "partner_profile": {
+    "title": "合作伙伴资料",
+    "company_info": {
+      "title": "公司信息",
+      "name": "名称",
+      "description": "描述",
+      "url": "网址"
+    },
+    "basic_info": {
+      "title": "基本信息",
+      "name": "姓名",
+      "email": "邮箱",
+      "mobile": "手机"
+    },
+    "location": {
+      "title": "位置",
+      "address": "地址",
+      "city": "城市",
+      "state": "省份/州",
+      "postal_code": "邮政编码"
+    },
+    "category_info": {
+      "title": "分类信息",
+      "category": "分类",
+      "sub_category": "子分类",
+      "sub_sub_category": "二级子分类",
+      "select_category": "选择分类",
+      "select_subcategory": "选择子分类",
+      "select_subsubcategory": "选择二级子分类"
+    },
+    "documents": {
+      "title": "文件",
+      "aadhar": "身份证",
+      "gst": "GST号码",
+      "status": "状态",
+      "plan": "计划"
+    },
+    "actions": {
+      "edit": "编辑",
+      "save": "保存",
+      "cancel": "取消"
+    },
+    "loading": "加载资料..."
+  },
+  "my_plan": {
+    "title": "我的计划",
+    "subtitle": "管理您的订阅并跟踪权益",
+    "status": {
+      "expired": "已过期",
+      "upgrading": "即将升级",
+      "active": "活跃",
+      "days_left": "天剩余"
+    },
+    "labels": {
+      "start_date": "开始日期",
+      "expiry_date": "到期日期",
+      "auto_renew": "自动续费",
+      "payment_provider": "支付提供商",
+      "currency": "货币"
+    },
+    "features": {
+      "title": "包含内容",
+      "no_features": "无功能"
+    },
+    "actions": {
+      "renew": "续费计划",
+      "upgrade": "升级计划",
+      "cancel": "取消"
+    },
+    "pending": {
+      "text": "待激活计划：此计划将在当前计划到期后激活。"
+    },
+    "history": {
+      "title": "计划历史",
+      "subtitle": "以前使用过的订阅计划",
+      "records": "记录",
+      "show_all": "显示全部",
+      "show_less": "收起",
+      "no_history": "未找到历史记录",
+      "empty_text": "您的已过期或已取消计划将显示在此处",
+      "started": "开始于",
+      "expired": "已过期",
+      "ended_at": "结束于"
+    }
+  }
+}

@@ -1,0 +1,382 @@
+{
+  "all_plans": "सभी प्लान",
+  "search": "खोजें",
+  "delete": "हटाएं",
+  "add_plan": "प्लान जोड़ें",
+  "header": {
+    "categories": "📂 श्रेणियाँ",
+    "search_placeholder": "सेवाएं खोजें...",
+    "dashboard": "डैशबोर्ड",
+    "login": "लॉगिन",
+    "list_business": "व्यवसाय सूचीबद्ध करें",
+    "logout": "लॉगआउट",
+    "customer_login": "लॉगिन",
+    "partner_login": "पार्टनर लॉगिन"
+  },
+  "home": {
+    "trusted_label": "विश्वसनीय स्थानीय व्यापार निर्देशिका",
+    "hero_title": "विशेषज्ञ खोजें,",
+    "hero_title2": "सेवाएं और भी बहुत कुछ",
+    "hero_subtitle": "कोई भी, कहीं भी, कभी भी — CityWala आपको तुरंत विश्वसनीय पेशेवरों और स्थानीय व्यवसायों से जोड़ता है।",
+    "businesses": "व्यवसाय सूचीबद्ध",
+    "cities": "शहर शामिल",
+    "support": "सहायता उपलब्ध",
+    "select_country": "🌍 देश चुनें",
+    "search_state": "राज्य खोजें",
+    "search_city": "शहर खोजें",
+    "category": "श्रेणी",
+    "explore": "अन्वेषण करें",
+    "popular_categories": "लोकप्रिय श्रेणियाँ",
+    "popular_subtitle": "कोई भी, कहीं भी, कभी भी वैश्विक विशेषज्ञ और सेवाएं खोजें।",
+    "explore_now": "अभी देखें",
+    "find_experts": "विशेषज्ञ जल्दी खोजें",
+    "browse_cats": "शीर्ष श्रेणियाँ तुरंत देखें",
+    "top_picks": "शीर्ष चयन",
+    "repairs": "🔧 मरम्मत और सेवाएं",
+    "essentials": "आवश्यक वस्तुएं",
+    "daily_needs": "🛒 दैनिक जरूरतें",
+    "view_all": "सभी देखें",
+    "testimonials": "हमारे ग्राहक क्या कहते हैं",
+    "cta_title": "क्या आप एक व्यवसाय के मालिक हैं?",
+    "cta_subtitle": "CityWala पर पार्टनर के रूप में जुड़ें और हजारों ग्राहकों तक पहुंचें",
+    "register_partner": "पार्टनर के रूप में पंजीकरण करें",
+    "contact_us": "संपर्क करें",
+    "popular_cats": {
+      "matrimonial": "विवाह",
+      "daily_necessity": "दैनिक आवश्यकताएं",
+      "education": "शिक्षा",
+      "health": "स्वास्थ्य",
+      "real_estate": "रियल एस्टेट",
+      "transporters": "परिवहन",
+      "industries": "उद्योग",
+      "pandit_astrologer": "पंडित और ज्योतिषी",
+      "insurance": "बीमा",
+      "import_export": "आयात और निर्यात",
+      "job_placement": "नौकरी",
+      "wedding_events": "शादी और इवेंट",
+      "agriculture": "कृषि",
+      "jewellery": "आभूषण",
+      "it_software": "आईटी सॉफ्टवेयर",
+      "food": "खाना",
+      "tour_travels": "पर्यटन और यात्रा",
+      "electrical": "इलेक्ट्रिकल",
+      "house_construction": "घर निर्माण",
+      "legal_document": "कानूनी दस्तावेज",
+      "packers_movers": "पैकर्स और मूवर्स",
+      "financial_accounting": "वित्त और लेखा",
+      "fitness_yoga": "फिटनेस और योगा",
+      "furniture_services": "फर्नीचर सेवाएं"
+    },
+    "svc_ac": "एसी सेवा",
+    "svc_car": "कार सेवा",
+    "svc_bike": "बाइक सेवा",
+    "svc_labour": "मजदूर",
+    "svc_grocery": "किराना",
+    "svc_electricians": "इलेक्ट्रीशियन"
+  },
+  "testimonials": [
+    {
+      "name": "डेव",
+      "text": "शानदार प्लेटफॉर्म! मुझे वही मिला जिसकी मैं तलाश कर रही थी। मैं सभी को CityWala की सिफारिश करती हूँ।",
+      "img": "https://citywala.com/assets/images/testimonial-1.jpg"
+    },
+    {
+      "name": "एस्थर हिल्स",
+      "text": "मैट्रिमोनियल सेवा बेहतरीन है। इसका उपयोग करना बहुत आसान है और सही मैच जल्दी मिल जाता है।",
+      "img": "https://citywala.com/assets/images/testimonial-2.jpg"
+    },
+    {
+      "name": "हन्ना श्मिट",
+      "text": "बहुत अच्छा अनुभव रहा! लोकल बिज़नेस डायरेक्टरी की मदद से मुझे सेवाएँ जल्दी मिल गईं।",
+      "img": "https://citywala.com/assets/images/testimonial-1.jpg"
+    },
+    {
+      "name": "एस्थर हिल्स",
+      "text": "मैट्रिमोनियल सेवा बेहतरीन है। इसका उपयोग करना बहुत आसान है और सही मैच जल्दी मिल जाता है।",
+      "img": "https://citywala.com/assets/images/testimonial-2.jpg"
+    }
+  ],
+  "all_categories": {
+    "title": "सभी श्रेणियाँ",
+    "subtitle": "सभी श्रेणियाँ देखें और अपनी जरूरत के अनुसार बेहतरीन सेवाएँ खोजें।",
+    "search_placeholder": "श्रेणियाँ खोजें...",
+    "view_all": "सभी देखें",
+    "browse_collection": "संग्रह देखें",
+    "registered_partners_in_this_category": "इस श्रेणी में पंजीकृत साझेदार",
+    "no_categories_are_available_right_now": "इस समय कोई श्रेणियाँ उपलब्ध नहीं हैं",
+    "view_subcategories": "उपश्रेणियाँ देखें",
+    "view_details": "विवरण देखें",
+    "registered_businesses": "पंजीकृत व्यवसाय",
+    "no_businesses_found": "कोई व्यवसाय नहीं मिला",
+    "no_registered_partners_found_in_this_category": "इस श्रेणी में कोई पंजीकृत साझेदार नहीं मिला",
+    "subcategories": "उपश्रेणियाँ"
+  },
+  "login": {
+    "title": "लॉगिन",
+    "email": "ईमेल",
+    "phone": "फ़ोन",
+    "email_label": "ईमेल",
+    "password": "पासवर्ड",
+    "forgot_password": "पासवर्ड भूल गए?",
+    "login_btn": "अभी लॉगिन करें",
+    "logging_in": "लॉगिन हो रहा है...",
+    "new_here": "नए हैं?",
+    "create_account": "खाता बनाएं"
+  },
+  "register": {
+    "title": "खाता बनाएं",
+    "full_name": "पूरा नाम",
+    "email": "ईमेल",
+    "mobile": "मोबाइल नंबर",
+    "password": "पासवर्ड",
+    "confirm_password": "पासवर्ड की पुष्टि करें",
+    "register_btn": "अभी पंजीकरण करें",
+    "registering": "पंजीकरण हो रहा है...",
+    "have_account": "पहले से खाता है?",
+    "login": "लॉगिन"
+  },
+  "partner_register": {
+    "title": "पार्टनर पंजीकरण",
+    "full_name": "पूरा नाम",
+    "email": "ईमेल",
+    "mobile": "मोबाइल नंबर",
+    "country": "देश",
+    "state": "राज्य",
+    "city": "शहर",
+    "password": "पासवर्ड",
+    "confirm_password": "पासवर्ड की पुष्टि करें",
+    "register_btn": "अभी पंजीकरण करें",
+    "registering": "पंजीकरण हो रहा है...",
+    "have_account": "पहले से खाता है?",
+    "login": "लॉगिन",
+    "step": "स्टेप",
+    "of": "का",
+    "step_1": "स्टेप 1",
+    "step_2": "स्टेप 2",
+    "step_3": "स्टेप 3",
+    "adhar_card": "आधार कार्ड",
+    "postal_code": "पिन कोड",
+    "full_address": "पूरा पता",
+    "business_name": "व्यवसाय का नाम",
+    "company_url": "कंपनी वेबसाइट",
+    "company_logo": "कंपनी लोगो",
+    "company_short_description": "कंपनी का संक्षिप्त विवरण",
+    "category": "श्रेणी",
+    "subcategory": "उप-श्रेणी",
+    "subsubcategory": "उप-उप-श्रेणी",
+    "gst_no": "GST नंबर",
+    "select_category": "श्रेणी चुनें *",
+    "select_subcategory": "उप-श्रेणी चुनें",
+    "select_subsubcategory": "उप-उप-श्रेणी चुनें",
+    "business_name_placeholder": "व्यवसाय का नाम *",
+    "company_url_placeholder": "कंपनी वेबसाइट",
+    "gst_placeholder": "GST नंबर",
+    "description_placeholder": "व्यवसाय का संक्षिप्त विवरण *",
+    "back": "वापस",
+    "next": "आगे",
+    "register_as_partner": "पार्टनर के रूप में पंजीकरण करें"
+  },
+  "forgot": {
+    "title": "पासवर्ड भूल गए?",
+    "subtitle": "ईमेल या मोबाइल नंबर दर्ज करें",
+    "reset_sent": "रीसेट विवरण भेजा गया",
+    "enter_otp": "OTP मैन्युअल दर्ज करें",
+    "mobile_mode": "मोबाइल मोड",
+    "use_email": "ईमेल का उपयोग करें",
+    "placeholder": "ईमेल या मोबाइल दर्ज करें",
+    "continue": "जारी रखें",
+    "sending": "भेजा जा रहा है...",
+    "back_login": "← लॉगिन पर वापस जाएं"
+  },
+  "footer": {
+    "tagline": "कोई भी, कहीं भी, कभी भी वैश्विक विशेषज्ञ और सेवाएं खोजें।",
+    "follow_us": "हमें फॉलो करें",
+    "quick_links": "त्वरित लिंक",
+    "home": "होम",
+    "about": "हमारे बारे में",
+    "contact": "संपर्क करें",
+    "help": "सहायता",
+    "useful_links": "उपयोगी लिंक",
+    "cookie": "कुकी नीति",
+    "privacy": "गोपनीयता नीति",
+    "terms": "नियम और शर्तें",
+    "business_plan": "व्यवसाय योजना",
+    "popular_cities": "लोकप्रिय शहर",
+    "communication": "संपर्क",
+    "call_us": "हमें कॉल करें",
+    "send_message": "संदेश भेजें",
+    "copyright": "© कॉपीराइट 2025 City Wala. सर्वाधिकार सुरक्षित।"
+  },
+  "common": {
+    "loading": "लोड हो रहा है...",
+    "error": "त्रुटि",
+    "save": "सहेजें",
+    "edit": "संपादित करें",
+    "delete": "हटाएं",
+    "cancel": "रद्द करें",
+    "next": "अगला",
+    "back": "वापस"
+  },
+  "auth": {
+    "login": "लॉगिन",
+    "logout": "लॉगआउट",
+    "email": "ईमेल",
+    "password": "पासवर्ड",
+    "forgot_password": "पासवर्ड भूल गए?",
+    "reset_password": "पासवर्ड रीसेट करें",
+    "reset_using_email": "ईमेल लिंक का उपयोग करके रीसेट करें",
+    "reset_using_phone": "फ़ोन ऑटोप का उपयोग करके रीसेट करें",
+    "enter_otp": "OTP दर्ज करें",
+    "new_password": "नया पासवर्ड",
+    "confirm_password": "पासवर्ड पुष्टि करें",
+    "update_password": "पासवर्ड अपडेट करें",
+    "updating": "अपडेट हो रहा है..."
+  },
+  "plans": {
+    "most_popular": "सबसे लोकप्रिय",
+    "per_month": "प्रति माह",
+    "year": "साल",
+    "month": "महीना",
+    "features_title": "फीचर्स",
+    "pay_with_razorpay": "Razorpay से भुगतान करें",
+    "pay_with_paypal": "PayPal से भुगतान करें",
+    "get_started": "शुरू करें"
+  },
+  "dashboard": {
+    "dashboard": "डैशबोर्ड",
+    "partner_dashboard": "पार्टनर डैशबोर्ड",
+    "welcome": "स्वागत है"
+  },
+  "profile": {
+    "partner_profile": "पार्टनर प्रोफ़ाइल",
+    "company_info": "कंपनी जानकारी",
+    "basic_info": "मूल जानकारी",
+    "location": "स्थान",
+    "documents": "दस्तावेज़"
+  },
+  "partner": {
+    "dashboard": "डैशबोर्ड",
+    "add_profile": "प्रोफ़ाइल जोड़ें",
+    "plans": "प्लान",
+    "all_plans": "सभी प्लान",
+    "my_plan": "मेरा प्लान",
+    "logout": "लॉगआउट",
+    "menu": "मेनू",
+    "partner": "पार्टनर",
+    "verify_otp": "OTP सत्यापित करें",
+    "otp_sent_to": "OTP भेजा गया",
+    "enter_otp": "OTP दर्ज करें",
+    "verifying": "सत्यापित हो रहा है..."
+  },
+  "partner_layout": {
+    "mobile_title": "पार्टनर",
+    "menu": "मेन्यू",
+    "loading": "डैशबोर्ड लोड हो रहा है..."
+  },
+  "partner_dashboard": {
+    "title": "पार्टनर डैशबोर्ड",
+    "sidebar": {
+      "panel_title": "पार्टनर पैनल",
+      "dashboard": "डैशबोर्ड",
+      "add_profile": "प्रोफाइल जोड़ें",
+      "plans": {
+        "title": "प्लान्स",
+        "all_plans": "सभी प्लान",
+        "my_plan": "मेरा प्लान"
+      },
+      "logout": "लॉगआउट"
+    },
+    "stats": {
+      "total_profiles": "कुल प्रोफाइल",
+      "active": "सक्रिय",
+      "inactive": "निष्क्रिय",
+      "plan": "प्लान"
+    },
+    "plan_default": "फ्री"
+  },
+  "partner_profile": {
+    "title": "पार्टनर प्रोफाइल",
+    "company_info": {
+      "title": "कंपनी जानकारी",
+      "name": "नाम",
+      "description": "विवरण",
+      "url": "यूआरएल"
+    },
+    "basic_info": {
+      "title": "बुनियादी जानकारी",
+      "name": "नाम",
+      "email": "ईमेल",
+      "mobile": "मोबाइल"
+    },
+    "location": {
+      "title": "स्थान",
+      "address": "पता",
+      "city": "शहर",
+      "state": "राज्य",
+      "postal_code": "पिन कोड"
+    },
+    "category_info": {
+      "title": "श्रेणी जानकारी",
+      "category": "श्रेणी",
+      "sub_category": "उप श्रेणी",
+      "sub_sub_category": "उप-उप श्रेणी",
+      "select_category": "श्रेणी चुनें",
+      "select_subcategory": "उप श्रेणी चुनें",
+      "select_subsubcategory": "उप-उप श्रेणी चुनें"
+    },
+    "documents": {
+      "title": "दस्तावेज़",
+      "aadhar": "आधार कार्ड",
+      "gst": "जीएसटी नंबर",
+      "status": "स्थिति",
+      "plan": "प्लान"
+    },
+    "actions": {
+      "edit": "संपादित करें",
+      "save": "सेव करें",
+      "cancel": "रद्द करें"
+    },
+    "loading": "प्रोफाइल लोड हो रहा है..."
+  },
+  "my_plan": {
+    "title": "मेरा प्लान",
+    "subtitle": "अपनी सदस्यता और लाभ प्रबंधित करें",
+    "status": {
+      "expired": "समाप्त",
+      "upgrading": "अपग्रेड हो रहा है",
+      "active": "सक्रिय",
+      "days_left": "दिन बाकी"
+    },
+    "labels": {
+      "start_date": "शुरुआत तिथि",
+      "expiry_date": "समाप्ति तिथि",
+      "auto_renew": "ऑटो रिन्यू",
+      "payment_provider": "भुगतान प्रदाता",
+      "currency": "मुद्रा"
+    },
+    "features": {
+      "title": "शामिल सुविधाएँ",
+      "no_features": "कोई सुविधा नहीं"
+    },
+    "actions": {
+      "renew": "प्लान रिन्यू करें",
+      "upgrade": "अपग्रेड करें",
+      "cancel": "रद्द करें"
+    },
+    "pending": {
+      "text": "लंबित प्लान: यह प्लान वर्तमान प्लान समाप्त होने के बाद सक्रिय होगा।"
+    },
+    "history": {
+      "title": "प्लान इतिहास",
+      "subtitle": "पहले उपयोग किए गए प्लान",
+      "records": "रिकॉर्ड्स",
+      "show_all": "सभी दिखाएँ",
+      "show_less": "कम दिखाएँ",
+      "no_history": "कोई इतिहास नहीं मिला",
+      "empty_text": "आपके समाप्त या रद्द किए गए प्लान यहाँ दिखेंगे",
+      "started": "शुरू हुआ",
+      "expired": "समाप्त हुआ",
+      "ended_at": "समाप्ति समय"
+    }
+  }
+}

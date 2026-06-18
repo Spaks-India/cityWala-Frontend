@@ -1,0 +1,382 @@
+{
+  "all_plans": "Tüm Planlar",
+  "search": "Ara",
+  "delete": "Sil",
+  "add_plan": "Plan Ekle",
+  "header": {
+    "categories": "📂 Kategoriler",
+    "search_placeholder": "Hizmet ara...",
+    "dashboard": "Kontrol Paneli",
+    "login": "Giriş Yap",
+    "list_business": "İşletme Ekle",
+    "logout": "Çıkış Yap",
+    "customer_login": "Giriş Yap",
+    "partner_login": "Partner Girişi"
+  },
+  "home": {
+    "trusted_label": "Güvenilir Yerel İşletme Rehberi",
+    "hero_title": "Uzmanları Bulun,",
+    "hero_title2": "Hizmetler ve Daha Fazlası",
+    "hero_subtitle": "Her zaman, her yerde — CityWala sizi güvenilir profesyoneller ve yerel işletmelerle anında buluşturur.",
+    "businesses": "Kayıtlı İşletme",
+    "cities": "Kapsanan Şehir",
+    "support": "Destek Hizmeti",
+    "select_country": "🌍 Ülke Seçin",
+    "search_state": "Şehir/İl Ara",
+    "search_city": "İlçe Ara",
+    "category": "Kategori",
+    "explore": "Keşfet",
+    "popular_categories": "Popüler Kategoriler",
+    "popular_subtitle": "Her zaman, her yerden küresel uzmanları ve hizmetleri bulun.",
+    "explore_now": "Şimdi Keşfet",
+    "find_experts": "Uzmanları Hızla Bulun",
+    "browse_cats": "En İyi Kategorilere Hemen Göz Atın",
+    "top_picks": "Öne Çıkanlar",
+    "repairs": "🔧 Tamir ve Hizmetler",
+    "essentials": "Temel Ürünler",
+    "daily_needs": "🛒 Günlük İhtiyaçlar",
+    "view_all": "Tümünü Gör",
+    "testimonials": "Müşterilerimiz Ne Diyor",
+    "cta_title": "İşletme Sahibi misiniz?",
+    "cta_subtitle": "CityWala'ya ortak olarak katılın ve binlerce müşteriye ulaşın.",
+    "register_partner": "Ortak Olarak Kaydol",
+    "contact_us": "Bize Ulaşın",
+    "popular_cats": {
+      "matrimonial": "Evlilik",
+      "daily_necessity": "Günlük Gereksinimler",
+      "education": "Eğitim",
+      "health": "Sağlık",
+      "real_estate": "Gayrimenkul",
+      "transporters": "Nakliye",
+      "industries": "Sanayi",
+      "pandit_astrologer": "Din Adamı ve Astrolog",
+      "insurance": "Sigorta",
+      "import_export": "İthalat ve İhracat",
+      "job_placement": "İş Bulma",
+      "wedding_events": "Düğün ve Organizasyon",
+      "agriculture": "Tarım",
+      "jewellery": "Mücevher",
+      "it_software": "BT Yazılım",
+      "food": "Gıda",
+      "tour_travels": "Tur ve Seyahat",
+      "electrical": "Elektrik",
+      "house_construction": "Konut İnşaat",
+      "legal_document": "Hukuki Belgeler",
+      "packers_movers": "Nakliyat",
+      "financial_accounting": "Finans ve Muhasebe",
+      "fitness_yoga": "Fitness ve Yoga",
+      "furniture_services": "Mobilya Hizmetleri"
+    },
+    "svc_ac": "Klima Servisi",
+    "svc_car": "Araç Servisi",
+    "svc_bike": "Bisiklet Servisi",
+    "svc_labour": "İşçi",
+    "svc_grocery": "Market",
+    "svc_electricians": "Elektrikçi"
+  },
+  "testimonials": [
+    {
+      "name": "Dev",
+      "text": "Harika bir platform! Aradığımı tam olarak buldum.",
+      "img": "https://citywala.com/assets/images/testimonial-1.jpg"
+    },
+    {
+      "name": "Esther Hills",
+      "text": "Evlilik hizmeti mükemmel.",
+      "img": "https://citywala.com/assets/images/testimonial-2.jpg"
+    },
+    {
+      "name": "Hannah Schmitt",
+      "text": "Harika bir deneyim! Yerel işletme rehberi hızlıca yardımcı oldu.",
+      "img": "https://citywala.com/assets/images/testimonial-3.jpg"
+    },
+    {
+      "name": "Esther Hills",
+      "text": "Evlilik hizmeti mükemmel.",
+      "img": "https://citywala.com/assets/images/testimonial-2.jpg"
+    }
+  ],
+  "all_categories": {
+    "title": "Tüm Kategoriler",
+    "subtitle": "Tüm kategorilere göz atın ve ihtiyaçlarınıza en uygun hizmetleri bulun.",
+    "search_placeholder": "Kategori ara...",
+    "view_all": "Tümünü Gör",
+    "browse_collection": "Koleksiyona Göz At",
+    "registered_partners_in_this_category": "Bu kategorideki kayıtlı ortaklar",
+    "no_categories_are_available_right_now": "Şu anda mevcut kategori yok",
+    "view_subcategories": "Alt Kategorileri Gör",
+    "view_details": "Detayları Gör",
+    "registered_businesses": "Kayıtlı İşletmeler",
+    "no_businesses_found": "İşletme bulunamadı",
+    "no_registered_partners_found_in_this_category": "Bu kategoride kayıtlı ortak bulunamadı",
+    "subcategories": "Alt Kategoriler"
+  },
+  "login": {
+    "title": "Giriş Yap",
+    "email": "E-posta",
+    "phone": "Telefon",
+    "email_label": "E-posta",
+    "password": "Şifre",
+    "forgot_password": "Şifrenizi mi unuttunuz?",
+    "login_btn": "Şimdi Giriş Yap",
+    "logging_in": "Giriş yapılıyor...",
+    "new_here": "Yeni misiniz?",
+    "create_account": "Hesap Oluştur"
+  },
+  "register": {
+    "title": "Hesap Oluştur",
+    "full_name": "Ad Soyad",
+    "email": "E-posta",
+    "mobile": "Cep Telefonu",
+    "password": "Şifre",
+    "confirm_password": "Şifre Tekrar",
+    "register_btn": "Şimdi Kaydol",
+    "registering": "Kaydediliyor...",
+    "have_account": "Zaten hesabınız var mı?",
+    "login": "Giriş Yap"
+  },
+  "partner_register": {
+    "title": "Ortak Kaydı",
+    "full_name": "Ad Soyad",
+    "email": "E-posta",
+    "mobile": "Cep Telefonu",
+    "country": "Ülke",
+    "state": "İl",
+    "city": "İlçe",
+    "password": "Şifre",
+    "confirm_password": "Şifre Tekrar",
+    "register_btn": "Şimdi Kaydol",
+    "registering": "Kaydediliyor...",
+    "have_account": "Zaten hesabınız var mı?",
+    "login": "Giriş Yap",
+    "step": "Adım",
+    "of": "/",
+    "step_1": "1. Adım",
+    "step_2": "2. Adım",
+    "step_3": "3. Adım",
+    "adhar_card": "Kimlik Belgesi",
+    "postal_code": "Posta Kodu",
+    "full_address": "Tam Adres",
+    "business_name": "İşletme Adı",
+    "company_url": "Şirket URL",
+    "company_logo": "Şirket Logosu",
+    "company_short_description": "Şirket Kısa Açıklaması",
+    "category": "Kategori",
+    "subcategory": "Alt Kategori",
+    "subsubcategory": "Alt Alt Kategori",
+    "gst_no": "Vergi Numarası",
+    "select_category": "Kategori Seçin *",
+    "select_subcategory": "Alt Kategori Seçin",
+    "select_subsubcategory": "Alt Alt Kategori Seçin",
+    "business_name_placeholder": "İşletme Adı *",
+    "company_url_placeholder": "Şirket URL",
+    "gst_placeholder": "Vergi Numarası",
+    "description_placeholder": "İşletme Kısa Açıklaması *",
+    "back": "Geri",
+    "next": "İleri",
+    "register_as_partner": "Ortak Olarak Kaydol"
+  },
+  "forgot": {
+    "title": "Şifrenizi mi Unuttunuz?",
+    "subtitle": "E-posta veya cep telefonu girin",
+    "reset_sent": "Sıfırlama bilgileri gönderildi",
+    "enter_otp": "OTP Manuel Gir",
+    "mobile_mode": "Mobil Mod",
+    "use_email": "E-posta Kullan",
+    "placeholder": "E-posta veya telefon girin",
+    "continue": "Devam Et",
+    "sending": "Gönderiliyor...",
+    "back_login": "← Girişe Dön"
+  },
+  "footer": {
+    "tagline": "Her zaman, her yerden küresel uzmanları ve hizmetleri bulun.",
+    "follow_us": "Bizi Takip Edin",
+    "quick_links": "Hızlı Bağlantılar",
+    "home": "Ana Sayfa",
+    "about": "Hakkımızda",
+    "contact": "İletişim",
+    "help": "Yardım",
+    "useful_links": "Faydalı Bağlantılar",
+    "cookie": "Çerez Politikası",
+    "privacy": "Gizlilik Politikası",
+    "terms": "Kullanım Koşulları",
+    "business_plan": "İş Planı",
+    "popular_cities": "Popüler Şehirler",
+    "communication": "İletişim",
+    "call_us": "Bizi Arayın",
+    "send_message": "Mesaj Gönder",
+    "copyright": "© Telif Hakkı 2025 City Wala. Tüm hakları saklıdır."
+  },
+  "common": {
+    "loading": "Yükleniyor...",
+    "error": "Hata",
+    "save": "Kaydet",
+    "edit": "Düzenle",
+    "delete": "Sil",
+    "cancel": "İptal",
+    "next": "İleri",
+    "back": "Geri"
+  },
+  "auth": {
+    "login": "Giriş Yap",
+    "logout": "Çıkış Yap",
+    "email": "E-posta",
+    "password": "Şifre",
+    "forgot_password": "Şifrenizi mi unuttunuz?",
+    "reset_password": "Şifre Sıfırla",
+    "reset_using_email": "E-posta bağlantısıyla sıfırla",
+    "reset_using_phone": "OTP ile sıfırla",
+    "new_password": "Yeni Şifre",
+    "confirm_password": "Şifre Tekrar",
+    "update_password": "Şifreyi Güncelle",
+    "updating": "Güncelleniyor..."
+  },
+  "plans": {
+    "most_popular": "En Popüler",
+    "per_month": "aylık",
+    "year": "Yıl",
+    "month": "Ay",
+    "view_plans": "Planları Gör",
+    "features_title": "Özellikler",
+    "pay_with_razorpay": "Razorpay ile Öde",
+    "pay_with_paypal": "PayPal ile Öde",
+    "get_started": "Başla"
+  },
+  "dashboard": {
+    "dashboard": "Kontrol Paneli",
+    "partner_dashboard": "Ortak Paneli",
+    "welcome": "Hoş Geldiniz"
+  },
+  "profile": {
+    "partner_profile": "Ortak Profili",
+    "company_info": "Şirket Bilgisi",
+    "basic_info": "Temel Bilgi",
+    "location": "Konum",
+    "documents": "Belgeler"
+  },
+  "partner": {
+    "dashboard": "Kontrol Paneli",
+    "add_profile": "Profil Ekle",
+    "plans": "Planlar",
+    "all_plans": "Tüm Planlar",
+    "my_plan": "Planım",
+    "logout": "Çıkış Yap",
+    "menu": "Menü",
+    "partner": "Ortak",
+    "verify_otp": "OTP Doğrula",
+    "otp_sent_to": "OTP şuraya gönderildi",
+    "enter_otp": "OTP Gir",
+    "verifying": "Doğrulanıyor..."
+  },
+  "partner_layout": {
+    "mobile_title": "Ortak",
+    "menu": "Menü",
+    "loading": "Kontrol paneli yükleniyor..."
+  },
+  "partner_dashboard": {
+    "title": "Ortak Paneli",
+    "sidebar": {
+      "panel_title": "Ortak Paneli",
+      "dashboard": "Kontrol Paneli",
+      "add_profile": "Profil Ekle",
+      "plans": {
+        "title": "Planlar",
+        "all_plans": "Tüm Planlar",
+        "my_plan": "Planım"
+      },
+      "logout": "Çıkış Yap"
+    },
+    "stats": {
+      "total_profiles": "Toplam Profil",
+      "active": "Aktif",
+      "inactive": "Pasif",
+      "plan": "Plan"
+    },
+    "plan_default": "Ücretsiz"
+  },
+  "partner_profile": {
+    "title": "Ortak Profili",
+    "company_info": {
+      "title": "Şirket Bilgisi",
+      "name": "Ad",
+      "description": "Açıklama",
+      "url": "URL"
+    },
+    "basic_info": {
+      "title": "Temel Bilgi",
+      "name": "Ad Soyad",
+      "email": "E-posta",
+      "mobile": "Cep Telefonu"
+    },
+    "location": {
+      "title": "Konum",
+      "address": "Adres",
+      "city": "İlçe",
+      "state": "İl",
+      "postal_code": "Posta Kodu"
+    },
+    "category_info": {
+      "title": "Kategori Bilgisi",
+      "category": "Kategori",
+      "sub_category": "Alt Kategori",
+      "sub_sub_category": "Alt Alt Kategori",
+      "select_category": "Kategori Seçin",
+      "select_subcategory": "Alt Kategori Seçin",
+      "select_subsubcategory": "Alt Alt Kategori Seçin"
+    },
+    "documents": {
+      "title": "Belgeler",
+      "aadhar": "Kimlik Belgesi",
+      "gst": "Vergi Numarası",
+      "status": "Durum",
+      "plan": "Plan"
+    },
+    "actions": {
+      "edit": "Düzenle",
+      "save": "Kaydet",
+      "cancel": "İptal"
+    },
+    "loading": "Profil yükleniyor..."
+  },
+  "my_plan": {
+    "title": "Planım",
+    "subtitle": "Aboneliğinizi yönetin ve avantajları takip edin",
+    "status": {
+      "expired": "Süresi Dolmuş",
+      "upgrading": "Yakında Yükseltilecek",
+      "active": "Aktif",
+      "days_left": "gün kaldı"
+    },
+    "labels": {
+      "start_date": "Başlangıç Tarihi",
+      "expiry_date": "Bitiş Tarihi",
+      "auto_renew": "Otomatik Yenileme",
+      "payment_provider": "Ödeme Sağlayıcısı",
+      "currency": "Para Birimi"
+    },
+    "features": {
+      "title": "Dahil Olanlar",
+      "no_features": "Özellik yok"
+    },
+    "actions": {
+      "renew": "Planı Yenile",
+      "upgrade": "Planı Yükselt",
+      "cancel": "İptal"
+    },
+    "pending": {
+      "text": "Bekleyen Plan: Bu plan mevcut planınızın sona ermesinden sonra etkinleşecektir."
+    },
+    "history": {
+      "title": "Plan Geçmişi",
+      "subtitle": "Daha önce kullanılan abonelik planları",
+      "records": "Kayıtlar",
+      "show_all": "Tümünü Göster",
+      "show_less": "Daha Az Göster",
+      "no_history": "Geçmiş Bulunamadı",
+      "empty_text": "Süresi dolmuş veya iptal edilen planlarınız burada görünecek",
+      "started": "Başladı",
+      "expired": "Süresi Doldu",
+      "ended_at": "Bitiş Tarihi"
+    }
+  }
+}

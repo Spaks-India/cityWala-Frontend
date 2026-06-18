@@ -1,0 +1,382 @@
+{
+  "all_plans": "全プラン",
+  "search": "検索",
+  "delete": "削除",
+  "add_plan": "プランを追加",
+  "header": {
+    "categories": "📂 カテゴリー",
+    "search_placeholder": "サービスを検索...",
+    "dashboard": "ダッシュボード",
+    "login": "ログイン",
+    "list_business": "ビジネスを掲載",
+    "logout": "ログアウト",
+    "customer_login": "ログイン",
+    "partner_login": "パートナーログイン"
+  },
+  "home": {
+    "trusted_label": "信頼できる地域ビジネスディレクトリ",
+    "hero_title": "専門家を見つけよう、",
+    "hero_title2": "サービスとその他",
+    "hero_subtitle": "いつでも、どこでも、誰でも — CityWalaが信頼できる専門家と地域ビジネスを即座につなぎます。",
+    "businesses": "掲載企業数",
+    "cities": "対応都市数",
+    "support": "サポート対応",
+    "select_country": "🌍 国を選択",
+    "search_state": "都道府県を検索",
+    "search_city": "市区町村を検索",
+    "category": "カテゴリー",
+    "explore": "探す",
+    "popular_categories": "人気カテゴリー",
+    "popular_subtitle": "いつでも、どこでもグローバルな専門家やサービスを見つけましょう。",
+    "explore_now": "今すぐ探す",
+    "find_experts": "専門家をすばやく見つける",
+    "browse_cats": "トップカテゴリーをすぐに閲覧",
+    "top_picks": "おすすめ",
+    "repairs": "🔧 修理・サービス",
+    "essentials": "生活必需品",
+    "daily_needs": "🛒 日用品",
+    "view_all": "すべて見る",
+    "testimonials": "お客様の声",
+    "cta_title": "ビジネスオーナーですか？",
+    "cta_subtitle": "CityWalaのパートナーとして参加し、何千もの顧客にリーチしましょう。",
+    "register_partner": "パートナー登録",
+    "contact_us": "お問い合わせ",
+    "popular_cats": {
+      "matrimonial": "婚活・結婚",
+      "daily_necessity": "日用必需品",
+      "education": "教育",
+      "health": "健康・医療",
+      "real_estate": "不動産",
+      "transporters": "運送業",
+      "industries": "産業",
+      "pandit_astrologer": "占星術・宗教",
+      "insurance": "保険",
+      "import_export": "輸出入",
+      "job_placement": "就職支援",
+      "wedding_events": "結婚式・イベント",
+      "agriculture": "農業",
+      "jewellery": "ジュエリー",
+      "it_software": "ITソフトウェア",
+      "food": "食品・飲食",
+      "tour_travels": "旅行・ツアー",
+      "electrical": "電気工事",
+      "house_construction": "住宅建設",
+      "legal_document": "法律書類",
+      "packers_movers": "引越し・梱包",
+      "financial_accounting": "財務・会計",
+      "fitness_yoga": "フィットネス・ヨガ",
+      "furniture_services": "家具サービス"
+    },
+    "svc_ac": "エアコンサービス",
+    "svc_car": "カーサービス",
+    "svc_bike": "バイクサービス",
+    "svc_labour": "作業員",
+    "svc_grocery": "食料品",
+    "svc_electricians": "電気工事士"
+  },
+  "testimonials": [
+    {
+      "name": "Dev",
+      "text": "素晴らしいプラットフォームです！探していたものがぴったり見つかりました。",
+      "img": "https://citywala.com/assets/images/testimonial-1.jpg"
+    },
+    {
+      "name": "Esther Hills",
+      "text": "婚活サービスが非常に充実しています。",
+      "img": "https://citywala.com/assets/images/testimonial-2.jpg"
+    },
+    {
+      "name": "Hannah Schmitt",
+      "text": "素晴らしい体験でした！地域ビジネスディレクトリがすぐに役立ちました。",
+      "img": "https://citywala.com/assets/images/testimonial-3.jpg"
+    },
+    {
+      "name": "Esther Hills",
+      "text": "婚活サービスが非常に充実しています。",
+      "img": "https://citywala.com/assets/images/testimonial-2.jpg"
+    }
+  ],
+  "all_categories": {
+    "title": "全カテゴリー",
+    "subtitle": "すべてのカテゴリーを閲覧して、ニーズに最適なサービスを見つけましょう。",
+    "search_placeholder": "カテゴリーを検索...",
+    "view_all": "すべて見る",
+    "browse_collection": "コレクションを閲覧",
+    "registered_partners_in_this_category": "このカテゴリーの登録パートナー",
+    "no_categories_are_available_right_now": "現在利用可能なカテゴリーはありません",
+    "view_subcategories": "サブカテゴリーを見る",
+    "view_details": "詳細を見る",
+    "registered_businesses": "登録企業",
+    "no_businesses_found": "企業が見つかりませんでした",
+    "no_registered_partners_found_in_this_category": "このカテゴリーに登録パートナーは見つかりませんでした",
+    "subcategories": "サブカテゴリー"
+  },
+  "login": {
+    "title": "ログイン",
+    "email": "メールアドレス",
+    "phone": "電話番号",
+    "email_label": "メールアドレス",
+    "password": "パスワード",
+    "forgot_password": "パスワードをお忘れですか？",
+    "login_btn": "今すぐログイン",
+    "logging_in": "ログイン中...",
+    "new_here": "初めてご利用ですか？",
+    "create_account": "アカウントを作成"
+  },
+  "register": {
+    "title": "アカウントを作成",
+    "full_name": "氏名",
+    "email": "メールアドレス",
+    "mobile": "携帯電話番号",
+    "password": "パスワード",
+    "confirm_password": "パスワードを確認",
+    "register_btn": "今すぐ登録",
+    "registering": "登録中...",
+    "have_account": "すでにアカウントをお持ちですか？",
+    "login": "ログイン"
+  },
+  "partner_register": {
+    "title": "パートナー登録",
+    "full_name": "氏名",
+    "email": "メールアドレス",
+    "mobile": "携帯電話番号",
+    "country": "国",
+    "state": "都道府県",
+    "city": "市区町村",
+    "password": "パスワード",
+    "confirm_password": "パスワードを確認",
+    "register_btn": "今すぐ登録",
+    "registering": "登録中...",
+    "have_account": "すでにアカウントをお持ちですか？",
+    "login": "ログイン",
+    "step": "ステップ",
+    "of": "/",
+    "step_1": "ステップ1",
+    "step_2": "ステップ2",
+    "step_3": "ステップ3",
+    "adhar_card": "身分証明書",
+    "postal_code": "郵便番号",
+    "full_address": "住所",
+    "business_name": "事業者名",
+    "company_url": "会社URL",
+    "company_logo": "会社ロゴ",
+    "company_short_description": "会社の簡単な説明",
+    "category": "カテゴリー",
+    "subcategory": "サブカテゴリー",
+    "subsubcategory": "サブサブカテゴリー",
+    "gst_no": "法人番号/税番号",
+    "select_category": "カテゴリーを選択 *",
+    "select_subcategory": "サブカテゴリーを選択",
+    "select_subsubcategory": "サブサブカテゴリーを選択",
+    "business_name_placeholder": "事業者名 *",
+    "company_url_placeholder": "会社URL",
+    "gst_placeholder": "法人番号/税番号",
+    "description_placeholder": "事業の簡単な説明 *",
+    "back": "戻る",
+    "next": "次へ",
+    "register_as_partner": "パートナーとして登録"
+  },
+  "forgot": {
+    "title": "パスワードをお忘れですか？",
+    "subtitle": "メールアドレスまたは携帯電話番号を入力",
+    "reset_sent": "リセット情報を送信しました",
+    "enter_otp": "OTPを手動で入力",
+    "mobile_mode": "モバイルモード",
+    "use_email": "メールを使用",
+    "placeholder": "メールまたは携帯電話を入力",
+    "continue": "続ける",
+    "sending": "送信中...",
+    "back_login": "← ログインに戻る"
+  },
+  "footer": {
+    "tagline": "いつでも、どこでもグローバルな専門家やサービスを見つけましょう。",
+    "follow_us": "フォローする",
+    "quick_links": "クイックリンク",
+    "home": "ホーム",
+    "about": "会社概要",
+    "contact": "お問い合わせ",
+    "help": "ヘルプ",
+    "useful_links": "便利なリンク",
+    "cookie": "クッキーポリシー",
+    "privacy": "プライバシーポリシー",
+    "terms": "利用規約",
+    "business_plan": "ビジネスプラン",
+    "popular_cities": "人気の都市",
+    "communication": "連絡先",
+    "call_us": "お電話",
+    "send_message": "メッセージを送る",
+    "copyright": "© Copyright 2025 City Wala. All Rights Reserved."
+  },
+  "common": {
+    "loading": "読み込み中...",
+    "error": "エラー",
+    "save": "保存",
+    "edit": "編集",
+    "delete": "削除",
+    "cancel": "キャンセル",
+    "next": "次へ",
+    "back": "戻る"
+  },
+  "auth": {
+    "login": "ログイン",
+    "logout": "ログアウト",
+    "email": "メールアドレス",
+    "password": "パスワード",
+    "forgot_password": "パスワードをお忘れですか？",
+    "reset_password": "パスワードをリセット",
+    "reset_using_email": "メールリンクでリセット",
+    "reset_using_phone": "OTPでリセット",
+    "new_password": "新しいパスワード",
+    "confirm_password": "パスワードを確認",
+    "update_password": "パスワードを更新",
+    "updating": "更新中..."
+  },
+  "plans": {
+    "most_popular": "最も人気",
+    "per_month": "/ 月",
+    "year": "年",
+    "month": "月",
+    "view_plans": "プランを見る",
+    "features_title": "機能",
+    "pay_with_razorpay": "Razorpayで支払う",
+    "pay_with_paypal": "PayPalで支払う",
+    "get_started": "始める"
+  },
+  "dashboard": {
+    "dashboard": "ダッシュボード",
+    "partner_dashboard": "パートナーダッシュボード",
+    "welcome": "ようこそ"
+  },
+  "profile": {
+    "partner_profile": "パートナープロフィール",
+    "company_info": "会社情報",
+    "basic_info": "基本情報",
+    "location": "所在地",
+    "documents": "書類"
+  },
+  "partner": {
+    "dashboard": "ダッシュボード",
+    "add_profile": "プロフィールを追加",
+    "plans": "プラン",
+    "all_plans": "全プラン",
+    "my_plan": "マイプラン",
+    "logout": "ログアウト",
+    "menu": "メニュー",
+    "partner": "パートナー",
+    "verify_otp": "OTPを確認",
+    "otp_sent_to": "OTPの送信先",
+    "enter_otp": "OTPを入力",
+    "verifying": "確認中..."
+  },
+  "partner_layout": {
+    "mobile_title": "パートナー",
+    "menu": "メニュー",
+    "loading": "ダッシュボードを読み込み中..."
+  },
+  "partner_dashboard": {
+    "title": "パートナーダッシュボード",
+    "sidebar": {
+      "panel_title": "パートナーパネル",
+      "dashboard": "ダッシュボード",
+      "add_profile": "プロフィールを追加",
+      "plans": {
+        "title": "プラン",
+        "all_plans": "全プラン",
+        "my_plan": "マイプラン"
+      },
+      "logout": "ログアウト"
+    },
+    "stats": {
+      "total_profiles": "総プロフィール数",
+      "active": "有効",
+      "inactive": "無効",
+      "plan": "プラン"
+    },
+    "plan_default": "無料"
+  },
+  "partner_profile": {
+    "title": "パートナープロフィール",
+    "company_info": {
+      "title": "会社情報",
+      "name": "名前",
+      "description": "説明",
+      "url": "URL"
+    },
+    "basic_info": {
+      "title": "基本情報",
+      "name": "氏名",
+      "email": "メールアドレス",
+      "mobile": "携帯電話"
+    },
+    "location": {
+      "title": "所在地",
+      "address": "住所",
+      "city": "市区町村",
+      "state": "都道府県",
+      "postal_code": "郵便番号"
+    },
+    "category_info": {
+      "title": "カテゴリー情報",
+      "category": "カテゴリー",
+      "sub_category": "サブカテゴリー",
+      "sub_sub_category": "サブサブカテゴリー",
+      "select_category": "カテゴリーを選択",
+      "select_subcategory": "サブカテゴリーを選択",
+      "select_subsubcategory": "サブサブカテゴリーを選択"
+    },
+    "documents": {
+      "title": "書類",
+      "aadhar": "身分証明書",
+      "gst": "法人番号/税番号",
+      "status": "ステータス",
+      "plan": "プラン"
+    },
+    "actions": {
+      "edit": "編集",
+      "save": "保存",
+      "cancel": "キャンセル"
+    },
+    "loading": "プロフィールを読み込み中..."
+  },
+  "my_plan": {
+    "title": "マイプラン",
+    "subtitle": "サブスクリプションを管理して特典を追跡",
+    "status": {
+      "expired": "期限切れ",
+      "upgrading": "まもなくアップグレード",
+      "active": "有効",
+      "days_left": "日残り"
+    },
+    "labels": {
+      "start_date": "開始日",
+      "expiry_date": "有効期限",
+      "auto_renew": "自動更新",
+      "payment_provider": "支払いプロバイダー",
+      "currency": "通貨"
+    },
+    "features": {
+      "title": "含まれる内容",
+      "no_features": "機能なし"
+    },
+    "actions": {
+      "renew": "プランを更新",
+      "upgrade": "プランをアップグレード",
+      "cancel": "キャンセル"
+    },
+    "pending": {
+      "text": "保留中のプラン：このプランは現在のプランが終了後に有効になります。"
+    },
+    "history": {
+      "title": "プラン履歴",
+      "subtitle": "以前使用したサブスクリプションプラン",
+      "records": "記録",
+      "show_all": "すべて表示",
+      "show_less": "表示を減らす",
+      "no_history": "履歴が見つかりません",
+      "empty_text": "期限切れまたはキャンセルされたプランがここに表示されます",
+      "started": "開始",
+      "expired": "期限切れ",
+      "ended_at": "終了日"
+    }
+  }
+}

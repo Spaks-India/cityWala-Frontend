@@ -1,0 +1,382 @@
+{
+  "all_plans": "Semua Paket",
+  "search": "Cari",
+  "delete": "Hapus",
+  "add_plan": "Tambah Paket",
+  "header": {
+    "categories": "📂 Kategori",
+    "search_placeholder": "Cari layanan...",
+    "dashboard": "Dasbor",
+    "login": "Masuk",
+    "list_business": "Daftarkan Bisnis",
+    "logout": "Keluar",
+    "customer_login": "Masuk",
+    "partner_login": "Login Mitra"
+  },
+  "home": {
+    "trusted_label": "Direktori Bisnis Lokal Terpercaya",
+    "hero_title": "Temukan Para Ahli,",
+    "hero_title2": "Layanan & Lebih Banyak",
+    "hero_subtitle": "Siapa saja, di mana saja, kapan saja — CityWala menghubungkan Anda langsung dengan profesional terpercaya dan bisnis lokal.",
+    "businesses": "Bisnis Terdaftar",
+    "cities": "Kota Tercakup",
+    "support": "Dukungan Tersedia",
+    "select_country": "🌍 Pilih Negara",
+    "search_state": "Cari Provinsi",
+    "search_city": "Cari Kota",
+    "category": "Kategori",
+    "explore": "Jelajahi",
+    "popular_categories": "Kategori Populer",
+    "popular_subtitle": "Temukan para ahli dan layanan global kapan saja dan di mana saja.",
+    "explore_now": "Jelajahi Sekarang",
+    "find_experts": "Temukan Ahli dengan Cepat",
+    "browse_cats": "Telusuri Kategori Teratas Langsung",
+    "top_picks": "Pilihan Terbaik",
+    "repairs": "🔧 Perbaikan & Layanan",
+    "essentials": "Kebutuhan Pokok",
+    "daily_needs": "🛒 Kebutuhan Sehari-hari",
+    "view_all": "Lihat Semua",
+    "testimonials": "Apa Kata Pelanggan Kami",
+    "cta_title": "Apakah Anda Seorang Pengusaha?",
+    "cta_subtitle": "Bergabunglah sebagai mitra di CityWala dan jangkau ribuan pelanggan.",
+    "register_partner": "Daftar sebagai Mitra",
+    "contact_us": "Hubungi Kami",
+    "popular_cats": {
+      "matrimonial": "Pernikahan",
+      "daily_necessity": "Kebutuhan Sehari-hari",
+      "education": "Pendidikan",
+      "health": "Kesehatan",
+      "real_estate": "Properti",
+      "transporters": "Transportasi",
+      "industries": "Industri",
+      "pandit_astrologer": "Pendeta & Astrolog",
+      "insurance": "Asuransi",
+      "import_export": "Impor & Ekspor",
+      "job_placement": "Penempatan Kerja",
+      "wedding_events": "Pernikahan & Acara",
+      "agriculture": "Pertanian",
+      "jewellery": "Perhiasan",
+      "it_software": "Perangkat Lunak IT",
+      "food": "Makanan",
+      "tour_travels": "Wisata & Perjalanan",
+      "electrical": "Kelistrikan",
+      "house_construction": "Konstruksi Rumah",
+      "legal_document": "Dokumen Hukum",
+      "packers_movers": "Jasa Pindahan",
+      "financial_accounting": "Keuangan & Akuntansi",
+      "fitness_yoga": "Kebugaran & Yoga",
+      "furniture_services": "Layanan Furnitur"
+    },
+    "svc_ac": "Servis AC",
+    "svc_car": "Servis Mobil",
+    "svc_bike": "Servis Motor",
+    "svc_labour": "Tenaga Kerja",
+    "svc_grocery": "Belanja Kebutuhan",
+    "svc_electricians": "Teknisi Listrik"
+  },
+  "testimonials": [
+    {
+      "name": "Dev",
+      "text": "Platform yang luar biasa! Saya menemukan tepat apa yang saya cari.",
+      "img": "https://citywala.com/assets/images/testimonial-1.jpg"
+    },
+    {
+      "name": "Esther Hills",
+      "text": "Layanan pernikahan sangat memuaskan.",
+      "img": "https://citywala.com/assets/images/testimonial-2.jpg"
+    },
+    {
+      "name": "Hannah Schmitt",
+      "text": "Pengalaman yang menyenangkan! Direktori bisnis lokal membantu saya dengan cepat.",
+      "img": "https://citywala.com/assets/images/testimonial-3.jpg"
+    },
+    {
+      "name": "Esther Hills",
+      "text": "Layanan pernikahan sangat memuaskan.",
+      "img": "https://citywala.com/assets/images/testimonial-2.jpg"
+    }
+  ],
+  "all_categories": {
+    "title": "Semua Kategori",
+    "subtitle": "Telusuri semua kategori dan temukan layanan terbaik untuk kebutuhan Anda.",
+    "search_placeholder": "Cari kategori...",
+    "view_all": "Lihat Semua",
+    "browse_collection": "Telusuri Koleksi",
+    "registered_partners_in_this_category": "Mitra terdaftar dalam kategori ini",
+    "no_categories_are_available_right_now": "Tidak ada kategori yang tersedia saat ini",
+    "view_subcategories": "Lihat Subkategori",
+    "view_details": "Lihat Detail",
+    "registered_businesses": "Bisnis Terdaftar",
+    "no_businesses_found": "Tidak ada bisnis ditemukan",
+    "no_registered_partners_found_in_this_category": "Tidak ada mitra terdaftar ditemukan dalam kategori ini",
+    "subcategories": "Subkategori"
+  },
+  "login": {
+    "title": "Masuk",
+    "email": "Email",
+    "phone": "Telepon",
+    "email_label": "Email",
+    "password": "Kata Sandi",
+    "forgot_password": "Lupa kata sandi?",
+    "login_btn": "Masuk Sekarang",
+    "logging_in": "Sedang masuk...",
+    "new_here": "Baru di sini?",
+    "create_account": "Buat Akun"
+  },
+  "register": {
+    "title": "Buat Akun",
+    "full_name": "Nama Lengkap",
+    "email": "Email",
+    "mobile": "Nomor Ponsel",
+    "password": "Kata Sandi",
+    "confirm_password": "Konfirmasi Kata Sandi",
+    "register_btn": "Daftar Sekarang",
+    "registering": "Mendaftar...",
+    "have_account": "Sudah punya akun?",
+    "login": "Masuk"
+  },
+  "partner_register": {
+    "title": "Pendaftaran Mitra",
+    "full_name": "Nama Lengkap",
+    "email": "Email",
+    "mobile": "Nomor Ponsel",
+    "country": "Negara",
+    "state": "Provinsi",
+    "city": "Kota",
+    "password": "Kata Sandi",
+    "confirm_password": "Konfirmasi Kata Sandi",
+    "register_btn": "Daftar Sekarang",
+    "registering": "Mendaftar...",
+    "have_account": "Sudah punya akun?",
+    "login": "Masuk",
+    "step": "Langkah",
+    "of": "dari",
+    "step_1": "Langkah 1",
+    "step_2": "Langkah 2",
+    "step_3": "Langkah 3",
+    "adhar_card": "KTP / Kartu Identitas",
+    "postal_code": "Kode Pos",
+    "full_address": "Alamat Lengkap",
+    "business_name": "Nama Bisnis",
+    "company_url": "URL Perusahaan",
+    "company_logo": "Logo Perusahaan",
+    "company_short_description": "Deskripsi Singkat Perusahaan",
+    "category": "Kategori",
+    "subcategory": "Subkategori",
+    "subsubcategory": "Sub-Subkategori",
+    "gst_no": "NPWP / Nomor Pajak",
+    "select_category": "Pilih Kategori *",
+    "select_subcategory": "Pilih Subkategori",
+    "select_subsubcategory": "Pilih Sub-Subkategori",
+    "business_name_placeholder": "Nama Bisnis *",
+    "company_url_placeholder": "URL Perusahaan",
+    "gst_placeholder": "NPWP / Nomor Pajak",
+    "description_placeholder": "Deskripsi Singkat Perusahaan *",
+    "back": "Kembali",
+    "next": "Berikutnya",
+    "register_as_partner": "Daftar sebagai Mitra"
+  },
+  "forgot": {
+    "title": "Lupa Kata Sandi?",
+    "subtitle": "Masukkan email atau nomor ponsel",
+    "reset_sent": "Data reset telah dikirim",
+    "enter_otp": "Masukkan OTP Secara Manual",
+    "mobile_mode": "Mode Ponsel",
+    "use_email": "Gunakan Email",
+    "placeholder": "Masukkan email atau telepon",
+    "continue": "Lanjutkan",
+    "sending": "Mengirim...",
+    "back_login": "← Kembali ke Halaman Masuk"
+  },
+  "footer": {
+    "tagline": "Temukan para ahli dan layanan global kapan saja dan di mana saja.",
+    "follow_us": "Ikuti Kami",
+    "quick_links": "Tautan Cepat",
+    "home": "Beranda",
+    "about": "Tentang Kami",
+    "contact": "Kontak",
+    "help": "Bantuan",
+    "useful_links": "Tautan Berguna",
+    "cookie": "Kebijakan Cookie",
+    "privacy": "Kebijakan Privasi",
+    "terms": "Syarat & Ketentuan",
+    "business_plan": "Paket Bisnis",
+    "popular_cities": "Kota Populer",
+    "communication": "Komunikasi",
+    "call_us": "Hubungi Kami",
+    "send_message": "Kirim Pesan",
+    "copyright": "© Hak Cipta 2025 City Wala. Seluruh hak cipta dilindungi."
+  },
+  "common": {
+    "loading": "Memuat...",
+    "error": "Kesalahan",
+    "save": "Simpan",
+    "edit": "Edit",
+    "delete": "Hapus",
+    "cancel": "Batal",
+    "next": "Berikutnya",
+    "back": "Kembali"
+  },
+  "auth": {
+    "login": "Masuk",
+    "logout": "Keluar",
+    "email": "Email",
+    "password": "Kata Sandi",
+    "forgot_password": "Lupa kata sandi?",
+    "reset_password": "Atur Ulang Kata Sandi",
+    "reset_using_email": "Atur ulang melalui tautan email",
+    "reset_using_phone": "Atur ulang melalui OTP",
+    "new_password": "Kata Sandi Baru",
+    "confirm_password": "Konfirmasi Kata Sandi",
+    "update_password": "Perbarui Kata Sandi",
+    "updating": "Memperbarui..."
+  },
+  "plans": {
+    "most_popular": "Paling Populer",
+    "per_month": "per bulan",
+    "year": "Tahun",
+    "month": "Bulan",
+    "view_plans": "Lihat Paket",
+    "features_title": "Fitur",
+    "pay_with_razorpay": "Bayar dengan Razorpay",
+    "pay_with_paypal": "Bayar dengan PayPal",
+    "get_started": "Mulai Sekarang"
+  },
+  "dashboard": {
+    "dashboard": "Dasbor",
+    "partner_dashboard": "Dasbor Mitra",
+    "welcome": "Selamat Datang"
+  },
+  "profile": {
+    "partner_profile": "Profil Mitra",
+    "company_info": "Informasi Perusahaan",
+    "basic_info": "Informasi Dasar",
+    "location": "Lokasi",
+    "documents": "Dokumen"
+  },
+  "partner": {
+    "dashboard": "Dasbor",
+    "add_profile": "Tambah Profil",
+    "plans": "Paket",
+    "all_plans": "Semua Paket",
+    "my_plan": "Paket Saya",
+    "logout": "Keluar",
+    "menu": "Menu",
+    "partner": "Mitra",
+    "verify_otp": "Verifikasi OTP",
+    "otp_sent_to": "OTP dikirim ke",
+    "enter_otp": "Masukkan OTP",
+    "verifying": "Memverifikasi..."
+  },
+  "partner_layout": {
+    "mobile_title": "Mitra",
+    "menu": "Menu",
+    "loading": "Memuat dasbor..."
+  },
+  "partner_dashboard": {
+    "title": "Dasbor Mitra",
+    "sidebar": {
+      "panel_title": "Panel Mitra",
+      "dashboard": "Dasbor",
+      "add_profile": "Tambah Profil",
+      "plans": {
+        "title": "Paket",
+        "all_plans": "Semua Paket",
+        "my_plan": "Paket Saya"
+      },
+      "logout": "Keluar"
+    },
+    "stats": {
+      "total_profiles": "Total Profil",
+      "active": "Aktif",
+      "inactive": "Tidak Aktif",
+      "plan": "Paket"
+    },
+    "plan_default": "Gratis"
+  },
+  "partner_profile": {
+    "title": "Profil Mitra",
+    "company_info": {
+      "title": "Informasi Perusahaan",
+      "name": "Nama",
+      "description": "Deskripsi",
+      "url": "URL"
+    },
+    "basic_info": {
+      "title": "Informasi Dasar",
+      "name": "Nama",
+      "email": "Email",
+      "mobile": "Ponsel"
+    },
+    "location": {
+      "title": "Lokasi",
+      "address": "Alamat",
+      "city": "Kota",
+      "state": "Provinsi",
+      "postal_code": "Kode Pos"
+    },
+    "category_info": {
+      "title": "Informasi Kategori",
+      "category": "Kategori",
+      "sub_category": "Subkategori",
+      "sub_sub_category": "Sub-Subkategori",
+      "select_category": "Pilih Kategori",
+      "select_subcategory": "Pilih Subkategori",
+      "select_subsubcategory": "Pilih Sub-Subkategori"
+    },
+    "documents": {
+      "title": "Dokumen",
+      "aadhar": "KTP / Kartu Identitas",
+      "gst": "NPWP / Nomor Pajak",
+      "status": "Status",
+      "plan": "Paket"
+    },
+    "actions": {
+      "edit": "Edit",
+      "save": "Simpan",
+      "cancel": "Batal"
+    },
+    "loading": "Memuat profil..."
+  },
+  "my_plan": {
+    "title": "Paket Saya",
+    "subtitle": "Kelola langganan Anda dan pantau manfaat",
+    "status": {
+      "expired": "Kadaluarsa",
+      "upgrading": "Akan Ditingkatkan",
+      "active": "Aktif",
+      "days_left": "hari tersisa"
+    },
+    "labels": {
+      "start_date": "Tanggal Mulai",
+      "expiry_date": "Tanggal Kadaluarsa",
+      "auto_renew": "Perpanjang Otomatis",
+      "payment_provider": "Penyedia Pembayaran",
+      "currency": "Mata Uang"
+    },
+    "features": {
+      "title": "Yang Termasuk",
+      "no_features": "Tidak ada fitur"
+    },
+    "actions": {
+      "renew": "Perpanjang Paket",
+      "upgrade": "Tingkatkan Paket",
+      "cancel": "Batal"
+    },
+    "pending": {
+      "text": "Paket Tertunda: Paket ini akan diaktifkan setelah paket saat ini kadaluarsa."
+    },
+    "history": {
+      "title": "Riwayat Paket",
+      "subtitle": "Paket langganan yang telah digunakan sebelumnya",
+      "records": "Rekaman",
+      "show_all": "Tampilkan Semua",
+      "show_less": "Tampilkan Lebih Sedikit",
+      "no_history": "Tidak Ada Riwayat Ditemukan",
+      "empty_text": "Paket yang sudah kadaluarsa atau dibatalkan akan muncul di sini",
+      "started": "Dimulai",
+      "expired": "Kadaluarsa",
+      "ended_at": "Berakhir pada"
+    }
+  }
+}

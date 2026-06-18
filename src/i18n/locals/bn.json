@@ -1,0 +1,382 @@
+{
+  "all_plans": "সকল পরিকল্পনা",
+  "search": "অনুসন্ধান",
+  "delete": "মুছুন",
+  "add_plan": "পরিকল্পনা যোগ করুন",
+  "header": {
+    "categories": "📂 বিভাগ",
+    "search_placeholder": "সেবা খুঁজুন...",
+    "dashboard": "ড্যাশবোর্ড",
+    "login": "লগ ইন",
+    "list_business": "ব্যবসা নিবন্ধন করুন",
+    "logout": "লগ আউট",
+    "customer_login": "লগ ইন",
+    "partner_login": "পার্টনার লগইন"
+  },
+  "home": {
+    "trusted_label": "বিশ্বস্ত স্থানীয় ব্যবসায়িক ডিরেক্টরি",
+    "hero_title": "বিশেষজ্ঞ খুঁজুন,",
+    "hero_title2": "সেবা ও আরও অনেক কিছু",
+    "hero_subtitle": "যে কেউ, যেকোনো জায়গায়, যেকোনো সময় — CityWala আপনাকে সরাসরি বিশ্বস্ত পেশাদার ও স্থানীয় ব্যবসার সাথে সংযুক্ত করে।",
+    "businesses": "নিবন্ধিত ব্যবসা",
+    "cities": "আচ্ছাদিত শহর",
+    "support": "উপলব্ধ সহায়তা",
+    "select_country": "🌍 দেশ নির্বাচন করুন",
+    "search_state": "রাজ্য খুঁজুন",
+    "search_city": "শহর খুঁজুন",
+    "category": "বিভাগ",
+    "explore": "অন্বেষণ করুন",
+    "popular_categories": "জনপ্রিয় বিভাগ",
+    "popular_subtitle": "যেকোনো সময় যেকোনো জায়গায় বৈশ্বিক বিশেষজ্ঞ ও সেবা খুঁজুন।",
+    "explore_now": "এখনই অন্বেষণ করুন",
+    "find_experts": "দ্রুত বিশেষজ্ঞ খুঁজুন",
+    "browse_cats": "শীর্ষ বিভাগ সরাসরি দেখুন",
+    "top_picks": "শীর্ষ পছন্দ",
+    "repairs": "🔧 মেরামত ও সেবা",
+    "essentials": "প্রয়োজনীয় জিনিস",
+    "daily_needs": "🛒 দৈনন্দিন প্রয়োজন",
+    "view_all": "সব দেখুন",
+    "testimonials": "আমাদের গ্রাহকরা কী বলছেন",
+    "cta_title": "আপনি কি একজন উদ্যোক্তা?",
+    "cta_subtitle": "CityWala-তে পার্টনার হিসেবে যোগ দিন এবং হাজারো গ্রাহকের কাছে পৌঁছান।",
+    "register_partner": "পার্টনার হিসেবে নিবন্ধন করুন",
+    "contact_us": "যোগাযোগ করুন",
+    "popular_cats": {
+      "matrimonial": "বিবাহ সেবা",
+      "daily_necessity": "দৈনন্দিন প্রয়োজনীয়তা",
+      "education": "শিক্ষা",
+      "health": "স্বাস্থ্য",
+      "real_estate": "রিয়েল এস্টেট",
+      "transporters": "পরিবহন",
+      "industries": "শিল্প",
+      "pandit_astrologer": "পুরোহিত ও জ্যোতিষী",
+      "insurance": "বীমা",
+      "import_export": "আমদানি ও রপ্তানি",
+      "job_placement": "চাকরি নিয়োগ",
+      "wedding_events": "বিবাহ ও অনুষ্ঠান",
+      "agriculture": "কৃষি",
+      "jewellery": "গহনা",
+      "it_software": "আইটি সফটওয়্যার",
+      "food": "খাদ্য",
+      "tour_travels": "পর্যটন ও ভ্রমণ",
+      "electrical": "বৈদ্যুতিক",
+      "house_construction": "বাড়ি নির্মাণ",
+      "legal_document": "আইনি দলিল",
+      "packers_movers": "প্যাকার্স ও মুভার্স",
+      "financial_accounting": "আর্থিক ও হিসাব",
+      "fitness_yoga": "ফিটনেস ও যোগব্যায়াম",
+      "furniture_services": "আসবাবপত্র সেবা"
+    },
+    "svc_ac": "এয়ার কন্ডিশনার সেবা",
+    "svc_car": "গাড়ি সেবা",
+    "svc_bike": "সাইকেল সেবা",
+    "svc_labour": "শ্রমিক",
+    "svc_grocery": "মুদি দোকান",
+    "svc_electricians": "ইলেক্ট্রিশিয়ান"
+  },
+  "testimonials": [
+    {
+      "name": "Dev",
+      "text": "অসাধারণ প্ল্যাটফর্ম! আমি ঠিক যা খুঁজছিলাম তা পেয়ে গেছি।",
+      "img": "https://citywala.com/assets/images/testimonial-1.jpg"
+    },
+    {
+      "name": "Esther Hills",
+      "text": "বিবাহ সেবাটি অত্যন্ত চমৎকার।",
+      "img": "https://citywala.com/assets/images/testimonial-2.jpg"
+    },
+    {
+      "name": "Hannah Schmitt",
+      "text": "দারুণ অভিজ্ঞতা! স্থানীয় ব্যবসায়িক ডিরেক্টরি আমাকে দ্রুত সাহায্য করেছে।",
+      "img": "https://citywala.com/assets/images/testimonial-3.jpg"
+    },
+    {
+      "name": "Esther Hills",
+      "text": "বিবাহ সেবাটি অত্যন্ত চমৎকার।",
+      "img": "https://citywala.com/assets/images/testimonial-2.jpg"
+    }
+  ],
+  "all_categories": {
+    "title": "সকল বিভাগ",
+    "subtitle": "সব বিভাগ দেখুন এবং আপনার প্রয়োজন অনুযায়ী সেরা সেবা খুঁজুন।",
+    "search_placeholder": "বিভাগ খুঁজুন...",
+    "view_all": "সব দেখুন",
+    "browse_collection": "সংকলন দেখুন",
+    "registered_partners_in_this_category": "এই বিভাগে নিবন্ধিত পার্টনার",
+    "no_categories_are_available_right_now": "এই মুহূর্তে কোনো বিভাগ পাওয়া যাচ্ছে না",
+    "view_subcategories": "উপবিভাগ দেখুন",
+    "view_details": "বিস্তারিত দেখুন",
+    "registered_businesses": "নিবন্ধিত ব্যবসা",
+    "no_businesses_found": "কোনো ব্যবসা পাওয়া যায়নি",
+    "no_registered_partners_found_in_this_category": "এই বিভাগে কোনো নিবন্ধিত পার্টনার পাওয়া যায়নি",
+    "subcategories": "উপবিভাগ"
+  },
+  "login": {
+    "title": "লগ ইন",
+    "email": "ইমেইল",
+    "phone": "ফোন",
+    "email_label": "ইমেইল",
+    "password": "পাসওয়ার্ড",
+    "forgot_password": "পাসওয়ার্ড ভুলে গেছেন?",
+    "login_btn": "এখনই লগ ইন করুন",
+    "logging_in": "লগ ইন হচ্ছে...",
+    "new_here": "নতুন এখানে?",
+    "create_account": "অ্যাকাউন্ট তৈরি করুন"
+  },
+  "register": {
+    "title": "অ্যাকাউন্ট তৈরি করুন",
+    "full_name": "পূর্ণ নাম",
+    "email": "ইমেইল",
+    "mobile": "মোবাইল নম্বর",
+    "password": "পাসওয়ার্ড",
+    "confirm_password": "পাসওয়ার্ড নিশ্চিত করুন",
+    "register_btn": "এখনই নিবন্ধন করুন",
+    "registering": "নিবন্ধন হচ্ছে...",
+    "have_account": "ইতিমধ্যে অ্যাকাউন্ট আছে?",
+    "login": "লগ ইন"
+  },
+  "partner_register": {
+    "title": "পার্টনার নিবন্ধন",
+    "full_name": "পূর্ণ নাম",
+    "email": "ইমেইল",
+    "mobile": "মোবাইল নম্বর",
+    "country": "দেশ",
+    "state": "রাজ্য",
+    "city": "শহর",
+    "password": "পাসওয়ার্ড",
+    "confirm_password": "পাসওয়ার্ড নিশ্চিত করুন",
+    "register_btn": "এখনই নিবন্ধন করুন",
+    "registering": "নিবন্ধন হচ্ছে...",
+    "have_account": "ইতিমধ্যে অ্যাকাউন্ট আছে?",
+    "login": "লগ ইন",
+    "step": "ধাপ",
+    "of": "এর মধ্যে",
+    "step_1": "ধাপ ১",
+    "step_2": "ধাপ ২",
+    "step_3": "ধাপ ৩",
+    "adhar_card": "জাতীয় পরিচয়পত্র (NID)",
+    "postal_code": "পোস্টাল কোড",
+    "full_address": "পূর্ণ ঠিকানা",
+    "business_name": "ব্যবসার নাম",
+    "company_url": "কোম্পানি URL",
+    "company_logo": "কোম্পানি লোগো",
+    "company_short_description": "কোম্পানির সংক্ষিপ্ত বিবরণ",
+    "category": "বিভাগ",
+    "subcategory": "উপবিভাগ",
+    "subsubcategory": "উপ-উপবিভাগ",
+    "gst_no": "ট্যাক্স নম্বর (TIN/BIN)",
+    "select_category": "বিভাগ নির্বাচন করুন *",
+    "select_subcategory": "উপবিভাগ নির্বাচন করুন",
+    "select_subsubcategory": "উপ-উপবিভাগ নির্বাচন করুন",
+    "business_name_placeholder": "ব্যবসার নাম *",
+    "company_url_placeholder": "কোম্পানি URL",
+    "gst_placeholder": "ট্যাক্স নম্বর (TIN/BIN)",
+    "description_placeholder": "কোম্পানির সংক্ষিপ্ত বিবরণ *",
+    "back": "পেছনে",
+    "next": "পরবর্তী",
+    "register_as_partner": "পার্টনার হিসেবে নিবন্ধন করুন"
+  },
+  "forgot": {
+    "title": "পাসওয়ার্ড ভুলে গেছেন?",
+    "subtitle": "ইমেইল বা মোবাইল নম্বর দিন",
+    "reset_sent": "রিসেট তথ্য পাঠানো হয়েছে",
+    "enter_otp": "ম্যানুয়ালি OTP দিন",
+    "mobile_mode": "মোবাইল মোড",
+    "use_email": "ইমেইল ব্যবহার করুন",
+    "placeholder": "ইমেইল বা ফোন দিন",
+    "continue": "চালিয়ে যান",
+    "sending": "পাঠানো হচ্ছে...",
+    "back_login": "← লগ ইনে ফিরে যান"
+  },
+  "footer": {
+    "tagline": "যেকোনো সময় যেকোনো জায়গায় বৈশ্বিক বিশেষজ্ঞ ও সেবা খুঁজুন।",
+    "follow_us": "আমাদের অনুসরণ করুন",
+    "quick_links": "দ্রুত লিঙ্ক",
+    "home": "হোম",
+    "about": "আমাদের সম্পর্কে",
+    "contact": "যোগাযোগ",
+    "help": "সাহায্য",
+    "useful_links": "দরকারি লিঙ্ক",
+    "cookie": "কুকি নীতি",
+    "privacy": "গোপনীয়তা নীতি",
+    "terms": "শর্তাবলী",
+    "business_plan": "ব্যবসায়িক পরিকল্পনা",
+    "popular_cities": "জনপ্রিয় শহর",
+    "communication": "যোগাযোগ",
+    "call_us": "আমাদের কল করুন",
+    "send_message": "বার্তা পাঠান",
+    "copyright": "© কপিরাইট 2025 City Wala. সর্বস্বত্ব সংরক্ষিত।"
+  },
+  "common": {
+    "loading": "লোড হচ্ছে...",
+    "error": "ত্রুটি",
+    "save": "সংরক্ষণ করুন",
+    "edit": "সম্পাদনা করুন",
+    "delete": "মুছুন",
+    "cancel": "বাতিল",
+    "next": "পরবর্তী",
+    "back": "পেছনে"
+  },
+  "auth": {
+    "login": "লগ ইন",
+    "logout": "লগ আউট",
+    "email": "ইমেইল",
+    "password": "পাসওয়ার্ড",
+    "forgot_password": "পাসওয়ার্ড ভুলে গেছেন?",
+    "reset_password": "পাসওয়ার্ড রিসেট করুন",
+    "reset_using_email": "ইমেইল লিঙ্কের মাধ্যমে রিসেট করুন",
+    "reset_using_phone": "OTP-এর মাধ্যমে রিসেট করুন",
+    "new_password": "নতুন পাসওয়ার্ড",
+    "confirm_password": "পাসওয়ার্ড নিশ্চিত করুন",
+    "update_password": "পাসওয়ার্ড আপডেট করুন",
+    "updating": "আপডেট হচ্ছে..."
+  },
+  "plans": {
+    "most_popular": "সবচেয়ে জনপ্রিয়",
+    "per_month": "প্রতি মাসে",
+    "year": "বছর",
+    "month": "মাস",
+    "view_plans": "পরিকল্পনা দেখুন",
+    "features_title": "বৈশিষ্ট্য",
+    "pay_with_razorpay": "Razorpay দিয়ে পরিশোধ করুন",
+    "pay_with_paypal": "PayPal দিয়ে পরিশোধ করুন",
+    "get_started": "শুরু করুন"
+  },
+  "dashboard": {
+    "dashboard": "ড্যাশবোর্ড",
+    "partner_dashboard": "পার্টনার ড্যাশবোর্ড",
+    "welcome": "স্বাগতম"
+  },
+  "profile": {
+    "partner_profile": "পার্টনার প্রোফাইল",
+    "company_info": "কোম্পানি তথ্য",
+    "basic_info": "মৌলিক তথ্য",
+    "location": "অবস্থান",
+    "documents": "নথিপত্র"
+  },
+  "partner": {
+    "dashboard": "ড্যাশবোর্ড",
+    "add_profile": "প্রোফাইল যোগ করুন",
+    "plans": "পরিকল্পনা",
+    "all_plans": "সকল পরিকল্পনা",
+    "my_plan": "আমার পরিকল্পনা",
+    "logout": "লগ আউট",
+    "menu": "মেনু",
+    "partner": "পার্টনার",
+    "verify_otp": "OTP যাচাই করুন",
+    "otp_sent_to": "OTP পাঠানো হয়েছে",
+    "enter_otp": "OTP দিন",
+    "verifying": "যাচাই হচ্ছে..."
+  },
+  "partner_layout": {
+    "mobile_title": "পার্টনার",
+    "menu": "মেনু",
+    "loading": "ড্যাশবোর্ড লোড হচ্ছে..."
+  },
+  "partner_dashboard": {
+    "title": "পার্টনার ড্যাশবোর্ড",
+    "sidebar": {
+      "panel_title": "পার্টনার প্যানেল",
+      "dashboard": "ড্যাশবোর্ড",
+      "add_profile": "প্রোফাইল যোগ করুন",
+      "plans": {
+        "title": "পরিকল্পনা",
+        "all_plans": "সকল পরিকল্পনা",
+        "my_plan": "আমার পরিকল্পনা"
+      },
+      "logout": "লগ আউট"
+    },
+    "stats": {
+      "total_profiles": "মোট প্রোফাইল",
+      "active": "সক্রিয়",
+      "inactive": "নিষ্ক্রিয়",
+      "plan": "পরিকল্পনা"
+    },
+    "plan_default": "বিনামূল্যে"
+  },
+  "partner_profile": {
+    "title": "পার্টনার প্রোফাইল",
+    "company_info": {
+      "title": "কোম্পানি তথ্য",
+      "name": "নাম",
+      "description": "বিবরণ",
+      "url": "URL"
+    },
+    "basic_info": {
+      "title": "মৌলিক তথ্য",
+      "name": "নাম",
+      "email": "ইমেইল",
+      "mobile": "মোবাইল"
+    },
+    "location": {
+      "title": "অবস্থান",
+      "address": "ঠিকানা",
+      "city": "শহর",
+      "state": "রাজ্য",
+      "postal_code": "পোস্টাল কোড"
+    },
+    "category_info": {
+      "title": "বিভাগ তথ্য",
+      "category": "বিভাগ",
+      "sub_category": "উপবিভাগ",
+      "sub_sub_category": "উপ-উপবিভাগ",
+      "select_category": "বিভাগ নির্বাচন করুন",
+      "select_subcategory": "উপবিভাগ নির্বাচন করুন",
+      "select_subsubcategory": "উপ-উপবিভাগ নির্বাচন করুন"
+    },
+    "documents": {
+      "title": "নথিপত্র",
+      "aadhar": "জাতীয় পরিচয়পত্র (NID)",
+      "gst": "ট্যাক্স নম্বর (TIN/BIN)",
+      "status": "অবস্থা",
+      "plan": "পরিকল্পনা"
+    },
+    "actions": {
+      "edit": "সম্পাদনা করুন",
+      "save": "সংরক্ষণ করুন",
+      "cancel": "বাতিল"
+    },
+    "loading": "প্রোফাইল লোড হচ্ছে..."
+  },
+  "my_plan": {
+    "title": "আমার পরিকল্পনা",
+    "subtitle": "আপনার সাবস্ক্রিপশন পরিচালনা করুন এবং সুবিধাগুলি ট্র্যাক করুন",
+    "status": {
+      "expired": "মেয়াদ শেষ",
+      "upgrading": "শীঘ্রই আপগ্রেড হবে",
+      "active": "সক্রিয়",
+      "days_left": "দিন বাকি"
+    },
+    "labels": {
+      "start_date": "শুরুর তারিখ",
+      "expiry_date": "মেয়াদ শেষের তারিখ",
+      "auto_renew": "স্বয়ংক্রিয় নবায়ন",
+      "payment_provider": "পেমেন্ট প্রদানকারী",
+      "currency": "মুদ্রা"
+    },
+    "features": {
+      "title": "যা অন্তর্ভুক্ত",
+      "no_features": "কোনো বৈশিষ্ট্য নেই"
+    },
+    "actions": {
+      "renew": "পরিকল্পনা নবায়ন করুন",
+      "upgrade": "পরিকল্পনা আপগ্রেড করুন",
+      "cancel": "বাতিল"
+    },
+    "pending": {
+      "text": "অপেক্ষমান পরিকল্পনা: বর্তমান পরিকল্পনার মেয়াদ শেষ হলে এই পরিকল্পনাটি সক্রিয় হবে।"
+    },
+    "history": {
+      "title": "পরিকল্পনার ইতিহাস",
+      "subtitle": "পূর্বে ব্যবহৃত সাবস্ক্রিপশন পরিকল্পনা",
+      "records": "রেকর্ড",
+      "show_all": "সব দেখান",
+      "show_less": "কম দেখান",
+      "no_history": "কোনো ইতিহাস পাওয়া যায়নি",
+      "empty_text": "মেয়াদ শেষ বা বাতিল করা পরিকল্পনাগুলি এখানে দেখাবে",
+      "started": "শুরু হয়েছে",
+      "expired": "মেয়াদ শেষ",
+      "ended_at": "শেষ হয়েছে"
+    }
+  }
+}

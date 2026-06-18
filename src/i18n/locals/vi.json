@@ -1,0 +1,382 @@
+{
+  "all_plans": "Tất Cả Gói",
+  "search": "Tìm kiếm",
+  "delete": "Xóa",
+  "add_plan": "Thêm Gói",
+  "header": {
+    "categories": "📂 Danh Mục",
+    "search_placeholder": "Tìm kiếm dịch vụ...",
+    "dashboard": "Bảng Điều Khiển",
+    "login": "Đăng Nhập",
+    "list_business": "Đăng Ký Doanh Nghiệp",
+    "logout": "Đăng Xuất",
+    "customer_login": "Đăng Nhập",
+    "partner_login": "Đăng nhập Đối tác"
+  },
+  "home": {
+    "trusted_label": "Danh Bạ Doanh Nghiệp Địa Phương Đáng Tin Cậy",
+    "hero_title": "Tìm Chuyên Gia,",
+    "hero_title2": "Dịch Vụ & Nhiều Hơn Nữa",
+    "hero_subtitle": "Mọi người, mọi nơi, mọi lúc — CityWala kết nối bạn trực tiếp với các chuyên gia đáng tin cậy và doanh nghiệp địa phương.",
+    "businesses": "Doanh Nghiệp Đã Đăng Ký",
+    "cities": "Thành Phố Được Bao Phủ",
+    "support": "Hỗ Trợ Có Sẵn",
+    "select_country": "🌍 Chọn Quốc Gia",
+    "search_state": "Tìm Tỉnh/Thành",
+    "search_city": "Tìm Thành Phố",
+    "category": "Danh Mục",
+    "explore": "Khám Phá",
+    "popular_categories": "Danh Mục Phổ Biến",
+    "popular_subtitle": "Tìm chuyên gia và dịch vụ toàn cầu mọi lúc mọi nơi.",
+    "explore_now": "Khám Phá Ngay",
+    "find_experts": "Tìm Chuyên Gia Nhanh Chóng",
+    "browse_cats": "Duyệt Qua Các Danh Mục Hàng Đầu",
+    "top_picks": "Lựa Chọn Hàng Đầu",
+    "repairs": "🔧 Sửa Chữa & Dịch Vụ",
+    "essentials": "Thiết Yếu",
+    "daily_needs": "🛒 Nhu Cầu Hàng Ngày",
+    "view_all": "Xem Tất Cả",
+    "testimonials": "Khách Hàng Nói Gì",
+    "cta_title": "Bạn Là Doanh Nhân?",
+    "cta_subtitle": "Trở thành đối tác tại CityWala và tiếp cận hàng nghìn khách hàng.",
+    "register_partner": "Đăng Ký Làm Đối Tác",
+    "contact_us": "Liên Hệ",
+    "popular_cats": {
+      "matrimonial": "Hôn Nhân",
+      "daily_necessity": "Nhu Yếu Phẩm Hàng Ngày",
+      "education": "Giáo Dục",
+      "health": "Sức Khỏe",
+      "real_estate": "Bất Động Sản",
+      "transporters": "Vận Tải",
+      "industries": "Công Nghiệp",
+      "pandit_astrologer": "Thầy Tế & Chiêm Tinh",
+      "insurance": "Bảo Hiểm",
+      "import_export": "Nhập Khẩu & Xuất Khẩu",
+      "job_placement": "Tuyển Dụng Việc Làm",
+      "wedding_events": "Đám Cưới & Sự Kiện",
+      "agriculture": "Nông Nghiệp",
+      "jewellery": "Trang Sức",
+      "it_software": "Phần Mềm IT",
+      "food": "Thực Phẩm",
+      "tour_travels": "Du Lịch & Lữ Hành",
+      "electrical": "Điện",
+      "house_construction": "Xây Dựng Nhà",
+      "legal_document": "Tài Liệu Pháp Lý",
+      "packers_movers": "Dịch Vụ Chuyển Nhà",
+      "financial_accounting": "Tài Chính & Kế Toán",
+      "fitness_yoga": "Thể Hình & Yoga",
+      "furniture_services": "Dịch Vụ Nội Thất"
+    },
+    "svc_ac": "Dịch Vụ Điều Hòa",
+    "svc_car": "Dịch Vụ Ô Tô",
+    "svc_bike": "Dịch Vụ Xe Đạp",
+    "svc_labour": "Lao Động",
+    "svc_grocery": "Tạp Hóa",
+    "svc_electricians": "Thợ Điện"
+  },
+  "testimonials": [
+    {
+      "name": "Dev",
+      "text": "Nền tảng tuyệt vời! Tôi tìm thấy chính xác những gì tôi cần.",
+      "img": "https://citywala.com/assets/images/testimonial-1.jpg"
+    },
+    {
+      "name": "Esther Hills",
+      "text": "Dịch vụ hôn nhân rất xuất sắc.",
+      "img": "https://citywala.com/assets/images/testimonial-2.jpg"
+    },
+    {
+      "name": "Hannah Schmitt",
+      "text": "Trải nghiệm tuyệt vời! Danh bạ doanh nghiệp địa phương đã giúp tôi rất nhanh.",
+      "img": "https://citywala.com/assets/images/testimonial-3.jpg"
+    },
+    {
+      "name": "Esther Hills",
+      "text": "Dịch vụ hôn nhân rất xuất sắc.",
+      "img": "https://citywala.com/assets/images/testimonial-2.jpg"
+    }
+  ],
+  "all_categories": {
+    "title": "Tất Cả Danh Mục",
+    "subtitle": "Duyệt qua tất cả danh mục và tìm dịch vụ tốt nhất cho nhu cầu của bạn.",
+    "search_placeholder": "Tìm kiếm danh mục...",
+    "view_all": "Xem Tất Cả",
+    "browse_collection": "Duyệt Bộ Sưu Tập",
+    "registered_partners_in_this_category": "Đối tác đã đăng ký trong danh mục này",
+    "no_categories_are_available_right_now": "Hiện tại không có danh mục nào",
+    "view_subcategories": "Xem Danh Mục Con",
+    "view_details": "Xem Chi Tiết",
+    "registered_businesses": "Doanh Nghiệp Đã Đăng Ký",
+    "no_businesses_found": "Không tìm thấy doanh nghiệp",
+    "no_registered_partners_found_in_this_category": "Không tìm thấy đối tác đã đăng ký trong danh mục này",
+    "subcategories": "Danh Mục Con"
+  },
+  "login": {
+    "title": "Đăng Nhập",
+    "email": "Email",
+    "phone": "Điện Thoại",
+    "email_label": "Email",
+    "password": "Mật Khẩu",
+    "forgot_password": "Quên mật khẩu?",
+    "login_btn": "Đăng Nhập Ngay",
+    "logging_in": "Đang đăng nhập...",
+    "new_here": "Bạn mới ở đây?",
+    "create_account": "Tạo Tài Khoản"
+  },
+  "register": {
+    "title": "Tạo Tài Khoản",
+    "full_name": "Họ và Tên",
+    "email": "Email",
+    "mobile": "Số Điện Thoại",
+    "password": "Mật Khẩu",
+    "confirm_password": "Xác Nhận Mật Khẩu",
+    "register_btn": "Đăng Ký Ngay",
+    "registering": "Đang đăng ký...",
+    "have_account": "Đã có tài khoản?",
+    "login": "Đăng Nhập"
+  },
+  "partner_register": {
+    "title": "Đăng Ký Đối Tác",
+    "full_name": "Họ và Tên",
+    "email": "Email",
+    "mobile": "Số Điện Thoại",
+    "country": "Quốc Gia",
+    "state": "Tỉnh/Thành",
+    "city": "Thành Phố",
+    "password": "Mật Khẩu",
+    "confirm_password": "Xác Nhận Mật Khẩu",
+    "register_btn": "Đăng Ký Ngay",
+    "registering": "Đang đăng ký...",
+    "have_account": "Đã có tài khoản?",
+    "login": "Đăng Nhập",
+    "step": "Bước",
+    "of": "trên",
+    "step_1": "Bước 1",
+    "step_2": "Bước 2",
+    "step_3": "Bước 3",
+    "adhar_card": "Chứng Minh Nhân Dân / CCCD",
+    "postal_code": "Mã Bưu Chính",
+    "full_address": "Địa Chỉ Đầy Đủ",
+    "business_name": "Tên Doanh Nghiệp",
+    "company_url": "URL Công Ty",
+    "company_logo": "Logo Công Ty",
+    "company_short_description": "Mô Tả Ngắn Về Công Ty",
+    "category": "Danh Mục",
+    "subcategory": "Danh Mục Con",
+    "subsubcategory": "Danh Mục Con Con",
+    "gst_no": "Mã Số Thuế",
+    "select_category": "Chọn Danh Mục *",
+    "select_subcategory": "Chọn Danh Mục Con",
+    "select_subsubcategory": "Chọn Danh Mục Con Con",
+    "business_name_placeholder": "Tên Doanh Nghiệp *",
+    "company_url_placeholder": "URL Công Ty",
+    "gst_placeholder": "Mã Số Thuế",
+    "description_placeholder": "Mô Tả Ngắn Về Công Ty *",
+    "back": "Quay Lại",
+    "next": "Tiếp Theo",
+    "register_as_partner": "Đăng Ký Làm Đối Tác"
+  },
+  "forgot": {
+    "title": "Quên Mật Khẩu?",
+    "subtitle": "Nhập email hoặc số điện thoại",
+    "reset_sent": "Đã gửi thông tin đặt lại",
+    "enter_otp": "Nhập OTP Thủ Công",
+    "mobile_mode": "Chế Độ Di Động",
+    "use_email": "Dùng Email",
+    "placeholder": "Nhập email hoặc điện thoại",
+    "continue": "Tiếp Tục",
+    "sending": "Đang gửi...",
+    "back_login": "← Quay Lại Đăng Nhập"
+  },
+  "footer": {
+    "tagline": "Tìm chuyên gia và dịch vụ toàn cầu mọi lúc mọi nơi.",
+    "follow_us": "Theo Dõi Chúng Tôi",
+    "quick_links": "Liên Kết Nhanh",
+    "home": "Trang Chủ",
+    "about": "Về Chúng Tôi",
+    "contact": "Liên Hệ",
+    "help": "Trợ Giúp",
+    "useful_links": "Liên Kết Hữu Ích",
+    "cookie": "Chính Sách Cookie",
+    "privacy": "Chính Sách Bảo Mật",
+    "terms": "Điều Khoản & Điều Kiện",
+    "business_plan": "Gói Doanh Nghiệp",
+    "popular_cities": "Thành Phố Phổ Biến",
+    "communication": "Liên Lạc",
+    "call_us": "Gọi Cho Chúng Tôi",
+    "send_message": "Gửi Tin Nhắn",
+    "copyright": "© Bản Quyền 2025 City Wala. Tất cả quyền được bảo lưu."
+  },
+  "common": {
+    "loading": "Đang tải...",
+    "error": "Lỗi",
+    "save": "Lưu",
+    "edit": "Chỉnh Sửa",
+    "delete": "Xóa",
+    "cancel": "Hủy",
+    "next": "Tiếp Theo",
+    "back": "Quay Lại"
+  },
+  "auth": {
+    "login": "Đăng Nhập",
+    "logout": "Đăng Xuất",
+    "email": "Email",
+    "password": "Mật Khẩu",
+    "forgot_password": "Quên mật khẩu?",
+    "reset_password": "Đặt Lại Mật Khẩu",
+    "reset_using_email": "Đặt lại qua liên kết email",
+    "reset_using_phone": "Đặt lại qua OTP",
+    "new_password": "Mật Khẩu Mới",
+    "confirm_password": "Xác Nhận Mật Khẩu",
+    "update_password": "Cập Nhật Mật Khẩu",
+    "updating": "Đang cập nhật..."
+  },
+  "plans": {
+    "most_popular": "Phổ Biến Nhất",
+    "per_month": "mỗi tháng",
+    "year": "Năm",
+    "month": "Tháng",
+    "view_plans": "Xem Gói",
+    "features_title": "Tính Năng",
+    "pay_with_razorpay": "Thanh Toán với Razorpay",
+    "pay_with_paypal": "Thanh Toán với PayPal",
+    "get_started": "Bắt Đầu"
+  },
+  "dashboard": {
+    "dashboard": "Bảng Điều Khiển",
+    "partner_dashboard": "Bảng Điều Khiển Đối Tác",
+    "welcome": "Chào Mừng"
+  },
+  "profile": {
+    "partner_profile": "Hồ Sơ Đối Tác",
+    "company_info": "Thông Tin Công Ty",
+    "basic_info": "Thông Tin Cơ Bản",
+    "location": "Vị Trí",
+    "documents": "Tài Liệu"
+  },
+  "partner": {
+    "dashboard": "Bảng Điều Khiển",
+    "add_profile": "Thêm Hồ Sơ",
+    "plans": "Gói",
+    "all_plans": "Tất Cả Gói",
+    "my_plan": "Gói Của Tôi",
+    "logout": "Đăng Xuất",
+    "menu": "Menu",
+    "partner": "Đối Tác",
+    "verify_otp": "Xác Minh OTP",
+    "otp_sent_to": "OTP đã gửi tới",
+    "enter_otp": "Nhập OTP",
+    "verifying": "Đang xác minh..."
+  },
+  "partner_layout": {
+    "mobile_title": "Đối Tác",
+    "menu": "Menu",
+    "loading": "Đang tải bảng điều khiển..."
+  },
+  "partner_dashboard": {
+    "title": "Bảng Điều Khiển Đối Tác",
+    "sidebar": {
+      "panel_title": "Bảng Điều Khiển Đối Tác",
+      "dashboard": "Bảng Điều Khiển",
+      "add_profile": "Thêm Hồ Sơ",
+      "plans": {
+        "title": "Gói",
+        "all_plans": "Tất Cả Gói",
+        "my_plan": "Gói Của Tôi"
+      },
+      "logout": "Đăng Xuất"
+    },
+    "stats": {
+      "total_profiles": "Tổng Hồ Sơ",
+      "active": "Đang Hoạt Động",
+      "inactive": "Không Hoạt Động",
+      "plan": "Gói"
+    },
+    "plan_default": "Miễn Phí"
+  },
+  "partner_profile": {
+    "title": "Hồ Sơ Đối Tác",
+    "company_info": {
+      "title": "Thông Tin Công Ty",
+      "name": "Tên",
+      "description": "Mô Tả",
+      "url": "URL"
+    },
+    "basic_info": {
+      "title": "Thông Tin Cơ Bản",
+      "name": "Tên",
+      "email": "Email",
+      "mobile": "Điện Thoại"
+    },
+    "location": {
+      "title": "Vị Trí",
+      "address": "Địa Chỉ",
+      "city": "Thành Phố",
+      "state": "Tỉnh/Thành",
+      "postal_code": "Mã Bưu Chính"
+    },
+    "category_info": {
+      "title": "Thông Tin Danh Mục",
+      "category": "Danh Mục",
+      "sub_category": "Danh Mục Con",
+      "sub_sub_category": "Danh Mục Con Con",
+      "select_category": "Chọn Danh Mục",
+      "select_subcategory": "Chọn Danh Mục Con",
+      "select_subsubcategory": "Chọn Danh Mục Con Con"
+    },
+    "documents": {
+      "title": "Tài Liệu",
+      "aadhar": "CMND / CCCD",
+      "gst": "Mã Số Thuế",
+      "status": "Trạng Thái",
+      "plan": "Gói"
+    },
+    "actions": {
+      "edit": "Chỉnh Sửa",
+      "save": "Lưu",
+      "cancel": "Hủy"
+    },
+    "loading": "Đang tải hồ sơ..."
+  },
+  "my_plan": {
+    "title": "Gói Của Tôi",
+    "subtitle": "Quản lý đăng ký và theo dõi quyền lợi",
+    "status": {
+      "expired": "Đã Hết Hạn",
+      "upgrading": "Sắp Nâng Cấp",
+      "active": "Đang Hoạt Động",
+      "days_left": "ngày còn lại"
+    },
+    "labels": {
+      "start_date": "Ngày Bắt Đầu",
+      "expiry_date": "Ngày Hết Hạn",
+      "auto_renew": "Tự Động Gia Hạn",
+      "payment_provider": "Nhà Cung Cấp Thanh Toán",
+      "currency": "Tiền Tệ"
+    },
+    "features": {
+      "title": "Những Gì Được Bao Gồm",
+      "no_features": "Không có tính năng"
+    },
+    "actions": {
+      "renew": "Gia Hạn Gói",
+      "upgrade": "Nâng Cấp Gói",
+      "cancel": "Hủy"
+    },
+    "pending": {
+      "text": "Gói Đang Chờ: Gói này sẽ được kích hoạt sau khi gói hiện tại hết hạn."
+    },
+    "history": {
+      "title": "Lịch Sử Gói",
+      "subtitle": "Các gói đăng ký đã sử dụng trước đây",
+      "records": "Bản Ghi",
+      "show_all": "Hiển Thị Tất Cả",
+      "show_less": "Hiển Thị Ít Hơn",
+      "no_history": "Không Tìm Thấy Lịch Sử",
+      "empty_text": "Các gói đã hết hạn hoặc bị hủy sẽ xuất hiện ở đây",
+      "started": "Bắt Đầu",
+      "expired": "Hết Hạn",
+      "ended_at": "Kết Thúc Lúc"
+    }
+  }
+}

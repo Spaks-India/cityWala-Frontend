@@ -1,0 +1,382 @@
+{
+  "all_plans": "แผนทั้งหมด",
+  "search": "ค้นหา",
+  "delete": "ลบ",
+  "add_plan": "เพิ่มแผน",
+  "header": {
+    "categories": "📂 หมวดหมู่",
+    "search_placeholder": "ค้นหาบริการ...",
+    "dashboard": "แดชบอร์ด",
+    "login": "เข้าสู่ระบบ",
+    "list_business": "ลงทะเบียนธุรกิจ",
+    "logout": "ออกจากระบบ",
+    "customer_login": "เข้าสู่ระบบ",
+    "partner_login": "เข้าสู่ระบบพันธมิตร"
+  },
+  "home": {
+    "trusted_label": "ไดเรกทอรีธุรกิจท้องถิ่นที่เชื่อถือได้",
+    "hero_title": "ค้นหาผู้เชี่ยวชาญ,",
+    "hero_title2": "บริการ และอื่น ๆ",
+    "hero_subtitle": "ทุกคน ทุกที่ ทุกเวลา — CityWala เชื่อมต่อคุณกับผู้เชี่ยวชาญที่เชื่อถือได้และธุรกิจท้องถิ่นโดยตรง",
+    "businesses": "ธุรกิจที่ลงทะเบียน",
+    "cities": "เมืองที่ครอบคลุม",
+    "support": "การสนับสนุนที่พร้อมใช้งาน",
+    "select_country": "🌍 เลือกประเทศ",
+    "search_state": "ค้นหาจังหวัด",
+    "search_city": "ค้นหาเมือง",
+    "category": "หมวดหมู่",
+    "explore": "สำรวจ",
+    "popular_categories": "หมวดหมู่ยอดนิยม",
+    "popular_subtitle": "ค้นหาผู้เชี่ยวชาญและบริการระดับโลกได้ทุกเวลาและทุกที่",
+    "explore_now": "สำรวจเลย",
+    "find_experts": "ค้นหาผู้เชี่ยวชาญอย่างรวดเร็ว",
+    "browse_cats": "เรียกดูหมวดหมู่ยอดนิยมโดยตรง",
+    "top_picks": "ตัวเลือกยอดนิยม",
+    "repairs": "🔧 การซ่อมแซม & บริการ",
+    "essentials": "สิ่งจำเป็น",
+    "daily_needs": "🛒 ความต้องการประจำวัน",
+    "view_all": "ดูทั้งหมด",
+    "testimonials": "สิ่งที่ลูกค้าของเราพูด",
+    "cta_title": "คุณเป็นผู้ประกอบการหรือไม่?",
+    "cta_subtitle": "เป็นพาร์ทเนอร์กับ CityWala และเข้าถึงลูกค้าหลายพันราย",
+    "register_partner": "ลงทะเบียนเป็นพาร์ทเนอร์",
+    "contact_us": "ติดต่อเรา",
+    "popular_cats": {
+      "matrimonial": "การแต่งงาน",
+      "daily_necessity": "ของใช้ประจำวัน",
+      "education": "การศึกษา",
+      "health": "สุขภาพ",
+      "real_estate": "อสังหาริมทรัพย์",
+      "transporters": "การขนส่ง",
+      "industries": "อุตสาหกรรม",
+      "pandit_astrologer": "พราหมณ์ & โหราศาสตร์",
+      "insurance": "ประกันภัย",
+      "import_export": "นำเข้า & ส่งออก",
+      "job_placement": "การจัดหางาน",
+      "wedding_events": "งานแต่งงาน & งานอีเวนต์",
+      "agriculture": "เกษตรกรรม",
+      "jewellery": "เครื่องประดับ",
+      "it_software": "ซอฟต์แวร์ไอที",
+      "food": "อาหาร",
+      "tour_travels": "ท่องเที่ยว & การเดินทาง",
+      "electrical": "ไฟฟ้า",
+      "house_construction": "การก่อสร้างบ้าน",
+      "legal_document": "เอกสารกฎหมาย",
+      "packers_movers": "บริการขนย้าย",
+      "financial_accounting": "การเงิน & การบัญชี",
+      "fitness_yoga": "ฟิตเนส & โยคะ",
+      "furniture_services": "บริการเฟอร์นิเจอร์"
+    },
+    "svc_ac": "บริการแอร์",
+    "svc_car": "บริการรถยนต์",
+    "svc_bike": "บริการจักรยาน",
+    "svc_labour": "แรงงาน",
+    "svc_grocery": "ของชำ",
+    "svc_electricians": "ช่างไฟฟ้า"
+  },
+  "testimonials": [
+    {
+      "name": "Dev",
+      "text": "แพลตฟอร์มที่ยอดเยี่ยม! ฉันพบสิ่งที่ต้องการอย่างแน่นอน",
+      "img": "https://citywala.com/assets/images/testimonial-1.jpg"
+    },
+    {
+      "name": "Esther Hills",
+      "text": "บริการแต่งงานนั้นยอดเยี่ยมมาก",
+      "img": "https://citywala.com/assets/images/testimonial-2.jpg"
+    },
+    {
+      "name": "Hannah Schmitt",
+      "text": "ประสบการณ์ที่ดีมาก! ไดเรกทอรีธุรกิจท้องถิ่นช่วยฉันได้อย่างรวดเร็ว",
+      "img": "https://citywala.com/assets/images/testimonial-3.jpg"
+    },
+    {
+      "name": "Esther Hills",
+      "text": "บริการแต่งงานนั้นยอดเยี่ยมมาก",
+      "img": "https://citywala.com/assets/images/testimonial-2.jpg"
+    }
+  ],
+  "all_categories": {
+    "title": "หมวดหมู่ทั้งหมด",
+    "subtitle": "เรียกดูหมวดหมู่ทั้งหมดและค้นหาบริการที่ดีที่สุดตามความต้องการของคุณ",
+    "search_placeholder": "ค้นหาหมวดหมู่...",
+    "view_all": "ดูทั้งหมด",
+    "browse_collection": "เรียกดูคอลเลกชัน",
+    "registered_partners_in_this_category": "พาร์ทเนอร์ที่ลงทะเบียนในหมวดหมู่นี้",
+    "no_categories_are_available_right_now": "ไม่มีหมวดหมู่ที่ใช้งานได้ในขณะนี้",
+    "view_subcategories": "ดูหมวดหมู่ย่อย",
+    "view_details": "ดูรายละเอียด",
+    "registered_businesses": "ธุรกิจที่ลงทะเบียน",
+    "no_businesses_found": "ไม่พบธุรกิจ",
+    "no_registered_partners_found_in_this_category": "ไม่พบพาร์ทเนอร์ที่ลงทะเบียนในหมวดหมู่นี้",
+    "subcategories": "หมวดหมู่ย่อย"
+  },
+  "login": {
+    "title": "เข้าสู่ระบบ",
+    "email": "อีเมล",
+    "phone": "โทรศัพท์",
+    "email_label": "อีเมล",
+    "password": "รหัสผ่าน",
+    "forgot_password": "ลืมรหัสผ่าน?",
+    "login_btn": "เข้าสู่ระบบเลย",
+    "logging_in": "กำลังเข้าสู่ระบบ...",
+    "new_here": "ใหม่ที่นี่?",
+    "create_account": "สร้างบัญชี"
+  },
+  "register": {
+    "title": "สร้างบัญชี",
+    "full_name": "ชื่อ-นามสกุล",
+    "email": "อีเมล",
+    "mobile": "หมายเลขมือถือ",
+    "password": "รหัสผ่าน",
+    "confirm_password": "ยืนยันรหัสผ่าน",
+    "register_btn": "ลงทะเบียนเลย",
+    "registering": "กำลังลงทะเบียน...",
+    "have_account": "มีบัญชีอยู่แล้ว?",
+    "login": "เข้าสู่ระบบ"
+  },
+  "partner_register": {
+    "title": "การลงทะเบียนพาร์ทเนอร์",
+    "full_name": "ชื่อ-นามสกุล",
+    "email": "อีเมล",
+    "mobile": "หมายเลขมือถือ",
+    "country": "ประเทศ",
+    "state": "จังหวัด",
+    "city": "เมือง",
+    "password": "รหัสผ่าน",
+    "confirm_password": "ยืนยันรหัสผ่าน",
+    "register_btn": "ลงทะเบียนเลย",
+    "registering": "กำลังลงทะเบียน...",
+    "have_account": "มีบัญชีอยู่แล้ว?",
+    "login": "เข้าสู่ระบบ",
+    "step": "ขั้นตอน",
+    "of": "จาก",
+    "step_1": "ขั้นตอนที่ 1",
+    "step_2": "ขั้นตอนที่ 2",
+    "step_3": "ขั้นตอนที่ 3",
+    "adhar_card": "บัตรประจำตัวประชาชน",
+    "postal_code": "รหัสไปรษณีย์",
+    "full_address": "ที่อยู่เต็ม",
+    "business_name": "ชื่อธุรกิจ",
+    "company_url": "URL บริษัท",
+    "company_logo": "โลโก้บริษัท",
+    "company_short_description": "คำอธิบายสั้น ๆ ของบริษัท",
+    "category": "หมวดหมู่",
+    "subcategory": "หมวดหมู่ย่อย",
+    "subsubcategory": "หมวดหมู่ย่อยย่อย",
+    "gst_no": "หมายเลขผู้เสียภาษี",
+    "select_category": "เลือกหมวดหมู่ *",
+    "select_subcategory": "เลือกหมวดหมู่ย่อย",
+    "select_subsubcategory": "เลือกหมวดหมู่ย่อยย่อย",
+    "business_name_placeholder": "ชื่อธุรกิจ *",
+    "company_url_placeholder": "URL บริษัท",
+    "gst_placeholder": "หมายเลขผู้เสียภาษี",
+    "description_placeholder": "คำอธิบายสั้น ๆ ของบริษัท *",
+    "back": "ย้อนกลับ",
+    "next": "ถัดไป",
+    "register_as_partner": "ลงทะเบียนเป็นพาร์ทเนอร์"
+  },
+  "forgot": {
+    "title": "ลืมรหัสผ่าน?",
+    "subtitle": "กรอกอีเมลหรือหมายเลขมือถือ",
+    "reset_sent": "ส่งข้อมูลการรีเซ็ตแล้ว",
+    "enter_otp": "กรอก OTP ด้วยตนเอง",
+    "mobile_mode": "โหมดมือถือ",
+    "use_email": "ใช้อีเมล",
+    "placeholder": "กรอกอีเมลหรือโทรศัพท์",
+    "continue": "ดำเนินการต่อ",
+    "sending": "กำลังส่ง...",
+    "back_login": "← กลับไปหน้าเข้าสู่ระบบ"
+  },
+  "footer": {
+    "tagline": "ค้นหาผู้เชี่ยวชาญและบริการระดับโลกได้ทุกเวลาและทุกที่",
+    "follow_us": "ติดตามเรา",
+    "quick_links": "ลิงก์ด่วน",
+    "home": "หน้าแรก",
+    "about": "เกี่ยวกับเรา",
+    "contact": "ติดต่อ",
+    "help": "ช่วยเหลือ",
+    "useful_links": "ลิงก์ที่มีประโยชน์",
+    "cookie": "นโยบายคุกกี้",
+    "privacy": "นโยบายความเป็นส่วนตัว",
+    "terms": "ข้อกำหนดและเงื่อนไข",
+    "business_plan": "แผนธุรกิจ",
+    "popular_cities": "เมืองยอดนิยม",
+    "communication": "การสื่อสาร",
+    "call_us": "โทรหาเรา",
+    "send_message": "ส่งข้อความ",
+    "copyright": "© ลิขสิทธิ์ 2025 City Wala สงวนลิขสิทธิ์ทั้งหมด"
+  },
+  "common": {
+    "loading": "กำลังโหลด...",
+    "error": "ข้อผิดพลาด",
+    "save": "บันทึก",
+    "edit": "แก้ไข",
+    "delete": "ลบ",
+    "cancel": "ยกเลิก",
+    "next": "ถัดไป",
+    "back": "ย้อนกลับ"
+  },
+  "auth": {
+    "login": "เข้าสู่ระบบ",
+    "logout": "ออกจากระบบ",
+    "email": "อีเมล",
+    "password": "รหัสผ่าน",
+    "forgot_password": "ลืมรหัสผ่าน?",
+    "reset_password": "รีเซ็ตรหัสผ่าน",
+    "reset_using_email": "รีเซ็ตผ่านลิงก์อีเมล",
+    "reset_using_phone": "รีเซ็ตผ่าน OTP",
+    "new_password": "รหัสผ่านใหม่",
+    "confirm_password": "ยืนยันรหัสผ่าน",
+    "update_password": "อัปเดตรหัสผ่าน",
+    "updating": "กำลังอัปเดต..."
+  },
+  "plans": {
+    "most_popular": "ยอดนิยมที่สุด",
+    "per_month": "ต่อเดือน",
+    "year": "ปี",
+    "month": "เดือน",
+    "view_plans": "ดูแผน",
+    "features_title": "คุณสมบัติ",
+    "pay_with_razorpay": "ชำระด้วย Razorpay",
+    "pay_with_paypal": "ชำระด้วย PayPal",
+    "get_started": "เริ่มต้น"
+  },
+  "dashboard": {
+    "dashboard": "แดชบอร์ด",
+    "partner_dashboard": "แดชบอร์ดพาร์ทเนอร์",
+    "welcome": "ยินดีต้อนรับ"
+  },
+  "profile": {
+    "partner_profile": "โปรไฟล์พาร์ทเนอร์",
+    "company_info": "ข้อมูลบริษัท",
+    "basic_info": "ข้อมูลพื้นฐาน",
+    "location": "ที่ตั้ง",
+    "documents": "เอกสาร"
+  },
+  "partner": {
+    "dashboard": "แดชบอร์ด",
+    "add_profile": "เพิ่มโปรไฟล์",
+    "plans": "แผน",
+    "all_plans": "แผนทั้งหมด",
+    "my_plan": "แผนของฉัน",
+    "logout": "ออกจากระบบ",
+    "menu": "เมนู",
+    "partner": "พาร์ทเนอร์",
+    "verify_otp": "ยืนยัน OTP",
+    "otp_sent_to": "ส่ง OTP ไปยัง",
+    "enter_otp": "กรอก OTP",
+    "verifying": "กำลังยืนยัน..."
+  },
+  "partner_layout": {
+    "mobile_title": "พาร์ทเนอร์",
+    "menu": "เมนู",
+    "loading": "กำลังโหลดแดชบอร์ด..."
+  },
+  "partner_dashboard": {
+    "title": "แดชบอร์ดพาร์ทเนอร์",
+    "sidebar": {
+      "panel_title": "แผงพาร์ทเนอร์",
+      "dashboard": "แดชบอร์ด",
+      "add_profile": "เพิ่มโปรไฟล์",
+      "plans": {
+        "title": "แผน",
+        "all_plans": "แผนทั้งหมด",
+        "my_plan": "แผนของฉัน"
+      },
+      "logout": "ออกจากระบบ"
+    },
+    "stats": {
+      "total_profiles": "โปรไฟล์ทั้งหมด",
+      "active": "ใช้งานอยู่",
+      "inactive": "ไม่ได้ใช้งาน",
+      "plan": "แผน"
+    },
+    "plan_default": "ฟรี"
+  },
+  "partner_profile": {
+    "title": "โปรไฟล์พาร์ทเนอร์",
+    "company_info": {
+      "title": "ข้อมูลบริษัท",
+      "name": "ชื่อ",
+      "description": "คำอธิบาย",
+      "url": "URL"
+    },
+    "basic_info": {
+      "title": "ข้อมูลพื้นฐาน",
+      "name": "ชื่อ",
+      "email": "อีเมล",
+      "mobile": "มือถือ"
+    },
+    "location": {
+      "title": "ที่ตั้ง",
+      "address": "ที่อยู่",
+      "city": "เมือง",
+      "state": "จังหวัด",
+      "postal_code": "รหัสไปรษณีย์"
+    },
+    "category_info": {
+      "title": "ข้อมูลหมวดหมู่",
+      "category": "หมวดหมู่",
+      "sub_category": "หมวดหมู่ย่อย",
+      "sub_sub_category": "หมวดหมู่ย่อยย่อย",
+      "select_category": "เลือกหมวดหมู่",
+      "select_subcategory": "เลือกหมวดหมู่ย่อย",
+      "select_subsubcategory": "เลือกหมวดหมู่ย่อยย่อย"
+    },
+    "documents": {
+      "title": "เอกสาร",
+      "aadhar": "บัตรประจำตัวประชาชน",
+      "gst": "หมายเลขผู้เสียภาษี",
+      "status": "สถานะ",
+      "plan": "แผน"
+    },
+    "actions": {
+      "edit": "แก้ไข",
+      "save": "บันทึก",
+      "cancel": "ยกเลิก"
+    },
+    "loading": "กำลังโหลดโปรไฟล์..."
+  },
+  "my_plan": {
+    "title": "แผนของฉัน",
+    "subtitle": "จัดการการสมัครสมาชิกและติดตามสิทธิประโยชน์",
+    "status": {
+      "expired": "หมดอายุ",
+      "upgrading": "กำลังอัปเกรด",
+      "active": "ใช้งานอยู่",
+      "days_left": "วันที่เหลือ"
+    },
+    "labels": {
+      "start_date": "วันที่เริ่มต้น",
+      "expiry_date": "วันหมดอายุ",
+      "auto_renew": "ต่ออายุอัตโนมัติ",
+      "payment_provider": "ผู้ให้บริการชำระเงิน",
+      "currency": "สกุลเงิน"
+    },
+    "features": {
+      "title": "สิ่งที่รวมอยู่",
+      "no_features": "ไม่มีคุณสมบัติ"
+    },
+    "actions": {
+      "renew": "ต่ออายุแผน",
+      "upgrade": "อัปเกรดแผน",
+      "cancel": "ยกเลิก"
+    },
+    "pending": {
+      "text": "แผนที่รอดำเนินการ: แผนนี้จะเปิดใช้งานหลังจากแผนปัจจุบันหมดอายุ"
+    },
+    "history": {
+      "title": "ประวัติแผน",
+      "subtitle": "แผนการสมัครสมาชิกที่ใช้ก่อนหน้านี้",
+      "records": "บันทึก",
+      "show_all": "แสดงทั้งหมด",
+      "show_less": "แสดงน้อยลง",
+      "no_history": "ไม่พบประวัติ",
+      "empty_text": "แผนที่หมดอายุหรือถูกยกเลิกจะปรากฏที่นี่",
+      "started": "เริ่มต้น",
+      "expired": "หมดอายุ",
+      "ended_at": "สิ้นสุดเมื่อ"
+    }
+  }
+}
