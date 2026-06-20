@@ -34,9 +34,12 @@ const AuthContext = createContext(null)
 export function AuthProvider({ children }) {
   const [user, setUser] = useState(null)
   const [partner, setPartner] = useState(null)
+  const [admin, setAdmin] = useState(undefined)
   const [loading, setLoading] = useState(true)
 
   useEffect(() => {
+    // User/partner session and admin session are checked independently so a
+    // 401 on one (e.g. an admin-only cookie) doesn't clear the other.
     const checkAuth = async () => {
       try {
         const { data } = await API.get('/auth/me')
@@ -52,13 +55,21 @@ export function AuthProvider({ children }) {
       } catch {
         setUser(null)
         setPartner(null)
-        clearAccessToken()
-      } finally {
-        setLoading(false)
       }
     }
 
-    checkAuth()
+    const checkAdmin = async () => {
+      try {
+        const { data } = await API.get('/auth/admin/me')
+        setAdmin(data.admin)
+      } catch {
+        setAdmin(null)
+      }
+    }
+
+    Promise.allSettled([checkAuth(), checkAdmin()]).finally(() =>
+      setLoading(false)
+    )
   }, [])
   // const [admin, setAdmin] = useState(() => JSON.parse(safeStorage.getItem('admin') || 'null'))
 
@@ -360,14 +371,13 @@ export function AuthProvider({ children }) {
 
 
   // ── Admin ────────────────────────────────────────────────────────────────────
-  // const adminLogin = async (email, password) => {
-  //   const { data } = await API.post('/auth/admin/login', { email, password })
-  //   if (!data?.token) throw new Error('Token missing from admin login response')
-  //   safeStorage.setItem('adminToken', data.token)
-  //   safeStorage.setItem('admin', JSON.stringify(data.admin))
-  //   setAdmin(data.admin)
-  //   return data
-  // }
+  // Admin auth is cookie-based (no token in storage), mirroring the old
+  // standalone admin app.
+  const adminLogin = async (email, password) => {
+    const { data } = await API.post('/auth/admin/login', { email, password })
+    setAdmin(data.admin)
+    return data
+  }
 
   // ── Logout (all) ─────────────────────────────────────────────────────────────
   // const logout = () => {
@@ -388,6 +398,7 @@ export function AuthProvider({ children }) {
   clearAccessToken();
   setUser(null);
   setPartner(null);
+  setAdmin(null);
 };
 
   // ── Update Partner Data ──────────────────────────────────────────────────────
@@ -410,7 +421,7 @@ export function AuthProvider({ children }) {
   // }, [user, partner])
 
   return (
-    <AuthContext.Provider value={{ user, partner, loading, login, partnerLogin, forgotPassword, register, partnerRegister, logout, updatePartnerData }}>
+    <AuthContext.Provider value={{ user, partner, admin, loading, login, partnerLogin, adminLogin, forgotPassword, register, partnerRegister, logout, updatePartnerData }}>
       {children}
     </AuthContext.Provider>
   )

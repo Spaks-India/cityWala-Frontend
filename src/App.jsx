@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom'
+import { BrowserRouter, Routes, Route, Navigate, Outlet } from 'react-router-dom'
 import { AuthProvider, useAuth } from './context/AuthContext'
 import { useState, useEffect } from 'react'
 // import Header from './components/Header'
@@ -20,7 +20,17 @@ import PartnerDashboard from './pages/partner/PartnerDashboard'
 import PartnerDetails from './pages/PartnerDetails'
 // import AddMatrimonialProfile from './pages/partner/AddMatrimonialProfile'
 
-// Admin
+// Admin (migrated from the standalone admin-frontend; served under /admin/*)
+import AdminLogin, { AdminCategories, AdminUsers } from './pages/admin/AdminLogin'
+import AdminDashboard from './pages/admin/AdminDashboard'
+import { AdminPartner } from './pages/admin/adminPartner'
+import AddPlans from './pages/admin/AddPlans'
+import AllPlans from './pages/admin/AllPlans'
+import AdminAllCategories from './pages/admin/AdminAllCategories'
+import CategoriesTree from './pages/admin/CategoriesTree'
+import AdminSubcategories from './pages/admin/AdminSubcategories'
+import TermsCondition from './pages/admin/TermsCondition'
+import Analytics from './pages/admin/Analytics'
 
 import { ResetPassword } from './pages/ResetPassword'
 import VerifyOtp from './components/VerifyOtp'
@@ -92,6 +102,34 @@ const ProtectedPartner = ({ children }) => {
 };
 
 
+const ProtectedAdmin = ({ children }) => {
+
+  const { admin, loading } = useAuth();
+
+  if (loading) {
+    return (
+      <div className="d-flex justify-content-center align-items-center py-5">
+        <div className="spinner-border text-primary" role="status" />
+      </div>
+    );
+  }
+
+  if (!admin) {
+    return <Navigate to="/admin/login" replace />;
+  }
+
+  return children;
+};
+
+// Wraps every admin route in `.admin-root` so the scoped admin styles in
+// admin.css apply only here and never leak onto public/user/partner pages.
+const AdminRoot = () => (
+  <div className="admin-root">
+    <Outlet />
+  </div>
+);
+
+
 
 
   return (
@@ -154,7 +192,24 @@ const ProtectedPartner = ({ children }) => {
 
         </Route>
 
-        
+        {/* Admin (migrated standalone admin app; wrapped in .admin-root for scoped styles) */}
+        <Route element={<AdminRoot />}>
+          <Route path="/admin/login" element={<AdminLogin />} />
+          <Route path="/admin/dashboard" element={<ProtectedAdmin><AdminDashboard /></ProtectedAdmin>} />
+          <Route path="/admin/users" element={<ProtectedAdmin><AdminUsers /></ProtectedAdmin>} />
+          <Route path="/admin/partners" element={<ProtectedAdmin><AdminPartner /></ProtectedAdmin>} />
+          <Route path="/admin/plans" element={<ProtectedAdmin><AllPlans /></ProtectedAdmin>} />
+          <Route path="/admin/plans/add" element={<ProtectedAdmin><AddPlans /></ProtectedAdmin>} />
+          <Route path="/admin/plans/edit/:id" element={<ProtectedAdmin><AddPlans /></ProtectedAdmin>} />
+          <Route path="/admin/categories/add" element={<ProtectedAdmin><AdminCategories /></ProtectedAdmin>} />
+          <Route path="/admin/categories/edit/:id" element={<ProtectedAdmin><AdminCategories /></ProtectedAdmin>} />
+          <Route path="/admin/categories/all" element={<ProtectedAdmin><AdminAllCategories /></ProtectedAdmin>} />
+          <Route path="/admin/categories-tree" element={<ProtectedAdmin><CategoriesTree /></ProtectedAdmin>} />
+          <Route path="/admin/subcategories" element={<ProtectedAdmin><AdminSubcategories /></ProtectedAdmin>} />
+          <Route path="/admin/term-and-condition" element={<ProtectedAdmin><TermsCondition /></ProtectedAdmin>} />
+          <Route path="/admin/analytics" element={<ProtectedAdmin><Analytics /></ProtectedAdmin>} />
+        </Route>
+
       </Routes>
       {/* <Footer /> */}
     </BrowserRouter>
