@@ -62,6 +62,13 @@ export default function Home() {
 
   const TESTIMONIALS = t("testimonials", { returnObjects: true });
 
+  const sortCategoriesByName = (cats = []) =>
+    [...cats].sort((a, b) =>
+      String(a?.name || '').localeCompare(String(b?.name || ''), undefined, {
+        sensitivity: 'base',
+      })
+    );
+
   const settings = {
     dots: true,
     infinite: true,
@@ -117,7 +124,9 @@ export default function Home() {
 
         // console.log("RAW CATEGORY API:", r.data.categories);
 
-        const filtered = r.data.categories.filter(c => !c.parentId).filter(cat => cat.status);
+        const filtered = sortCategoriesByName(
+          r.data.categories.filter(c => !c.parentId).filter(cat => cat.status)
+        );
 
         // console.log("FILTERED:", filtered);
 
@@ -170,7 +179,9 @@ export default function Home() {
 
   // translated fallback categories (used when API returns no data)
   const translatedFallbackCats = useMemo(
-    () => POPULAR_CATEGORIES.map(cat => ({ ...cat, name: t(`home.popular_cats.${cat.tKey}`) })),
+    () => sortCategoriesByName(
+      POPULAR_CATEGORIES.map(cat => ({ ...cat, name: t(`home.popular_cats.${cat.tKey}`) }))
+    ),
     [t]
   );
 
