@@ -28,7 +28,9 @@ function AdminSubcategories() {
 
 
   const rootCategories = useMemo(
-    () => categories.filter((c) => !c.parentId),
+    () => categories
+      .filter((c) => !c.parentId)
+      .sort((a, b) => (a.name || '').localeCompare(b.name || '')),
     [categories]
   );
 

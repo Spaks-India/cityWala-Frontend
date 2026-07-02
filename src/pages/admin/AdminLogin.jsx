@@ -535,9 +535,10 @@ export function AdminCategories() {
     try {
       const res = await API.get("/categories");
 
-      setCategories(
-        res.data.categories || []
+      const sortedCategories = (res.data.categories || []).sort((a, b) =>
+        (a.name || '').localeCompare(b.name || '')
       );
+      setCategories(sortedCategories);
     } catch (err) {
       console.log(err);
     } finally {

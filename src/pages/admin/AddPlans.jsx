@@ -79,7 +79,10 @@ const AddPlans = () => {
             const res = await API.get("/categories");
             const allCats = res.data.categories || [];
             setAllCategories(allCats);
-            setCategories(allCats.filter((cat) => !cat.parentId));
+            const rootCats = allCats
+              .filter((cat) => !cat.parentId)
+              .sort((a, b) => (a.name || '').localeCompare(b.name || ''));
+            setCategories(rootCats);
         } catch (error) {
             console.log(error);
         }
@@ -96,9 +99,9 @@ const AddPlans = () => {
             return;
         }
 
-        const filteredSubCats = allCategories.filter(
-            (cat) => cat.parentId === formData.category_id
-        );
+        const filteredSubCats = allCategories
+          .filter((cat) => cat.parentId === formData.category_id)
+          .sort((a, b) => (a.name || '').localeCompare(b.name || ''));
 
         setSub_category(filteredSubCats);
     }, [allCategories, formData.category_id]);
@@ -109,9 +112,9 @@ const AddPlans = () => {
             return;
         }
 
-        const filteredSubSubCats = allCategories.filter(
-            (cat) => cat.parentId === formData.subCategory_id
-        );
+        const filteredSubSubCats = allCategories
+          .filter((cat) => cat.parentId === formData.subCategory_id)
+          .sort((a, b) => (a.name || '').localeCompare(b.name || ''));
 
         setSub_subCategory(filteredSubSubCats);
     }, [allCategories, formData.subCategory_id]);

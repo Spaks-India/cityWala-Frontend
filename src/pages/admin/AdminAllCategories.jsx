@@ -26,7 +26,10 @@ export default function AdminAllCategories() {
         setLoading(true)
         try {
             const res = await API.get(`/categories?page=${page}&limit=${limit}&parentId=null`);
-            setCategories(res.data.categories);
+            const sortedCategories = (res.data.categories || []).sort((a, b) =>
+              (a.name || '').localeCompare(b.name || '')
+            );
+            setCategories(sortedCategories);
             setPagination(res.data.pagination);
         } catch (error) {
             console.error('Error fetching categories:', error);

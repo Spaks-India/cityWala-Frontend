@@ -18,7 +18,10 @@ export default function ProfilePage() {
     const loadCategories = async () => {
       try {
         const res = await API.get("/categories");
-        setCategories(res.data.categories || []);
+        const sortedCategories = (res.data.categories || []).sort((a, b) =>
+          (a.name || '').localeCompare(b.name || '')
+        );
+        setCategories(sortedCategories);
       } catch (err) {
         console.error("Error loading categories:", err);
       }
@@ -92,7 +95,10 @@ export default function ProfilePage() {
         return;
       }
       const res = await API.get(`/categories/${categoryId}/popular-sub`);
-      setSubcategories(res.data || []);
+      const sortedSubcategories = (res.data || []).sort((a, b) =>
+        (a.name || '').localeCompare(b.name || '')
+      );
+      setSubcategories(sortedSubcategories);
     } catch (err) {
       console.error("Error loading subcategories:", err);
       setSubcategories([]);
@@ -106,7 +112,10 @@ export default function ProfilePage() {
         return;
       }
       const res = await API.get(`/categories/sub/${subcategoryId}/popular-subsub`);
-      setSubSubcategories(res.data || []);
+      const sortedSubSubcategories = (res.data || []).sort((a, b) =>
+        (a.name || '').localeCompare(b.name || '')
+      );
+      setSubSubcategories(sortedSubSubcategories);
     } catch (err) {
       console.error("Error loading sub-subcategories:", err);
       setSubSubcategories([]);

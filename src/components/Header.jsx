@@ -45,13 +45,22 @@ export default function Header() {
   const [allCategories, setAllCategories] = useState([]);
 
   useEffect(() => {
-    API.get('/categories')
-      .then((r) => {
-        const data = r.data.categories || [];
+    const fetchCategories = async () => {
+      try {
+        const r = await API.get('/categories');
+        const data = r.data?.categories || [];
         setAllCategories(data);
-        setCategories(data.filter((c) => !c.parentId).filter((c) => c.status === true));
-      })
-      .catch(() => { });
+        const rootCats = data
+          .filter((c) => !c.parentId)
+          .filter((c) => c.status === true)
+          .sort((a, b) => a.name.localeCompare(b.name));
+        setCategories(rootCats);
+      } catch (err) {
+        console.error('Failed to fetch categories:', err.message);
+        setCategories([]);
+      }
+    };
+    fetchCategories();
   }, []);
 
   const [query, setQuery] = useState("");

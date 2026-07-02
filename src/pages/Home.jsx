@@ -121,55 +121,27 @@ export default function Home() {
 
     API.get('/categories')
       .then(r => {
-
-        // console.log("RAW CATEGORY API:", r.data.categories);
-
+        const data = r.data.categories || [];
         const filtered = sortCategoriesByName(
-          r.data.categories.filter(c => !c.parentId).filter(cat => cat.status)
+          data.filter(c => !c.parentId).filter(cat => cat.status)
         );
-
-        // console.log("FILTERED:", filtered);
-
-        filtered.forEach(c => {
-          // console.log(
-          //   "STATUS =>",
-          //   c.name,
-          //   c.status,
-          //   typeof c.status
-          // );
-        });
-
         setPopularCategories(filtered || []);
-        console.log("STATE CATEGORY DATA :", popularCategories);
       })
       .catch((err) => {
-        console.log("CATEGORY ERROR:", err);
+        console.error("CATEGORY FETCH ERROR:", err.message);
       });
 
-
-    // Auto-slide banners
-    // const t1 = setInterval(
-    //   () => setBannerIdx(p => (p + 1) % Math.max(banners.length, 1)),
-    //   4000
-    // );
-
-    // const t2 = setInterval(
-    //   () => setAdIdx(p => (p + 1) % Math.max(advertises.length, 1)),
-    //   5000
-    // );
-
+    // Auto-slide testimonials
     const t3 = setInterval(
       () => setTestiIdx(p => (p + 1) % TESTIMONIALS.length),
       4000
     );
 
     return () => {
-      // clearInterval(t1);
-      // clearInterval(t2);
       clearInterval(t3);
     };
 
-  }, [banners.length, advertises.length]);
+  }, [TESTIMONIALS.length]);
 
   // derive root categories for horizontal scroll
   const rootCategories = useMemo(

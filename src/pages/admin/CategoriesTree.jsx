@@ -38,6 +38,7 @@ export default function CategoriesTree() {
           ? catIdStr(i.parentId) === catIdStr(parentId)
           : !i.parentId
       )
+      .sort((a, b) => (a.name || '').localeCompare(b.name || ''))
       .map((i) => ({
         ...i,
         children: buildTree(items, i._id),
