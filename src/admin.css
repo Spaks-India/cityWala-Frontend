@@ -405,9 +405,20 @@
     align-items: center;
 }
 .admin-root .auth-card {
+    width: 100%;
+    max-width: 420px;
     border-radius: 16px;
     box-shadow: 0 10px 40px rgba(0, 0, 0, 0.12);
     border: none;
+}
+.admin-root .auth-card .password-toggle-btn {
+    cursor: pointer;
+    transition: color 0.15s ease;
+}
+.admin-root .auth-card .password-toggle-btn:hover,
+.admin-root .auth-card .password-toggle-btn:focus-visible {
+    color: #1075be;
+    outline: none;
 }
 .admin-root .stat-card {
     border-radius: 12px;

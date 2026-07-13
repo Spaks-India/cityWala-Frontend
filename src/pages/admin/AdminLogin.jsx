@@ -53,6 +53,7 @@ export function AdminLogin() {
   const [form, setForm] = useState({ email: '', password: '' })
   const [error, setError] = useState('')
   const [loading, setLoading] = useState(false)
+  const [showPassword, setShowPassword] = useState(false)
 
   const handleSubmit = async (e) => {
     e.preventDefault(); setError(''); setLoading(true)
@@ -65,27 +66,40 @@ export function AdminLogin() {
   }
 
   return (
-    <div className="auth-wrapper" style={{ background: '#1a1a2e' }}>
+    <div className="auth-wrapper d-flex align-items-center justify-content-center" style={{ background: '#1a1a2e', minHeight: '100vh' }}>
       <div className="container">
         <div className="row justify-content-center">
-          <div className="col-12 col-md-5">
-            <div className="card auth-card p-4">
+          <div className="col-12 col-sm-9 col-md-6 col-lg-4">
+            <div className="card auth-card p-4 p-md-5 mx-auto">
               <div className="text-center mb-4">
                 <i className="fa-solid fa-shield fa-3x mb-3" style={{ color: '#1075be' }}></i>
                 <h4 className="fw-bold">Admin Login</h4>
                 <p className="text-muted" style={{ fontSize: 13 }}>CityWala Admin Panel</p>
               </div>
-              {error && <div className="alert alert-danger py-2">{error}</div>}
+              {error && <div className="alert alert-danger py-2 text-center">{error}</div>}
               <form onSubmit={handleSubmit}>
                 <div className="form-floating mb-3">
                   <input type="email" className="form-control" id="email" placeholder="Email"
-                    value={form.email} onChange={e => setForm({ ...form, email: e.target.value })} required />
-                  <label>Admin Email</label>
+                    value={form.email} onChange={e => setForm({ ...form, email: e.target.value })} required
+                    autoComplete="username" />
+                  <label htmlFor="email">Admin Email</label>
                 </div>
-                <div className="form-floating mb-4">
-                  <input type="password" className="form-control" id="password" placeholder="Password"
-                    value={form.password} onChange={e => setForm({ ...form, password: e.target.value })} required />
-                  <label>Password</label>
+                <div className="form-floating mb-4 position-relative">
+                  <input type={showPassword ? 'text' : 'password'} className="form-control pe-5" id="password" placeholder="Password"
+                    value={form.password} onChange={e => setForm({ ...form, password: e.target.value })} required
+                    autoComplete="current-password" />
+                  <label htmlFor="password">Password</label>
+                  <button
+                    type="button"
+                    className="btn password-toggle-btn position-absolute top-50 end-0 translate-middle-y me-2 p-0 border-0 bg-transparent text-muted"
+                    style={{ zIndex: 5, width: 32, height: 32 }}
+                    onClick={() => setShowPassword(prev => !prev)}
+                    aria-label={showPassword ? 'Hide password' : 'Show password'}
+                    aria-pressed={showPassword}
+                    tabIndex={-1}
+                  >
+                    <i className={`fa-solid ${showPassword ? 'fa-eye-slash' : 'fa-eye'}`}></i>
+                  </button>
                 </div>
                 <button className="btn btn-primary w-100 py-2" disabled={loading}>
                   {loading ? 'Logging in...' : 'Admin Login'}
