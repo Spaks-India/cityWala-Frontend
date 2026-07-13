@@ -109,7 +109,9 @@
     "registered_businesses": "Registered Businesses",
     "no_businesses_found": "No businesses found",
     "no_registered_partners_found_in_this_category": "No registered partners found in this category",
-    "subcategories": "Subcategories"
+    "subcategories": "Subcategories",
+    "read_more": "Read more",
+    "read_less": "Read less"
   },
   "login": {
     "title": "Login",

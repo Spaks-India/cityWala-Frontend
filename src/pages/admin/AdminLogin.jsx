@@ -6,6 +6,7 @@ import API from '../../api/axios'
 import { useParams } from 'react-router-dom';
 import AdminLayout from './AdminLayout';
 import Pagination from '../../components/Pagination';
+import { getYoutubeThumbnail } from '../../utils/youtube';
 
 
 // ─── Sidebar ──────────────────────────────────────────────────────────────────
@@ -432,6 +433,7 @@ export function AdminCategories() {
     parentId: "",
     image: "",
     description: "",
+    youtubeUrl: "",
     status: true,
   });
 
@@ -572,6 +574,7 @@ export function AdminCategories() {
             image: cat.image || "",
             status: cat.status !== false,
             description: cat.description || "",
+            youtubeUrl: cat.youtubeUrl || "",
           });
         })
         .catch((err) => {
@@ -633,6 +636,11 @@ export function AdminCategories() {
     );
 
     fd.append(
+      "youtubeUrl",
+      form.youtubeUrl || ""
+    );
+
+    fd.append(
       "status",
       form.status ? "true" : "false"
     );
@@ -683,6 +691,7 @@ export function AdminCategories() {
         parentId: "",
         image: "",
         description: "",
+        youtubeUrl: "",
         status: true,
       });
     } catch (err) {
@@ -729,6 +738,7 @@ export function AdminCategories() {
         parentId: "",
         image: "",
         description: "",
+        youtubeUrl: "",
         status: true,
       })
       loadCats();
@@ -1101,6 +1111,48 @@ export function AdminCategories() {
                             }}
 
                           />
+                        </div>
+
+                        {/* YouTube Video Link */}
+                        <div className="mb-4">
+                          <label className="form-label fw-semibold mb-2">
+                            YouTube Video Link
+                          </label>
+
+                          <input
+                            type="url"
+                            className="form-control"
+                            placeholder="https://www.youtube.com/watch?v=..."
+                            value={form.youtubeUrl}
+                            onChange={(e) => {
+                              setForm((prev) => ({
+                                ...prev,
+                                youtubeUrl: e.target.value,
+                              }));
+                            }}
+                            style={{
+                              height: "52px",
+                              borderRadius: "14px",
+                              border: "1px solid #d1d5db",
+                              boxShadow: "none",
+                            }}
+                          />
+
+                          {getYoutubeThumbnail(form.youtubeUrl) && (
+                            <div className="mt-2">
+                              <img
+                                src={getYoutubeThumbnail(form.youtubeUrl)}
+                                alt="YouTube thumbnail preview"
+                                style={{
+                                  width: "160px",
+                                  height: "90px",
+                                  objectFit: "cover",
+                                  borderRadius: "12px",
+                                  border: "2px solid #e5e7eb",
+                                }}
+                              />
+                            </div>
+                          )}
                         </div>
 
                         {/* Status */}

@@ -4,7 +4,15 @@ import { useEffect, useMemo, useState } from "react";
 import { useNavigate } from "react-router-dom";
 
 import API from '../api/axios';
+import { getYoutubeThumbnail, getYoutubeWatchUrl } from '../utils/youtube';
 
+const DESCRIPTION_WORD_LIMIT = 400;
+
+const truncateWords = (text, limit) => {
+  const words = (text || "").trim().split(/\s+/).filter(Boolean);
+  if (words.length <= limit) return { truncated: text || "", isTruncated: false };
+  return { truncated: words.slice(0, limit).join(" ") + "...", isTruncated: true };
+};
 
 const AllCategories = () => {
   const { slug } = useParams();
@@ -25,6 +33,8 @@ const AllCategories = () => {
   const [showMixed, setShowMixed] = useState(false);
   const [mixedCategories, setMixedCategories] = useState([]);
   const [loading, setLoading] = useState(false);
+  const [categoryDescExpanded, setCategoryDescExpanded] = useState(false);
+  const [expandedSubDescIds, setExpandedSubDescIds] = useState(new Set());
   const { level1, level2, level3 } = useParams();
 
   const currentSlug = level3 || level2 || level1;
@@ -59,6 +69,10 @@ const AllCategories = () => {
   }, []);
 
   // When route slug changes, resolve its category id (for subcategory tree)
+  useEffect(() => {
+    setCategoryDescExpanded(false);
+  }, [currentSlug]);
+
   useEffect(() => {
     if (!currentSlug || categories.length === 0) return;
     const current = categories.find((c) => String(c?.slug || "") === String(currentSlug));
@@ -220,21 +234,60 @@ const AllCategories = () => {
 
           <p>{selectedCategoryName.description || "p"}</p> */}
           <h2>{selectedCategoryName?.name || currentSlug || "Categories"}</h2>
-          {/* <p>{selectedCategoryName?.description || ""}</p> */}
-          <p
-            className="mt-3 text-muted"
-            style={{
-              fontSize: "1.2rem",
-              lineHeight: "1.6",
-              maxWidth: "720px",
-              display: "-webkit-box",
-              WebkitLineClamp: 3,
-              WebkitBoxOrient: "vertical",
-              overflow: "hidden",
-            }}
-          >
-            {selectedCategoryName?.description || "No description available."}
-          </p>
+          {(() => {
+            const rawDesc = selectedCategoryName?.description || "";
+            const { truncated, isTruncated } = truncateWords(rawDesc, DESCRIPTION_WORD_LIMIT);
+            const shown = categoryDescExpanded ? rawDesc : truncated;
+            return (
+              <p
+                className="mt-3 text-muted"
+                style={{
+                  fontSize: "1.2rem",
+                  lineHeight: "1.6",
+                  maxWidth: "720px",
+                  whiteSpace: "pre-line",
+                }}
+              >
+                {shown || "No description available."}
+                {isTruncated && (
+                  <button
+                    type="button"
+                    className="btn btn-link p-0 ms-1 align-baseline"
+                    style={{ fontSize: "1rem" }}
+                    onClick={() => setCategoryDescExpanded((prev) => !prev)}
+                  >
+                    {categoryDescExpanded ? t("all_categories.read_less") : t("all_categories.read_more")}
+                  </button>
+                )}
+              </p>
+            );
+          })()}
+
+          {(() => {
+            const thumb = getYoutubeThumbnail(selectedCategoryName?.youtubeUrl);
+            if (!thumb) return null;
+            return (
+              <a
+                href={getYoutubeWatchUrl(selectedCategoryName?.youtubeUrl)}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="d-inline-block mt-3 position-relative"
+                style={{ width: 240, borderRadius: 12, overflow: "hidden", boxShadow: "0 2px 10px rgba(0,0,0,0.12)" }}
+              >
+                <img
+                  src={thumb}
+                  alt="Category video thumbnail"
+                  style={{ width: "100%", height: 135, objectFit: "cover", display: "block" }}
+                />
+                <span
+                  className="position-absolute top-50 start-50 translate-middle d-flex align-items-center justify-content-center"
+                  style={{ width: 44, height: 44, borderRadius: "50%", background: "rgba(0,0,0,0.65)" }}
+                >
+                  <i className="fa-solid fa-play text-white" style={{ fontSize: 16, marginLeft: 2 }}></i>
+                </span>
+              </a>
+            );
+          })()}
 
         </div>
         {!currentSlug && <p className="text-muted">{t("all_categories.choose_a_category_to_view_subcategories_and_businesses")}</p>}
@@ -245,24 +298,42 @@ const AllCategories = () => {
       {/* Show root categories when no slug is selected */}
       {!currentSlug && rootCategories.length > 0 ? (
         <div className="row g-3 mb-5">
-          {rootCategories.map((cat) => (
-            <div key={cat._id} className="col-lg-3 col-md-4 col-sm-6">
-              <div
-                className="card h-100 shadow-sm cursor-pointer hover-shadow"
-                onClick={() => navigate(`/categories/${cat.slug}${location.search}`)}
-                style={{ cursor: 'pointer', minHeight: '180px' }}
-              >
-                <div className="card-body d-flex flex-column justify-content-between">
-                  <div>
-                    <h6 className="card-title  fw-bold">{cat.name.charAt(0).toUpperCase() + cat.name.slice(1).toLowerCase()}</h6>
-                  </div>
-                  <div>
-                    <span className="text-muted small">{t("all_categories.view_subcategories")}</span>
+          {rootCategories.map((cat) => {
+            const cardThumb = getYoutubeThumbnail(cat?.youtubeUrl);
+            return (
+              <div key={cat._id} className="col-lg-3 col-md-4 col-sm-6">
+                <div
+                  className="card h-100 shadow-sm cursor-pointer hover-shadow"
+                  onClick={() => navigate(`/categories/${cat.slug}${location.search}`)}
+                  style={{ cursor: 'pointer', minHeight: '180px' }}
+                >
+                  {cardThumb && (
+                    <div className="position-relative">
+                      <img
+                        src={cardThumb}
+                        alt="Video thumbnail"
+                        style={{ width: "100%", height: 110, objectFit: "cover", borderTopLeftRadius: 8, borderTopRightRadius: 8 }}
+                      />
+                      <span
+                        className="position-absolute top-50 start-50 translate-middle d-flex align-items-center justify-content-center"
+                        style={{ width: 34, height: 34, borderRadius: "50%", background: "rgba(0,0,0,0.65)" }}
+                      >
+                        <i className="fa-solid fa-play text-white" style={{ fontSize: 12, marginLeft: 2 }}></i>
+                      </span>
+                    </div>
+                  )}
+                  <div className="card-body d-flex flex-column justify-content-between">
+                    <div>
+                      <h6 className="card-title  fw-bold">{cat.name.charAt(0).toUpperCase() + cat.name.slice(1).toLowerCase()}</h6>
+                    </div>
+                    <div>
+                      <span className="text-muted small">{t("all_categories.view_subcategories")}</span>
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
-          ))}
+            );
+          })}
         </div>
       ) : !currentSlug ? (
         <div className="alert alert-info" role="alert">{t("all_categories.no_categories_are_available_right_now")}</div>
@@ -285,38 +356,98 @@ const AllCategories = () => {
 
           <div className="row g-2">
 
-            {subCategories.map((sub, i) => (
-              <div key={sub._id} className="col-12">
+            {subCategories.map((sub, i) => {
+              const rawSubDesc = sub?.description || "";
+              const { truncated: subTruncated, isTruncated: subIsTruncated } = truncateWords(rawSubDesc, DESCRIPTION_WORD_LIMIT);
+              const isSubExpanded = expandedSubDescIds.has(sub._id);
+              const shownSubDesc = isSubExpanded ? rawSubDesc : subTruncated;
+              const subThumb = getYoutubeThumbnail(sub?.youtubeUrl);
 
-                <div
-                  onClick={() => handleSubCategoryClick(sub)}
-                  className="d-flex justify-content-between align-items-center p-3 border rounded-3 bg-white shadow-sm sub-item"
-                  style={{ cursor: "pointer" }}
-                >
+              const toggleSubDesc = (e) => {
+                e.stopPropagation();
+                setExpandedSubDescIds((prev) => {
+                  const next = new Set(prev);
+                  if (next.has(sub._id)) next.delete(sub._id);
+                  else next.add(sub._id);
+                  return next;
+                });
+              };
 
-                  {/* Left */}
-                  <div className="d-flex align-items-center gap-3">
+              return (
+                <div key={sub._id} className="col-12">
 
-                    <div
-                      className="rounded-circle bg-primary text-white d-flex align-items-center justify-content-center"
-                      style={{ width: 34, height: 34, fontSize: 13 }}
-                    >
-                      {i + 1}
+                  <div
+                    onClick={() => handleSubCategoryClick(sub)}
+                    className="p-3 border rounded-3 bg-white shadow-sm sub-item"
+                    style={{ cursor: "pointer" }}
+                  >
+
+                    <div className="d-flex justify-content-between align-items-center">
+
+                      {/* Left */}
+                      <div className="d-flex align-items-center gap-3">
+
+                        <div
+                          className="rounded-circle bg-primary text-white d-flex align-items-center justify-content-center"
+                          style={{ width: 34, height: 34, fontSize: 13 }}
+                        >
+                          {i + 1}
+                        </div>
+
+                        {subThumb && (
+                          <a
+                            href={getYoutubeWatchUrl(sub?.youtubeUrl)}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            onClick={(e) => e.stopPropagation()}
+                            className="position-relative d-inline-block flex-shrink-0"
+                            style={{ width: 64, height: 40, borderRadius: 8, overflow: "hidden" }}
+                          >
+                            <img
+                              src={subThumb}
+                              alt="Video thumbnail"
+                              style={{ width: "100%", height: "100%", objectFit: "cover", display: "block" }}
+                            />
+                            <span
+                              className="position-absolute top-50 start-50 translate-middle d-flex align-items-center justify-content-center"
+                              style={{ width: 20, height: 20, borderRadius: "50%", background: "rgba(0,0,0,0.65)" }}
+                            >
+                              <i className="fa-solid fa-play text-white" style={{ fontSize: 8, marginLeft: 1 }}></i>
+                            </span>
+                          </a>
+                        )}
+
+                        <span className="fw-semibold">
+                          {sub.name.charAt(0).toUpperCase() + sub.name.slice(1).toLowerCase()}
+                        </span>
+
+                      </div>
+
+                      {/* Right */}
+                      <i className="fa-solid fa-chevron-right text-muted"></i>
+
                     </div>
 
-                    <span className="fw-semibold">
-                      {sub.name.charAt(0).toUpperCase() + sub.name.slice(1).toLowerCase()}
-                    </span>
+                    {rawSubDesc && (
+                      <p className="text-muted small mb-0 mt-2 ps-1" style={{ whiteSpace: "pre-line" }}>
+                        {shownSubDesc}
+                        {subIsTruncated && (
+                          <button
+                            type="button"
+                            className="btn btn-link p-0 ms-1 align-baseline small"
+                            onClick={toggleSubDesc}
+                          >
+                            {isSubExpanded ? t("all_categories.read_less") : t("all_categories.read_more")}
+                          </button>
+                        )}
+                      </p>
+                    )}
 
                   </div>
 
-                  {/* Right */}
-                  <i className="fa-solid fa-chevron-right text-muted"></i>
-
                 </div>
-
-              </div>
-            ))}
+              );
+            })}
 
           </div>
 
