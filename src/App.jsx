@@ -1,5 +1,6 @@
 import { BrowserRouter, Routes, Route, Navigate, Outlet } from 'react-router-dom'
 import { AuthProvider, useAuth } from './context/AuthContext'
+import SessionTimeoutProvider from './context/SessionTimeoutProvider'
 import { useState, useEffect } from 'react'
 // import Header from './components/Header'
 // import Footer from './components/Footer'
@@ -133,7 +134,7 @@ const AdminRoot = () => (
 
 
   return (
-    <BrowserRouter>
+    <>
       <Loader />
       {/* <Header /> */}
       <Routes>
@@ -212,15 +213,19 @@ const AdminRoot = () => (
 
       </Routes>
       {/* <Footer /> */}
-    </BrowserRouter>
+    </>
   )
 }
 
 export default function App() {
   return (
-    <AuthProvider>
-      <AppContent />
-    </AuthProvider>
+    <BrowserRouter>
+      <AuthProvider>
+        <SessionTimeoutProvider>
+          <AppContent />
+        </SessionTimeoutProvider>
+      </AuthProvider>
+    </BrowserRouter>
   )
 }
 

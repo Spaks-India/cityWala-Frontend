@@ -34,9 +34,13 @@ const AllPlans = () => {
 
         try {
 
-            const res = await API.get("/categories");
+            const res = await API.get("/categories?parentId=null");
 
-            setCategories(res.data.categories || []);
+            const sorted = (res.data.categories || []).sort((a, b) =>
+                (a.name || "").localeCompare(b.name || "")
+            );
+
+            setCategories(sorted);
 
         } catch (error) {
 
@@ -64,7 +68,11 @@ const AllPlans = () => {
                 `/categories/${categoryId}/popular-sub`
             );
 
-            setSubCategories(res.data || []);
+            const sorted = (res.data || []).sort((a, b) =>
+                (a.name || "").localeCompare(b.name || "")
+            );
+
+            setSubCategories(sorted);
 
         } catch (error) {
 
@@ -92,7 +100,11 @@ const AllPlans = () => {
                 `/categories/${subCategoryId}/popular-sub`
             );
 
-            setSubSubCategories(res.data || []);
+            const sorted = (res.data || []).sort((a, b) =>
+                (a.name || "").localeCompare(b.name || "")
+            );
+
+            setSubSubCategories(sorted);
 
         } catch (error) {
 
@@ -110,6 +122,10 @@ const AllPlans = () => {
             setLoading(true);
 
             let query = [`page=${page}`, `limit=${limit}`];
+
+            if (filters.search) {
+                query.push(`search=${encodeURIComponent(filters.search)}`);
+            }
 
             if (filters.category_id) {
                 query.push(`category_id=${filters.category_id}`);

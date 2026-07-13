@@ -1,10 +1,11 @@
 // Login.jsx
-import { useState } from 'react'
-import { Link, useNavigate } from 'react-router-dom'
+import { useState, useEffect } from 'react'
+import { Link, useNavigate, useLocation } from 'react-router-dom'
 import { useAuth } from '../context/AuthContext'
 import PhoneInput from 'react-phone-input-2'
 import 'react-phone-input-2/lib/style.css';
 import { useTranslation } from 'react-i18next';
+import PasswordStrengthMeter from '../components/PasswordStrengthMeter';
 
 // export function Login() {
 //   const { login } = useAuth()
@@ -530,13 +531,22 @@ import { useTranslation } from 'react-i18next';
 export function Login() {
   const { login } = useAuth();
   const navigate = useNavigate();
+  const location = useLocation();
   const { t } = useTranslation();
 
   const [loginValue, setLoginValue] = useState('');
   const [password, setPassword] = useState('');
   const [error, setError] = useState('');
+  const [successMessage, setSuccessMessage] = useState('');
   const [loading, setLoading] = useState(false);
   const [mode, setMode] = useState('email');
+
+  // Display session timeout message if redirected from SessionTimeoutProvider
+  useEffect(() => {
+    if (location.state?.message && location.state?.expiredByTimeout) {
+      setError(location.state.message);
+    }
+  }, [location.state]);
 
   // const handleSubmit = async (e) => {
   //   e.preventDefault();
@@ -872,16 +882,36 @@ export function Register() {
               {errors.mobile && <div className="text-danger small">{errors.mobile}</div>}
             </div>
 
-            <div className="form-floating mb-3">
-              <input type="password" className="form-control" placeholder={t('register.password')} required
-                value={form.password} onChange={e => setForm({ ...form, password: e.target.value })} />
-              <label>{t('register.password')}</label>
+            <div className="mb-3">
+              <label className="form-label">{t('register.password')}</label>
+              <input
+                type="password"
+                className="form-control"
+                placeholder={t('register.password')}
+                required
+                value={form.password}
+                onChange={e => setForm({ ...form, password: e.target.value })}
+              />
+              <PasswordStrengthMeter
+                password={form.password}
+                email={form.email}
+                firstName={form.name.split(/\s+/)[0] || ''}
+                lastName={form.name.split(/\s+/).slice(1).join(' ') || ''}
+              />
+              {errors.password && <div className="text-danger small mt-2">{errors.password}</div>}
             </div>
 
             <div className="form-floating mb-4">
-              <input type="password" className="form-control" placeholder={t('register.confirm_password')} required
-                value={form.password_confirmation} onChange={e => setForm({ ...form, password_confirmation: e.target.value })} />
+              <input
+                type="password"
+                className={`form-control ${errors.password_confirmation ? 'is-invalid' : ''}`}
+                placeholder={t('register.confirm_password')}
+                required
+                value={form.password_confirmation}
+                onChange={e => setForm({ ...form, password_confirmation: e.target.value })}
+              />
               <label>{t('register.confirm_password')}</label>
+              {errors.password_confirmation && <div className="invalid-feedback d-block">{errors.password_confirmation}</div>}
             </div>
 
             <button className="btn btn-primary w-100 py-2" type="submit" disabled={loading}>

@@ -8,6 +8,7 @@ import API from '../../api/axios'
 import { useMemo } from 'react';
 import { useTranslation } from 'react-i18next';
 import Logo from '../../assets/headerLogo.png'
+import PasswordStrengthMeter from '../../components/PasswordStrengthMeter';
 
 const BASE = import.meta.env.VITE_API_URL?.replace('/api', '') || 'http://localhost:5000'
 // const BASE = import.meta.env.VITE_API_URL?.replace('/api', '') || 'https://citywala-backend.onrender.com'
@@ -985,7 +986,8 @@ export function PartnerRegister() {
                     </div>  */}
 
 
-                    <div className="col-md-6">
+                    <div className="col-12">
+                      <label className="form-label">{t("auth.password")} *</label>
                       <input
                         type="password"
                         className="form-control"
@@ -994,6 +996,12 @@ export function PartnerRegister() {
                         value={form.password}
                         onChange={handleChange}
                         required
+                      />
+                      <PasswordStrengthMeter
+                        password={form.password}
+                        email={form.email}
+                        firstName={form.name.split(/\s+/)[0] || ''}
+                        lastName={form.name.split(/\s+/).slice(1).join(' ') || ''}
                       />
                     </div>
 
