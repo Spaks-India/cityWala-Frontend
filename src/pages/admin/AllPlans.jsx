@@ -513,7 +513,9 @@ const AllPlans = () => {
                                                         </td>
 
                                                         <td className="fw-bold text-success">
-                                                            ₹ {plan.price}
+                                                            {plan.price === 0
+                                                                ? "Free"
+                                                                : `${plan.currency === "USD" ? "$" : "₹"} ${plan.price}`}
                                                         </td>
 
                                                         <td>

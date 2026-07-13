@@ -184,7 +184,9 @@ export default function Plan() {
 
                   <div className="mb-4">
                     <span style={{ fontSize: "52px", fontWeight: "700" }}>
-                      ₹{plan.price}
+                      {plan.price === 0
+                        ? "Free"
+                        : `${plan.currency === "USD" ? "$" : "₹"}${plan.price}`}
                     </span>
 
                     <div style={{ opacity: 0.8, marginTop: "-5px", fontSize: "14px" }}>

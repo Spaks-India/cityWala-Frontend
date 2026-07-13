@@ -10,6 +10,7 @@ const AddPlans = () => {
     const [formData, setFormData] = useState({
         name: "",
         price: "",
+        currency: "INR",
         category_id: "",
         subCategory_id: "",
         sub_subCategory_id: "",
@@ -34,7 +35,8 @@ const AddPlans = () => {
             console.log(plan, "plan")
             setFormData({
                 name: plan.name || "",
-                price: plan.price || "",
+                price: plan.price ?? "",
+                currency: plan.currency || "INR",
                 category_id: plan.category_id?._id || plan.category_id || "",
                 subCategory_id: plan.subCategory_id?._id || plan.subCategory_id || "",
                 sub_subCategory_id: plan.sub_subCategory_id?._id || plan.sub_subCategory_id || "",
@@ -138,6 +140,10 @@ const AddPlans = () => {
             nextFormData.sub_subCategory_id = "";
         }
 
+        if (name === "name" && value === "Free") {
+            nextFormData.price = 0;
+        }
+
         setFormData(nextFormData);
     };
 
@@ -234,6 +240,7 @@ const AddPlans = () => {
                 setFormData({
                     name: "",
                     price: "",
+                    currency: "INR",
                     category_id: "",
                     subCategory_id: "",
                     sub_subCategory_id: "",
@@ -250,6 +257,7 @@ const AddPlans = () => {
                 setFormData({
                     name: "",
                     price: "",
+                    currency: "INR",
                     category_id: "",
                     subCategory_id: "",
                     sub_subCategory_id: "",
@@ -354,6 +362,10 @@ const AddPlans = () => {
                                                     Select Plan
                                                 </option>
 
+                                                <option value="Free">
+                                                    Free
+                                                </option>
+
                                                 <option value="Diamond">
                                                     Diamond
                                                 </option>
@@ -370,21 +382,53 @@ const AddPlans = () => {
 
                                         </div>
 
-                                        {/* Price */}
-                                        <div className="mb-4">
+                                        {/* Price & Currency */}
+                                        <div className="row">
 
-                                            <label className="form-label fw-semibold">
-                                                Price
-                                            </label>
+                                            <div className="col-md-4 mb-4">
 
-                                            <input
-                                                type="number"
-                                                name="price"
-                                                placeholder="Enter plan price"
-                                                value={formData.price}
-                                                onChange={handleChange}
-                                                className="form-control form-control-lg"
-                                            />
+                                                <label className="form-label fw-semibold">
+                                                    Currency
+                                                </label>
+
+                                                <select
+                                                    name="currency"
+                                                    value={formData.currency}
+                                                    onChange={handleChange}
+                                                    disabled={formData.name === "Free"}
+                                                    className="form-select form-select-lg"
+                                                >
+
+                                                    <option value="INR">
+                                                        ₹ INR (Rs)
+                                                    </option>
+
+                                                    <option value="USD">
+                                                        $ USD
+                                                    </option>
+
+                                                </select>
+
+                                            </div>
+
+                                            <div className="col-md-8 mb-4">
+
+                                                <label className="form-label fw-semibold">
+                                                    Price
+                                                </label>
+
+                                                <input
+                                                    type="number"
+                                                    name="price"
+                                                    placeholder="Enter plan price"
+                                                    value={formData.price}
+                                                    onChange={handleChange}
+                                                    disabled={formData.name === "Free"}
+                                                    min={0}
+                                                    className="form-control form-control-lg"
+                                                />
+
+                                            </div>
 
                                         </div>
 

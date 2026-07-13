@@ -282,7 +282,9 @@ const MyPlan = () => {
                         </h3>
 
                         <p className="mb-0 text-white">
-                            ₹{partnerPlan?.plan.plan_id?.price || "-"} / month
+                            {partnerPlan?.plan.plan_id?.price === 0
+                                ? "Free"
+                                : `${partnerPlan?.plan.payment_id?.currency === "USD" ? "$" : "₹"}${partnerPlan?.plan.plan_id?.price ?? "-"}`} / month
                         </p>
                     </div>
 
@@ -474,7 +476,11 @@ const MyPlan = () => {
                                                     </h5>
 
                                                     <div className="mt-1 mb-3 fw-semibold fs-5">
-                                                        ₹{item.plan_id?.price || "N/A"}
+                                                        {item.plan_id?.price === 0
+                                                            ? "Free"
+                                                            : item.plan_id?.price != null
+                                                                ? `${item.plan_id?.currency === "USD" ? "$" : "₹"}${item.plan_id.price}`
+                                                                : "N/A"}
                                                     </div>
 
                                                     <div className="row g-3">
