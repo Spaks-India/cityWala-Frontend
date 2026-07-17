@@ -2,6 +2,9 @@ import { useTranslation } from "react-i18next";
 import { useParams, useNavigate } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 import API from '../api/axios';
+import Seo from '../seo/Seo';
+import Breadcrumbs from '../components/Breadcrumbs';
+import { localBusinessSchema, webPageSchema, graph } from '../seo/schema';
 
 export default function PartnerDetails() {
   const { t } = useTranslation();
@@ -58,6 +61,12 @@ export default function PartnerDetails() {
     if (!partner) {
         return (
             <div className="container py-5">
+                <Seo
+                    title={t("partner_information_not_available")}
+                    description="This business profile is unavailable or has been removed."
+                    path={`/partner/details/${id}`}
+                    noindex
+                />
                 <div className="alert alert-warning" role="alert">
                     <p>{t("partner_information_not_available")}</p>
                     <button className="btn btn-primary" onClick={() => navigate(-1)}>{t("go_back")}</button>
@@ -66,10 +75,38 @@ export default function PartnerDetails() {
         );
     }
 
+    const businessName = partner.company_name || partner.name;
+    const businessDescription =
+        partner.company_short_desc ||
+        `View contact details, address, and business information for ${businessName} on CityWala.`;
+    const detailPath = `/partner/details/${id}`;
+    const breadcrumbItems = [
+        ...(partner.category_id?.slug
+            ? [{ name: partner.category_id.name, path: `/categories/${partner.category_id.slug}` }]
+            : []),
+        ...(partner.subcategory_id?.slug && partner.category_id?.slug
+            ? [{ name: partner.subcategory_id.name, path: `/categories/${partner.category_id.slug}/${partner.subcategory_id.slug}` }]
+            : []),
+        { name: businessName },
+    ];
+
     return (
         <div className="container py-4 py-md-5">
+            <Seo
+                title={businessName}
+                description={businessDescription}
+                path={detailPath}
+                image={partner.company_logo || undefined}
+                imageAlt={businessName}
+                type="business.business"
+                jsonLd={graph(
+                    localBusinessSchema(partner, detailPath),
+                    webPageSchema({ path: detailPath, name: businessName, description: businessDescription })
+                )}
+            />
             {/* Top Navigation & Back Button */}
             <div className="mb-4">
+                <Breadcrumbs items={breadcrumbItems} />
                 <button
                     className="btn btn-light border-light-subtle btn-sm rounded-pill px-3 shadow-sm text-secondary d-flex align-items-center gap-2 fw-medium"
                     onClick={() => navigate(-1)}
@@ -112,7 +149,7 @@ export default function PartnerDetails() {
                         {/* Main Titles */}
                         <div className="flex-grow-1 mt-2 mt-md-0">
                             <div className="d-flex align-items-center justify-content-center justify-content-md-start gap-2 flex-wrap mb-1">
-                                <h2 className="fw-extrabold text-dark mb-0 fs-3">{partner.company_name || partner.name}</h2>
+                                <h1 className="fw-extrabold text-dark mb-0 fs-3">{partner.company_name || partner.name}</h1>
                                 <span className="badge bg-info-subtle text-info rounded-pill px-2.5 py-1 fw-bold text-capitalize" style={{ fontSize: '0.75rem' }}>
                                     {partner.plan || '-'} Plan
                                 </span>

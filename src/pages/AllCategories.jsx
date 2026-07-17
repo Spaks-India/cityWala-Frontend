@@ -5,6 +5,10 @@ import { useNavigate } from "react-router-dom";
 
 import API from '../api/axios';
 import { getYoutubeThumbnail, getYoutubeWatchUrl } from '../utils/youtube';
+import Seo from '../seo/Seo';
+import Breadcrumbs from '../components/Breadcrumbs';
+import { categorySchema, webPageSchema, graph } from '../seo/schema';
+import { CATEGORY_LABELS, humanizeSlug } from '../seo/config';
 
 const DESCRIPTION_WORD_LIMIT = 400;
 
@@ -217,23 +221,51 @@ const AllCategories = () => {
     navigate(`/partner/details/${partnerId}${location.search}`);
   };
 
+  // Build the crawlable path exactly as routed (/categories/:level1/:level2/:level3)
+  // so canonical/OG URLs never drop the nested segments.
+  const categoryPath = ["/categories", level1, level2, level3].filter(Boolean).join("/");
+  const fallbackLabel = currentSlug
+    ? CATEGORY_LABELS[currentSlug] || humanizeSlug(currentSlug)
+    : "All Categories";
+  const displayName = selectedCategoryName?.name || fallbackLabel;
+  const seoDescription =
+    selectedCategoryName?.description ||
+    (currentSlug
+      ? `Browse verified ${displayName} businesses, service providers, and partners listed on CityWala.`
+      : "Browse all business categories on CityWala — from real estate and education to health, food, and more.");
+
+  // Breadcrumb trail follows the level1/level2/level3 slugs actually in the URL.
+  const breadcrumbItems = [level1, level2, level3]
+    .filter(Boolean)
+    .map((slug, i, arr) => ({
+      name:
+        (slug === currentSlug && selectedCategoryName?.name) ||
+        CATEGORY_LABELS[slug] ||
+        humanizeSlug(slug),
+      path: i === arr.length - 1 ? undefined : `/categories/${arr.slice(0, i + 1).join("/")}`,
+    }));
+  if (!currentSlug) breadcrumbItems.push({ name: "All Categories" });
 
   return (
     <div className="container py-5">
+      <Seo
+        title={displayName}
+        description={seoDescription}
+        path={categoryPath}
+        jsonLd={graph(
+          categorySchema({ path: categoryPath, name: displayName, description: seoDescription }),
+          webPageSchema({ path: categoryPath, name: displayName, description: seoDescription })
+        )}
+      />
       {/* Breadcrumb & Title */}
       <div className="mb-4">
-        {/* <h2 className="fw-bold mb-2">{(selectedCategoryName || currentSlug || "Categories").charAt(0).toUpperCase() + (selectedCategoryName || currentSlug || "Categories").slice(1).toLowerCase()}</h2> */}
+        <Breadcrumbs items={breadcrumbItems} />
         <div className="mb-4">
           {/* <!-- Chota premium top tag --> */}
           <span className="text-uppercase text-primary fw-bold tracking-wider small d-block mb-1" style={{ letterSpacing: '0.1rem', fontSize: '0.75rem' }}>{t("all_categories.browse_collection")}</span>
 
           {/* <!-- Main Heading --> */}
-          {/* <h2 className="fw-extrabold text-dark text-capitalize lh-sm" style={{ letterSpacing: '-0.03em', fontSize: '1.75rem' }}>
-            {selectedCategoryName || currentSlug || "Categories"}
-          </h2>
-
-          <p>{selectedCategoryName.description || "p"}</p> */}
-          <h2>{selectedCategoryName?.name || currentSlug || "Categories"}</h2>
+          <h1 className="fw-extrabold text-dark lh-sm" style={{ letterSpacing: '-0.03em', fontSize: '1.75rem' }}>{displayName}</h1>
           {(() => {
             const rawDesc = selectedCategoryName?.description || "";
             const { truncated, isTruncated } = truncateWords(rawDesc, DESCRIPTION_WORD_LIMIT);
@@ -494,7 +526,7 @@ const AllCategories = () => {
                       {partner.company_logo ? (
                         <img
                           src={partner.company_logo}
-                          alt=""
+                          alt={partner.company_name || partner.name || "Business logo"}
                           style={{
                             width: 90,
                             height: 90,

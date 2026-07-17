@@ -1,0 +1,19 @@
+User-agent: *
+Allow: /
+
+Disallow: /admin/
+Disallow: /login
+Disallow: /partner/login
+Disallow: /partner/dashboard
+Disallow: /partner/add-profile
+Disallow: /partner/plan
+Disallow: /partner/my-plan
+Disallow: /partner/payment-history
+Disallow: /account/dashboard
+Disallow: /register
+Disallow: /forgot-password
+Disallow: /reset-password
+Disallow: /verify-otp
+Disallow: /api/
+
+Sitemap: https://www.citywala.com/sitemap.xml

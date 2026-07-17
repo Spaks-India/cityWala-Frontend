@@ -1,6 +1,13 @@
 import React, { useEffect, useState } from "react";
 import API from "../api/axios";
 import { FiFileText, FiCalendar, FiChevronRight } from "react-icons/fi";
+import Seo from "../seo/Seo";
+import Breadcrumbs from "../components/Breadcrumbs";
+import { webPageSchema, graph } from "../seo/schema";
+
+const TITLE = "Terms & Conditions";
+const DESCRIPTION =
+  "Read CityWala's Terms & Conditions governing the use of our business listing platform, marketplace services, and partner registrations.";
 
 const TermConditions = () => {
   // Static content - fallback if API fails
@@ -506,6 +513,15 @@ Email: citywala1959@gmail.com</p>
 
   return (
     <div style={{ background: "#f5f5f5", minHeight: "100vh" }}>
+      <Seo
+        title={TITLE}
+        description={DESCRIPTION}
+        path="/terms-and-conditions"
+        jsonLd={graph(webPageSchema({ path: "/terms-and-conditions", name: TITLE, description: DESCRIPTION }))}
+      />
+      <div className="container pt-4">
+        <Breadcrumbs items={[{ name: "Terms & Conditions" }]} />
+      </div>
       {/* HERO SECTION */}
       <section
         className="position-relative overflow-hidden"

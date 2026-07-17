@@ -50,6 +50,9 @@ import AboutUs from './pages/AboutUs'
 import ContactUs from './pages/ContactUs'
 import PrivacyPolicy from './pages/PrivacyPolicy'
 import API from './api/axios'
+import DefaultSeo from './seo/DefaultSeo'
+import NotFound from './pages/NotFound'
+import NoIndex from './seo/NoIndex'
 
 
 // import Loader from './components/Loader'
@@ -135,6 +138,7 @@ const AdminRoot = () => (
 
   return (
     <>
+      <DefaultSeo />
       <Loader />
       {/* <Header /> */}
       <Routes>
@@ -148,22 +152,23 @@ const AdminRoot = () => (
           <Route path='/contact-us' element={ <ContactUs /> } />
           <Route path='/privacy-policy' element={ <PrivacyPolicy /> } />
           {/* <Route path="/account/login" element={<Login />} /> */}
-          <Route path="/login" element={<Login />} />
-          <Route path="/partner/login" element={<PartnerLogin />} />
-          <Route path="/register" element={<Register />} />
-          <Route path="/forgot-password" element={<ForgotPassword />} />
-          <Route path="/reset-password/:token" element={<ResetPassword />} />
-          <Route path="/reset-password" element={<ResetPassword />} />
-          <Route path='/verify-otp' element={<VerifyOtp />} />
-          <Route path="/plan" element={<ProtectedPartner><Plan /></ProtectedPartner>} />
+          <Route path="/login" element={<NoIndex><Login /></NoIndex>} />
+          <Route path="/partner/login" element={<NoIndex><PartnerLogin /></NoIndex>} />
+          <Route path="/register" element={<NoIndex><Register /></NoIndex>} />
+          <Route path="/forgot-password" element={<NoIndex><ForgotPassword /></NoIndex>} />
+          <Route path="/reset-password/:token" element={<NoIndex><ResetPassword /></NoIndex>} />
+          <Route path="/reset-password" element={<NoIndex><ResetPassword /></NoIndex>} />
+          <Route path='/verify-otp' element={<NoIndex><VerifyOtp /></NoIndex>} />
+          <Route path="/plan" element={<NoIndex><ProtectedPartner><Plan /></ProtectedPartner></NoIndex>} />
           {/* <Route path="/categories/:slug" element={<AllCategories />} /> */}
           <Route path="/partner/details/:id" element={<PartnerDetails />} />
 
-          <Route path="/account/dashboard" element={<ProtectedUser><Dashboard /></ProtectedUser>} />
+          <Route path="/account/dashboard" element={<NoIndex><ProtectedUser><Dashboard /></ProtectedUser></NoIndex>} />
 
           <Route path="/categories/:level1?/:level2?/:level3?" element={<AllCategories />} />
           <Route path="/register-business" element={<PartnerRegister />} />
           <Route path='/terms-and-conditions' element={ <TermConditions /> } />
+          <Route path="*" element={<NotFound />} />
         </Route>
 
         {/* <Route path="/daily-necessary" element={<DailyNecessary />} />
@@ -183,11 +188,11 @@ const AdminRoot = () => (
         {/* <Route path="/partner/dashboard" element={<ProtectedPartner><PartnerDashboard /></ProtectedPartner>} /> */}
 
         <Route path="/partner" element={<PartnerLayout />}>
-          <Route path="dashboard" element={<ProtectedPartner><PartnerDashboard /></ProtectedPartner>} />
-          <Route path="add-profile" element={<ProtectedPartner><AddProfile /></ProtectedPartner>} />
-          <Route path="plan" element={<ProtectedPartner><Plan /></ProtectedPartner>} />
-          <Route path='my-plan' element={<ProtectedPartner> <MyPlan /> </ProtectedPartner>} />
-          <Route path="payment-history" element={<ProtectedPartner> <PaymentHistory /> </ProtectedPartner>} />
+          <Route path="dashboard" element={<NoIndex><ProtectedPartner><PartnerDashboard /></ProtectedPartner></NoIndex>} />
+          <Route path="add-profile" element={<NoIndex><ProtectedPartner><AddProfile /></ProtectedPartner></NoIndex>} />
+          <Route path="plan" element={<NoIndex><ProtectedPartner><Plan /></ProtectedPartner></NoIndex>} />
+          <Route path='my-plan' element={<NoIndex><ProtectedPartner> <MyPlan /> </ProtectedPartner></NoIndex>} />
+          <Route path="payment-history" element={<NoIndex><ProtectedPartner> <PaymentHistory /> </ProtectedPartner></NoIndex>} />
           {/* <Route path='plan' element /> */}
 
 
@@ -195,20 +200,20 @@ const AdminRoot = () => (
 
         {/* Admin (migrated standalone admin app; wrapped in .admin-root for scoped styles) */}
         <Route element={<AdminRoot />}>
-          <Route path="/admin/login" element={<AdminLogin />} />
-          <Route path="/admin/dashboard" element={<ProtectedAdmin><AdminDashboard /></ProtectedAdmin>} />
-          <Route path="/admin/users" element={<ProtectedAdmin><AdminUsers /></ProtectedAdmin>} />
-          <Route path="/admin/partners" element={<ProtectedAdmin><AdminPartner /></ProtectedAdmin>} />
-          <Route path="/admin/plans" element={<ProtectedAdmin><AllPlans /></ProtectedAdmin>} />
-          <Route path="/admin/plans/add" element={<ProtectedAdmin><AddPlans /></ProtectedAdmin>} />
-          <Route path="/admin/plans/edit/:id" element={<ProtectedAdmin><AddPlans /></ProtectedAdmin>} />
-          <Route path="/admin/categories/add" element={<ProtectedAdmin><AdminCategories /></ProtectedAdmin>} />
-          <Route path="/admin/categories/edit/:id" element={<ProtectedAdmin><AdminCategories /></ProtectedAdmin>} />
-          <Route path="/admin/categories/all" element={<ProtectedAdmin><AdminAllCategories /></ProtectedAdmin>} />
-          <Route path="/admin/categories-tree" element={<ProtectedAdmin><CategoriesTree /></ProtectedAdmin>} />
-          <Route path="/admin/subcategories" element={<ProtectedAdmin><AdminSubcategories /></ProtectedAdmin>} />
-          <Route path="/admin/term-and-condition" element={<ProtectedAdmin><TermsCondition /></ProtectedAdmin>} />
-          <Route path="/admin/analytics" element={<ProtectedAdmin><Analytics /></ProtectedAdmin>} />
+          <Route path="/admin/login" element={<NoIndex><AdminLogin /></NoIndex>} />
+          <Route path="/admin/dashboard" element={<NoIndex><ProtectedAdmin><AdminDashboard /></ProtectedAdmin></NoIndex>} />
+          <Route path="/admin/users" element={<NoIndex><ProtectedAdmin><AdminUsers /></ProtectedAdmin></NoIndex>} />
+          <Route path="/admin/partners" element={<NoIndex><ProtectedAdmin><AdminPartner /></ProtectedAdmin></NoIndex>} />
+          <Route path="/admin/plans" element={<NoIndex><ProtectedAdmin><AllPlans /></ProtectedAdmin></NoIndex>} />
+          <Route path="/admin/plans/add" element={<NoIndex><ProtectedAdmin><AddPlans /></ProtectedAdmin></NoIndex>} />
+          <Route path="/admin/plans/edit/:id" element={<NoIndex><ProtectedAdmin><AddPlans /></ProtectedAdmin></NoIndex>} />
+          <Route path="/admin/categories/add" element={<NoIndex><ProtectedAdmin><AdminCategories /></ProtectedAdmin></NoIndex>} />
+          <Route path="/admin/categories/edit/:id" element={<NoIndex><ProtectedAdmin><AdminCategories /></ProtectedAdmin></NoIndex>} />
+          <Route path="/admin/categories/all" element={<NoIndex><ProtectedAdmin><AdminAllCategories /></ProtectedAdmin></NoIndex>} />
+          <Route path="/admin/categories-tree" element={<NoIndex><ProtectedAdmin><CategoriesTree /></ProtectedAdmin></NoIndex>} />
+          <Route path="/admin/subcategories" element={<NoIndex><ProtectedAdmin><AdminSubcategories /></ProtectedAdmin></NoIndex>} />
+          <Route path="/admin/term-and-condition" element={<NoIndex><ProtectedAdmin><TermsCondition /></ProtectedAdmin></NoIndex>} />
+          <Route path="/admin/analytics" element={<NoIndex><ProtectedAdmin><Analytics /></ProtectedAdmin></NoIndex>} />
         </Route>
 
       </Routes>

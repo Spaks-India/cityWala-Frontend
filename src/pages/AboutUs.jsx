@@ -1,8 +1,24 @@
 import React from "react";
+import Seo from "../seo/Seo";
+import Breadcrumbs from "../components/Breadcrumbs";
+import { webPageSchema, graph } from "../seo/schema";
+
+const TITLE = "About Us";
+const DESCRIPTION =
+  "Learn about CityWala's mission to connect verified businesses, MSMEs, exporters, importers, and wholesalers across India through our business listing platform and online marketplace.";
 
 const AboutUs = () => {
   return (
     <div>
+      <Seo
+        title={TITLE}
+        description={DESCRIPTION}
+        path="/about-us"
+        jsonLd={graph(webPageSchema({ path: "/about-us", name: TITLE, description: DESCRIPTION }))}
+      />
+      <div className="container pt-4">
+        <Breadcrumbs items={[{ name: "About Us" }]} />
+      </div>
 
       {/* HERO */}
       <section

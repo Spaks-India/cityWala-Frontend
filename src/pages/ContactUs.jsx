@@ -8,7 +8,13 @@ import {
 } from "react-icons/fi";
 import { useState } from "react";
 import API from "../api/axios";
+import Seo from "../seo/Seo";
+import Breadcrumbs from "../components/Breadcrumbs";
+import { webPageSchema, graph } from "../seo/schema";
 
+const TITLE = "Contact Us";
+const DESCRIPTION =
+  "Get in touch with CityWala for support, partnership queries, or business listing assistance. Reach our team via phone, email, or the contact form.";
 
 const ContactUs = () => {
 
@@ -59,6 +65,15 @@ const handleSubmit = async (e) => {
 
   return (
     <div>
+      <Seo
+        title={TITLE}
+        description={DESCRIPTION}
+        path="/contact-us"
+        jsonLd={graph(webPageSchema({ path: "/contact-us", name: TITLE, description: DESCRIPTION }))}
+      />
+      <div className="container pt-4">
+        <Breadcrumbs items={[{ name: "Contact Us" }]} />
+      </div>
 
       {/* HERO SECTION */}
       <section

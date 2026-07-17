@@ -1,6 +1,13 @@
 import React, { useEffect, useState } from "react";
 import API from "../api/axios";
 import { FiFileText, FiCalendar } from "react-icons/fi";
+import Seo from "../seo/Seo";
+import Breadcrumbs from "../components/Breadcrumbs";
+import { webPageSchema, graph } from "../seo/schema";
+
+const TITLE = "Privacy Policy";
+const DESCRIPTION =
+  "Read CityWala's Privacy Policy to understand how we collect, use, and protect your personal and business information across our platform.";
 
 const PrivacyPolicy = () => {
   // Static content with CityWala Privacy Policy
@@ -295,6 +302,15 @@ const PrivacyPolicy = () => {
 
   return (
     <div style={{ background: "#f5f5f5", minHeight: "100vh" }}>
+      <Seo
+        title={TITLE}
+        description={DESCRIPTION}
+        path="/privacy-policy"
+        jsonLd={graph(webPageSchema({ path: "/privacy-policy", name: TITLE, description: DESCRIPTION }))}
+      />
+      <div className="container pt-4">
+        <Breadcrumbs items={[{ name: "Privacy Policy" }]} />
+      </div>
       {/* HERO SECTION */}
       <section
         className="position-relative overflow-hidden"

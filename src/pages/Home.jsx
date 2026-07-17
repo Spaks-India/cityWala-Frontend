@@ -8,6 +8,9 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { useTranslation } from "react-i18next";
 import Logo from '../assets/headerLogo.png'
+import Seo from '../seo/Seo'
+import { webPageSchema, graph } from '../seo/schema'
+import { DEFAULT_TITLE, DEFAULT_DESCRIPTION } from '../seo/config'
 
 const POPULAR_CATEGORIES = [
   { id: 1, tKey: 'matrimonial', name: 'Matrimonial', img: 'https://citywala.com/popular_photo/1768286155_matrimonial.svg', link: '/matrimonial' },
@@ -293,6 +296,12 @@ export default function Home() {
 
   return (
     <div>
+      <Seo
+        fullTitle={DEFAULT_TITLE}
+        description={DEFAULT_DESCRIPTION}
+        path="/"
+        jsonLd={graph(webPageSchema({ path: "/", name: DEFAULT_TITLE, description: DEFAULT_DESCRIPTION }))}
+      />
 
       <section
         id="hero-section"
