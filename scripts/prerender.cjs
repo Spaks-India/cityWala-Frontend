@@ -91,17 +91,30 @@ async function main() {
 
   const browser = await puppeteer.launch({
     headless: true,
-    args: ["--no-sandbox", "--disable-setuid-sandbox"],
+    args: [
+      "--no-sandbox",
+      "--disable-setuid-sandbox",
+      // Small VPS/container hosts (e.g. Hostinger) often mount a tiny
+      // /dev/shm, which makes Chromium crash or hang mid-render instead of
+      // erroring cleanly — forcing it to use /tmp avoids that entirely.
+      "--disable-dev-shm-usage",
+      "--disable-gpu",
+    ],
   });
 
   let succeeded = 0;
+  let abortedEarly = false;
   try {
     const page = await browser.newPage();
-    for (const route of routes) {
+    for (const [index, route] of routes.entries()) {
       try {
         await page.goto(`${baseUrl}${route}`, {
-          waitUntil: "networkidle0",
-          timeout: 30000,
+          // networkidle0 (zero in-flight requests) stalls for the full
+          // timeout if the backend API is slow/cold or a request just hangs.
+          // networkidle2 tolerates a couple of lingering connections
+          // (retries, analytics) without forcing every route to eat the max wait.
+          waitUntil: "networkidle2",
+          timeout: 15000,
         });
         // react-helmet-async commits head tags synchronously on render, but
         // give in-flight data fetches (category name/description) a beat to
@@ -112,6 +125,18 @@ async function main() {
         succeeded++;
       } catch (err) {
         console.warn(`[prerender] Failed to prerender ${route}: ${err.message}`);
+        // The homepage exercises the same backend every other route depends
+        // on (categories, countries, etc.). If it fails, the API is almost
+        // certainly unavailable/cold for this whole build — bail out instead
+        // of repeating the same doomed wait across hundreds of category
+        // routes and risking the build's overall time budget.
+        if (index === 0) {
+          console.warn(
+            `[prerender] Homepage failed to prerender — assuming the API is unavailable for this build. Skipping the remaining ${routes.length - 1} routes.`
+          );
+          abortedEarly = true;
+          break;
+        }
       }
     }
   } finally {
@@ -119,7 +144,10 @@ async function main() {
     await server.close();
   }
 
-  console.log(`[prerender] Prerendered ${succeeded}/${routes.length} routes.`);
+  console.log(
+    `[prerender] Prerendered ${succeeded}/${routes.length} routes.` +
+      (abortedEarly ? " (stopped early — see warning above)" : "")
+  );
 }
 
 main().catch((err) => {

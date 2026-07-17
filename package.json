@@ -6,7 +6,7 @@
     "dev": "vite",
     "prebuild": "node scripts/generate-seo-files.cjs",
     "build": "vite build",
-    "postbuild": "node scripts/prerender.cjs",
+    "postbuild": "node scripts/prerender.cjs || true",
     "preview": "vite preview",
     "auto:i18n": "node scripts/auto-i18n.cjs",
     "generate:i18n": "node scripts/generate-i18n.cjs",
