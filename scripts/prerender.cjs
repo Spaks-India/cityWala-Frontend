@@ -21,7 +21,6 @@
 const fs = require("fs-extra");
 const path = require("path");
 const { preview } = require("vite");
-const puppeteer = require("puppeteer");
 const axios = require("axios");
 
 const DIST_DIR = path.resolve(__dirname, "../dist");
@@ -79,6 +78,10 @@ async function main() {
     console.warn("[prerender] dist/ not found — run `vite build` first. Skipping.");
     return;
   }
+
+  // puppeteer is ESM-only (no CJS export); load it dynamically since this
+  // script must stay .cjs to opt out of the package's "type": "module".
+  const { default: puppeteer } = await import("puppeteer");
 
   const categoryRoutes = await fetchCategoryRoutes();
   const routes = [...STATIC_ROUTES, ...categoryRoutes];
